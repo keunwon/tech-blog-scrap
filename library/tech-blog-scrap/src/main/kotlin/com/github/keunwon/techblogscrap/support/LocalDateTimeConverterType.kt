@@ -13,7 +13,7 @@ internal enum class LocalDateTimeConverterType(
     YYYY_MM_DD_COMMA(
         "yyyy.MM.dd",
         { date ->
-            val formatter = DateTimeFormatter.ofPattern("yyyy.MM.dd")
+            val formatter = FORMATER_CACHE.getValue("yyyy.MM.dd")
             LocalDate.parse(resolveDate(date).take(10), formatter).atStartOfDay()
         }
     ),
@@ -21,7 +21,7 @@ internal enum class LocalDateTimeConverterType(
     YYYY_MM_DD_DASH(
         "yyyy-MM-dd",
         { date ->
-            val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+            val formatter = FORMATER_CACHE.getValue("yyyy-MM-dd")
             LocalDate.parse(resolveDate(date).take(10), formatter).atStartOfDay()
         }
     ),
@@ -45,12 +45,17 @@ internal enum class LocalDateTimeConverterType(
     YYYY_MM_DD_HH_MM_SS_DASH(
         "yyyy-MM-dd HH:mm:ss",
         { date ->
-            val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")
+            val formatter = FORMATER_CACHE.getValue("yyyy-MM-dd HH:mm:ss")
             LocalDateTime.parse(date.take(19), formatter)
         }
     );
 
     companion object {
+        private val FORMATER_CACHE = mapOf(
+            "yyyy.MM.dd" to DateTimeFormatter.ofPattern("yyyy.MM.dd"),
+            "yyyy-MM-dd" to DateTimeFormatter.ofPattern("yyyy-MM-dd"),
+            "yyyy-MM-dd HH:mm:ss" to DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss"),
+        )
         private val RESOLVE_DATE_REGEX = """[^0-9._:-]""".toRegex()
 
         fun getOrNull(formatName: String): LocalDateTimeConverterType? = entries.find { it.title == formatName }
