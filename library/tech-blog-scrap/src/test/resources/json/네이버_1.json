@@ -1,0 +1,248 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "http://localhost:8080/api/v1/contents?page=0&size=20",
+      "hreflang": null,
+      "media": null,
+      "title": null,
+      "type": null,
+      "deprecation": null
+    },
+    {
+      "rel": "self",
+      "href": "http://localhost:8080/api/v1/contents{?categoryId}",
+      "hreflang": null,
+      "media": null,
+      "title": null,
+      "type": null,
+      "deprecation": null
+    },
+    {
+      "rel": "next",
+      "href": "http://localhost:8080/api/v1/contents?page=1&size=20",
+      "hreflang": null,
+      "media": null,
+      "title": null,
+      "type": null,
+      "deprecation": null
+    },
+    {
+      "rel": "last",
+      "href": "http://localhost:8080/api/v1/contents?page=34&size=20",
+      "hreflang": null,
+      "media": null,
+      "title": null,
+      "type": null,
+      "deprecation": null
+    }
+  ],
+  "content": [
+    {
+      "postTitle": "서비스 조직에서 Kafka를 사용할 때 알아 두어야 할 것들 (4)",
+      "postImage": "/content/images/2025/06/-----------2025-06-27-------10-20-18.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.  서비스 조직에서 Kafka를 사용할 때 알아 두어야 할 것들 (3)을 보고 오시면 좋습니다.       발표 내용 Kafka 프로듀서 최적화하기 + 압축 기능 활용하기 목차 배경: Kafka 자료 구조 Kafka 자료 구조는 어떻게 생겼는가? 프로듀서 동작 방식 및 최적화 방법 프로듀서와 브로커는 어떻게 메시지를 주고받는가?  ling",
+      "postPublishedAt": 1751018520000,
+      "url": "/helloworld/1025526",
+      "viewCount": 1723,
+      "author": "[391]",
+      "links": []
+    },
+    {
+      "postTitle": "서비스 조직에서 Kafka를 사용할 때 알아 두어야 할 것들 (3)",
+      "postImage": "/content/images/2025/06/-----------2025-06-27-------10-20-02.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.  서비스 조직에서 Kafka를 사용할 때 알아 두어야 할 것들 (4)에서 이어집니다.       발표 내용 Kafka Client는 어떻게 클러스터의 전체 상태를 알 수 있는가? 서비스를 개발하는 입장에서 관련 옵션을 어떻게 잡아 주면 좋은가? 에 대해 설명합니다. 목차 Kafka metadata란 무엇인가? 동작 매커니즘 브로커 - 클",
+      "postPublishedAt": 1751018400000,
+      "url": "/helloworld/2472336",
+      "viewCount": 1636,
+      "author": "[391]",
+      "links": []
+    },
+    {
+      "postTitle": "Yappi로 Python에서도 성능을 챙겨보자",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-38-50.png",
+      "postHtml": "Python은 높은 개발 생산성으로 많이 사랑받는 프로그래밍 언어 중 하나입니다. 하지만 높은 생산성의 대가로 성능에 대해 많은 비용을 지불해야 한다는 것이 정설로 여겨지고 있었습니다. 그러나 Python 3.11을 시작으로, 이제는 Python에서도 성능을 챙기려는 노력이 이어지고 있습니다. 그 연장선으로 이 글에서는 프로파일링 도구 중 하나인 Yappi를 활용해서 Python 서버의 성능 개선을 이루어낸 사례를 소개하고자 합니다. 이 글이 Python",
+      "postPublishedAt": 1750933800000,
+      "url": "/helloworld/4394645",
+      "viewCount": 4389,
+      "author": "[400]",
+      "links": []
+    },
+    {
+      "postTitle": "홈피드: 네이버의 진입점에서 추천 피드를 외치다! 추천 피드 도입 고군분투기",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-35-57.png",
+      "postHtml": "네이버 홈피드는 검색 홈 하단에서 사용자에게 개인화된 콘텐츠를 추천하는 피드 서비스입니다. 이 글에서는 사용자에게 보다 나은 추천을 제공하기 위해 고민하고 구현한 핵심 기술을 다루고자 합니다. 주요 내용은 다음과 같습니다. 홈피드 서비스 톺아보기: 홈피드 전반의 구조와 구성 요소, 다양한 콘텐츠 재료, 그리고 대규모 언어 모델(LLM, large language model)을 활용한 개인화 추천 시스템   홈피드 추천 랭킹 로직 구성: 다양한 특징의 콘텐",
+      "postPublishedAt": 1750932000000,
+      "url": "/helloworld/0207214",
+      "viewCount": 913,
+      "author": "[397, 398, 399, 365]",
+      "links": []
+    },
+    {
+      "postTitle": "늘어가는 조회트래픽 Elasticsearch로 분산시키기",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-57-12.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.     발표 내용 점점 늘어가던 플레이스 조회트래픽을 메인DB로부터 Elasticsearch(Opensearch)로 분산한 경험을 공유합니다.  (#Elasticsearch #Opensearch #트래픽 분산 #CQRS #slow query #feature toggle #feature flag #자동 fallback) 강의 대상 트래픽 ",
+      "postPublishedAt": 1750854989000,
+      "url": "/helloworld/3675627",
+      "viewCount": 4024,
+      "author": "[396]",
+      "links": []
+    },
+    {
+      "postTitle": "Paimon 겟또다제 ! (w/ ADVoost Shopping)",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-56-09.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.     발표 내용 ADVoost Shopping에서 실시간 유효 광고 선정을 위해 Apache Flink와 Paimon을 활용한 architecture에 대해 소개합니다. Apache Paimon의 주요 기능과 다양한 옵션들에 대해 소개합니다. 강의 대상 실시간 처리를 위해 고민하고 있는 데이터 엔지니어 Paimon, Iceberg와 같",
+      "postPublishedAt": 1750692586000,
+      "url": "/helloworld/4678393",
+      "viewCount": 995,
+      "author": "[395, 394]",
+      "links": []
+    },
+    {
+      "postTitle": "KMP 기반 UI 컴포넌트 통합 전략",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-55-18.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.     발표 내용 멀티플랫폼에 대응 가능한  밴드 디자인 시스템의 설계 및 구현 방식에 대해 소개하고, 밴드 안드로이드 팀에서 아이콘 리소스를 자동화하여 관리하는 방법에 대해서 공유합니다. 강의 대상 안드로이드 개발자 및 멀티플랫폼에 대한 관심이 있는 분 디자인 시스템에 관심이 있는 분 목차 Episode 1 : 디자인 시스템, 개념에서",
+      "postPublishedAt": 1750248611000,
+      "url": "/helloworld/8051412",
+      "viewCount": 5437,
+      "author": "[393, 392]",
+      "links": []
+    },
+    {
+      "postTitle": "데이터는 흐른다,  연결될 준비가 되었다면",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-54-06.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.     발표 내용 유저 세그먼트를 손쉽게 정의하고, 이를 다양한 액션 채널(Braze, IDS, GAM 등)과 자동 연동할 수 있는 네이버 웹툰의 Cohort System을 소개합니다. 조건 기반 필터링, ML 모델 연동 등 다양한 방식으로 세그먼트를 만들고, 중복 제거 로직과 함께 효율적으로 활용할 수 있습니다. 시스템 구조와 기술 스",
+      "postPublishedAt": 1749814089000,
+      "url": "/helloworld/0362045",
+      "viewCount": 2061,
+      "author": "[390, 389]",
+      "links": []
+    },
+    {
+      "postTitle": "14년 된 네이버 캘린더 앱, KMP & 컴포즈 멀티 플랫폼 모듈 적용기",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-52-50.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.     발표 내용 14년 된 네이버 캘린더 안드로이드/iOS 네이티브 앱에 코틀린 멀티플랫폼(KMP), 컴포즈 멀티플랫폼(Compose-Multiplatform) 모듈을 적용하며 얻은 경험을 공유 강의 대상 멀티플랫폼(KMP), 컴포즈 멀티플랫폼(Compose-Multiplatform)에 관심 있는 개발자 크로스 플랫폼에 관심 있는 개발",
+      "postPublishedAt": 1749736361000,
+      "url": "/helloworld/5294836",
+      "viewCount": 15042,
+      "author": "[387, 388]",
+      "links": []
+    },
+    {
+      "postTitle": "[영상] 생산성을 높이는 Android SDK 배포 전략 살펴보기",
+      "postImage": "/content/images/2025/06/-----------2025-06-26-------10-52-18.png",
+      "postHtml": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(5월)에서 발표되었던 세션을 공개합니다.  * 관련 글 : 생산성을 높이는 Android SDK 배포 전략 살펴보기    발표 내용 Android SDK 를 배포하는 프로세스를 개선하거나 자동화 함으로써 생산성을 높였던 경험을 공유하고 그 과정에 대해 소개합니다. 강의 대상 Android SDK 배포 효율성과 생산성을 높이고 싶으신 분들 GitHub Actions 를 이용한 자",
+      "postPublishedAt": 1749653727000,
+      "url": "/helloworld/4871077",
+      "viewCount": 3110,
+      "author": "[386]",
+      "links": []
+    },
+    {
+      "postTitle": "[State of FE·JS Korea 2025] 설문조사 결과를 공유합니다!",
+      "postImage": "/content/images/2025/06/-----------2025-04-08-------10-35-04.png",
+      "postHtml": " 개요 안녕하세요! 지난 2025년 4월 7일부터 5월 16일까지 국내 FE/JS 개발자를 대상으로 진행되었던 'State of FE·JS Korea 2025' 설문조사 결과를 공유합니다. 이번 설문에는 총 249명의 개발자분들이 참여해 주셨습니다. 설문에 응답한 개발자들의 경력 분포를 살펴보면, Front-end 직무를 담당하는 개발자가 83.13%였고, 경력측면에서는 1-3년 경력(43.37%)과 4~6년(29.72%)의 경험을 가지고 있다고 답변한 ",
+      "postPublishedAt": 1749485814000,
+      "url": "/news/1353647",
+      "viewCount": 10115,
+      "author": "[]",
+      "links": []
+    },
+    {
+      "postTitle": "FE News 25년 6월 소식을 전해드립니다!",
+      "postImage": "/content/images/2025/06/-----------2025-01-08------5-21-50--1-.png",
+      "postHtml": " 주요소식 25년 6월 소식에서는 다음과 같은 유용한 정보들을 만나보실 수 있습니다. 링크 &amp; 읽을거리 The History of JavaScript: 1995년 Brendan Eich가 10일만에 설계한 언어부터 현대 JavaScript 생태계까지 진화 과정을 시간순으로 정리한 글입니다. Google I/O 2025 웹 업데이트: CSS만으로 구현 가능한 캐러셀, Interest Invoker API, Gemini 기반 AI 및 Chrome De",
+      "postPublishedAt": 1749053433000,
+      "url": "/news/8836252",
+      "viewCount": 8581,
+      "author": "[342]",
+      "links": []
+    },
+    {
+      "postTitle": "생산성을 높이는 Android SDK 배포 전략 살펴보기",
+      "postImage": "/content/images/2025/06/-----------2025-06-04------3-42-27.png",
+      "postHtml": "저희 팀에서는 Android SDK를 배포할 때마다 신경 써야 할 부분이 많았습니다. 빌드 타입에 따라 배포해야 할 모듈이나 배포 저장소가 달라지고, 배포 이후에는 일일이 가이드 문서를 업데이트하고 샘플 앱을 최신화하는 등 복잡하거나 번거로운 작업이 많았습니다. 그래서 Android SDK 배포 프로세스를 좀 더 효율적이고 생산적으로 만들 수 있는 방법을 고민했고, 현재는 여러 설루션을 도입하여 굉장히 편리하고 안정적으로 배포를 진행하고 있습니다. 이 글",
+      "postPublishedAt": 1748540766000,
+      "url": "/helloworld/3814947",
+      "viewCount": 3822,
+      "author": "[386]",
+      "links": []
+    },
+    {
+      "postTitle": "FE News 25년 5월 소식을 전해드립니다!",
+      "postImage": "/content/images/2025/05/fenews--1-.png",
+      "postHtml": " 주요내용 25년 5월 소식에서는 다음과 같은 유용한 정보들을 만나보실 수 있습니다. React Compiler RC useMemo 없이도 성능 최적화를 자동으로 처리해주는 새로운 리액트 컴파일러가 드디어 RC 단계에 도달했다. proposal-record-tuple is withdrawn 값 기반 데이터 구조 도입을 목표로 했던 R&amp;T가 철회되고, 더 유연한 대안인 Composite 제안이 새롭게 부상 중이다. Features That Every",
+      "postPublishedAt": 1746702734000,
+      "url": "/news/7606230",
+      "viewCount": 9037,
+      "author": "[362]",
+      "links": []
+    },
+    {
+      "postTitle": "StarRocks의 도입 배경과 성능 최적화",
+      "postImage": "/content/images/2025/04/-----------2025-04-16-------10-50-36.png",
+      "postHtml": "컴퓨팅 성능의 발전에 따라 데이터 통합 프로세스가 전통적인 ETL(추출, 변환, 로드)에서 ELT(추출, 로드, 변환)로 전환되고 있습니다. ETL은 컴퓨팅 성능이 상대적으로 지금처럼 강하지 않았을 때 개발된 개념으로, 데이터의 관점에서 보면 데이터를 먼저 로드한 후 변환하는 것이 성능과 확장성 측면에서 유리합니다. 이에 따라 Apache Iceberg와 같은 오픈 테이블 형식을 비롯하여, 스키마 진화(Schema Evolution)가 가능한 다양한 기술",
+      "postPublishedAt": 1744798374000,
+      "url": "/helloworld/1168674",
+      "viewCount": 13893,
+      "author": "[384, 385]",
+      "links": []
+    },
+    {
+      "postTitle": "[State of FE·JS Korea 2025] 설문조사 안내",
+      "postImage": "/content/images/2025/04/-----------2025-04-08-------10-35-04.png",
+      "postHtml": "   안녕하세요! 네이버 프런트엔드 개발자 모임(H26y &amp; FE News)입니다. 국내 프런트엔드 러버 여러분들 반갑습니다. 이 설문조사는 국내 개발자들이 어떤 FE/JS 환경에서 개발하고 있는지를 파악하고, 이를 공유해 국내 생태계에 도움을 주고자 기획하게 되었습니다. 설문조사의 주요 목적은 다음과 같습니다. 어떤 기술 영역에서 집중이 필요한지 판단할 수 있는 지표를 공유   국내 개발자들의 FE/JS 환경을 확인해 기술스택 선택을 도와주는 역",
+      "postPublishedAt": 1744108887000,
+      "url": "/news/5980277",
+      "viewCount": 8549,
+      "author": "[]",
+      "links": []
+    },
+    {
+      "postTitle": "CDC 복제 이후 오라클이 느려졌다? child cursor 폭증이 만든 예상치 못한 문제",
+      "postImage": "/content/images/2025/04/-----------2025-04-08-------10-20-54.png",
+      "postHtml": "네이버페이 차세대 아키텍처 개편을 위한 Plasma 프로젝트가 마무리 단계에 접어들면서, 안정적인 운영을 위한 최종 작업을 진행하고 있습니다. 이 글에서는 네이버페이 주문의 메인 DB를 Oracle에서 사내 분산 DB 플랫폼인 nBase-T로 변경한 이후에 Oracle을 비동기 복제 방식으로 전환하는 과정에서 발생한 성능 문제와 서비스 개발자의 시선에서 해결 과정에 참여한 경험에 대하여 공유하고자 합니다. 이슈 서비스 호출량이 많아지는 상황에서 nBase",
+      "postPublishedAt": 1744106400000,
+      "url": "/helloworld/7823344",
+      "viewCount": 10279,
+      "author": "[320]",
+      "links": []
+    },
+    {
+      "postTitle": "데이터센터 각 세종의 스마트 공조 설루션, NAMU III",
+      "postImage": "/content/images/2025/04/gak.png",
+      "postHtml": "서버는 365일 1분 1초를 쉬지 않고 작동되므로 서버실의 냉방이 제대로 되지 않으면 온도가 계속 올라가게 됩니다. 서버실의 온도가 상승하면 서버의 성능이 제한되어 점차 속도가 느려지다가 결국 서버가 작동하지 않는 상황에 이를 수 있습니다. 서버실의 최적 온도는 22~26℃ 정도입니다. 이 최적의 온도를 유지하기 위해 공조 시스템은 서버실에 공급하는 공기의 온습도, 청정도, 기류 등을 조절합니다.  공조 시스템은 열원설비, 공기조화기, 자동제어설비 등으로",
+      "postPublishedAt": 1743760800000,
+      "url": "/helloworld/2523796",
+      "viewCount": 5865,
+      "author": "[381, 382, 383]",
+      "links": []
+    },
+    {
+      "postTitle": "FE News 25년 4월 소식을 전해드립니다!",
+      "postImage": "/content/images/2025/04/fenews.png",
+      "postHtml": " 주요내용 25년 4월 소식에서는 다음과 같은 유용한 정보들을 만나보실 수 있습니다. A Categorical Archive of ChatGPT Failures ChatGPT와 같은 대형 언어 모델의 한계를 분석한 내용이다. 논리는 크게 11개의 실패 유형으로 구분되며, 논리적 추론, 수학적 계산, 사실 오류, 편견 및 차별, 코딩 오류 등 다양한 영역에서 제한이 발견된다. 프롬프트 엔지니어링 가이드 프롬프트 엔지니어링은 다양한 애플리케이션과 연구 주제에",
+      "postPublishedAt": 1743595200000,
+      "url": "/news/4610228",
+      "viewCount": 8481,
+      "author": "[342]",
+      "links": []
+    },
+    {
+      "postTitle": "나만의 Visual Studio Code Copilot 지침 만들고 활용하기",
+      "postImage": "/content/images/2025/03/-----------2025-03-25-------10-09-40.png",
+      "postHtml": "코드 작성에 AI의 도움을 받을 수 있는 가장 유명한 도구 중 하나로, GitHub이 2021년 발표한 GitHub Copilot이 있습니다. 2024년 12월 GitHub Copilot for VS Code 무료 플랜을 제공하기 시작해, 제한적(2k/월 코드 어시스트, 50건/월 채팅)이긴 하지만 누구나 활용할 수 있게 되었습니다. 그런데 Copilot의 도움을 받으려면 프롬프트로 질의를 작성해야 하며, Copilot이 각자의 환경에 맞춰 답변하게 하려",
+      "postPublishedAt": 1742847850000,
+      "url": "/helloworld/6615449",
+      "viewCount": 33177,
+      "author": "[342]",
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 691,
+    "totalPages": 35,
+    "number": 0
+  }
+}

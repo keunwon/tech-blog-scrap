@@ -1,0 +1,3043 @@
+{
+  "resultType": "SUCCESS",
+  "error": null,
+  "success": {
+    "page": 2,
+    "pageSize": 20,
+    "count": 330,
+    "next": "/api-public/v3/ipd-thor/api/v1/workspaces/15/posts?page=3&size=20",
+    "previous": "/api-public/v3/ipd-thor/api/v1/workspaces/15/posts?size=20",
+    "results": [
+      {
+        "id": 36803,
+        "updatedTime": "2025-06-27T09:32:44+09:00",
+        "createdTime": "2025-05-23T11:05:28+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 모두가 유저를 만나는 순간까지",
+        "subtitle": "일하느라 사용자를 만날 시간이 없다면, 점심시간은 어떨까요? 식사하며 사용자의 목소리를 듣는 토스 팀의 이야기를 들려드릴게요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/lunch-with-users",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Flunch-with-users%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/lunch-with-users"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-lunch-with-users.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36803",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T11:06:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36803,
+          "title": null,
+          "description": "",
+          "urlSlug": "36803",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "모두가 유저를 만나는 순간까지",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-lunch-with-users.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2379,
+          "name": "서소희",
+          "slug": "sohee-seo",
+          "shortDescription": "토스 UX Research Operation Manager",
+          "description": "-",
+          "imageUrl": "https://static.toss.im/assets/toss-tech/sohee-seo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 830
+      },
+      {
+        "id": 36799,
+        "updatedTime": "2025-06-27T18:34:36+09:00",
+        "createdTime": "2025-05-23T11:05:27+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 우리가 몰랐던 시각 장애인의 UX",
+        "subtitle": "시각 장애인이 토스를 더 쉽게 쓰려면, 무엇이 달라져야 할까요? 리서치를 통해 얻은 세 가지 인사이트를 공유할게요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/when-ux-ignores-blind-users",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Fwhen-ux-ignores-blind-users%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/when-ux-ignores-blind-users"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-when-ux-ignores-blind-users.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36799",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T11:06:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36799,
+          "title": null,
+          "description": "",
+          "urlSlug": "36799",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "우리가 몰랐던 시각 장애인의 UX",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-when-ux-ignores-blind-users.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 1939,
+          "name": "박서현",
+          "slug": "seohyun-park",
+          "shortDescription": "토스코어 UX Researcher",
+          "description": "UX Researcher",
+          "imageUrl": "https://static.toss.im/assets/toss-tech/seohyun-park.jpeg",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 3,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1257
+      },
+      {
+        "id": 36785,
+        "updatedTime": "2025-06-28T12:00:05+09:00",
+        "createdTime": "2025-05-23T10:40:58+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 토스 그래픽을 10초 만에 그리는 AI",
+        "subtitle": "‘토스트’를 소개합니다. 인간이 3일 걸려 만드는 3D 그래픽을 10초 만에 만든다니, 퀄리티까지 따라올 수 있을까요? ",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/tosst-ai-graphic-maker",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Ftosst-ai-graphic-maker%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/tosst-ai-graphic-maker"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-tosst-ai-graphic-maker.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36785",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T11:00:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36785,
+          "title": null,
+          "description": "",
+          "urlSlug": "36785",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "토스 그래픽을 10초 만에 그리는 AI",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-tosst-ai-graphic-maker.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 590,
+          "name": "고현선",
+          "slug": "kohyunsun",
+          "shortDescription": "토스 Graphic Design Team Leader",
+          "description": "토스의 그래픽 디자이너입니다. 토스의 모든 시각 자산을 기획하고 제작합니다.",
+          "imageUrl": "https://static.toss.im/assets/toss-tech/koh.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 4,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1130
+      },
+      {
+        "id": 36789,
+        "updatedTime": "2025-06-28T13:37:23+09:00",
+        "createdTime": "2025-05-23T10:41:00+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] AI시대에 라이터로 살아남기",
+        "subtitle": "AI는 UX라이터에게 위기이자 기회예요. 다크패턴을 계기로, 라이터에서 프롬프트 엔지니어로 성장한 이야기를 들려드려요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/the-end-of-ux-writers",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Fthe-end-of-ux-writers%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/the-end-of-ux-writers"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-the-end-of-ux-writers.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36789",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:59:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36789,
+          "title": null,
+          "description": "",
+          "urlSlug": "36789",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "AI시대에 라이터로 살아남기",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-the-end-of-ux-writers.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 1949,
+          "name": "오천석",
+          "slug": "cheonseok-oh",
+          "shortDescription": "토스 UX Writer",
+          "description": "UX Writer",
+          "imageUrl": "https://static.toss.im/assets/toss-tech/cheonseok-oh.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1003
+      },
+      {
+        "id": 36787,
+        "updatedTime": "2025-06-27T19:39:13+09:00",
+        "createdTime": "2025-05-23T10:40:59+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 동의 화면도 간결해질 수 있을까",
+        "subtitle": "각종 법적 제한 때문에 자유롭지 않은 동의 화면 디자인. 관성을 깨면 얼마나 달라질 수 있을까요?",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/legal-meets-perfect-ux",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Flegal-meets-perfect-ux%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/legal-meets-perfect-ux"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-legal-meets-perfect-ux.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36787",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:57:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36787,
+          "title": null,
+          "description": "",
+          "urlSlug": "36787",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "동의 화면도 간결해질 수 있을까",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-legal-meets-perfect-ux.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2537,
+          "name": "박연주",
+          "slug": null,
+          "shortDescription": null,
+          "description": null,
+          "imageUrl": null,
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1034
+      },
+      {
+        "id": 36793,
+        "updatedTime": "2025-06-28T00:45:41+09:00",
+        "createdTime": "2025-05-23T10:41:00+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 경험을 수치화하는 방법",
+        "subtitle": "사용자가 원하는 기능을 잘 찾는지, 정성적인 경험도 이제 수치로 말할 수 있어요. 토스만의 새로운 기준으로요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/how-to-measure-experience",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Fhow-to-measure-experience%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/how-to-measure-experience"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-how-to-measure-experience.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36793",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:55:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36793,
+          "title": null,
+          "description": "",
+          "urlSlug": "36793",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "경험을 수치화하는 방법",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-how-to-measure-experience.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2503,
+          "name": "정명화",
+          "slug": "mh-jung",
+          "shortDescription": "토스 User Research Team Leader",
+          "description": "토스에서 UX Researcher로 일하고 있어요.",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1143
+      },
+      {
+        "id": 36795,
+        "updatedTime": "2025-06-28T19:34:34+09:00",
+        "createdTime": "2025-05-23T10:41:01+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          },
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 디자인 조직의 개발자들",
+        "subtitle": "인터랙션 개발의 매력은 무엇일까요? 아름다움과 감각을 설계하는 세 명의 인터랙션 개발자가 답해드릴게요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/behind-every-design-ux-developers",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Fbehind-every-design-ux-developers%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/behind-every-design-ux-developers"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-behind-every-design-ux-developers.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36795",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:53:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36795,
+          "title": null,
+          "description": "",
+          "urlSlug": "36795",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "디자인 조직의 개발자들",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/finance-tips/img-financetip-og2.png",
+          "imageType": "기본 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2539,
+          "name": "박은식/안정현/이청수",
+          "slug": null,
+          "shortDescription": null,
+          "description": null,
+          "imageUrl": null,
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 1,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 935
+      },
+      {
+        "id": 36797,
+        "updatedTime": "2025-06-28T15:26:03+09:00",
+        "createdTime": "2025-05-23T10:41:01+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 인터랙션으로 첫 인상 만들기",
+        "subtitle": "토스를 처음 써보는 외국인에게 토스를 어떻게 소개해야 할까? 모두가 감탄한 온보딩, 그 중심에는 인터랙션이 있었어요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/a-whole-new-onboarding",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Fa-whole-new-onboarding%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/a-whole-new-onboarding"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-a-whole-new-onboarding.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36797",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:49:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36797,
+          "title": null,
+          "description": "",
+          "urlSlug": "36797",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "인터랙션으로 첫 인상 만들기",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/finance-tips/img-financetip-og2.png",
+          "imageType": "기본 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2537,
+          "name": "박연주",
+          "slug": null,
+          "shortDescription": null,
+          "description": null,
+          "imageUrl": null,
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1171
+      },
+      {
+        "id": 36783,
+        "updatedTime": "2025-06-28T01:57:52+09:00",
+        "createdTime": "2025-05-23T10:40:58+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 토스 그래픽 더 토스답게 만들기",
+        "subtitle": "IT 업계에 3D 그래픽이 넘쳐나는 시대. 토스는 어떻게 '토스다움'을 만들어냈을까요? 그 여정을 보여드려요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/toss-graphic-2-0",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Ftoss-graphic-2-0%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/toss-graphic-2-0"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-toss-graphic-2-0.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36783",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:46:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36783,
+          "title": null,
+          "description": "",
+          "urlSlug": "36783",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "토스 그래픽 더 토스답게 만들기",
+          "description": "IT 업계에 3D 그래픽이 넘쳐나는 시대. 토스는 어떻게 '토스다움'을 만들어냈을까요? 그 여정을 보여드려요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-toss-graphic-2-0.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2541,
+          "name": "고현선/김경태",
+          "slug": null,
+          "shortDescription": null,
+          "description": null,
+          "imageUrl": null,
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 1,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 715
+      },
+      {
+        "id": 36781,
+        "updatedTime": "2025-06-28T20:14:30+09:00",
+        "createdTime": "2025-05-23T10:40:57+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          },
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "[Simplicity 4 세션] 토스가 디자인툴을 만든 이유",
+        "subtitle": "스케치, 피그마, 프레이머… 모두 써봤지만 우리에게 딱 맞는 건 없었어요. 그래서 만들었습니다. 토스만의 디자인 툴, 데우스.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "세션 더보기",
+          "landingUrl": "https://toss.im/simplicity/sessions/the-last-design-tool",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fsimplicity%2Fsessions%2Fthe-last-design-tool%3F&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/simplicity/sessions/the-last-design-tool"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-the-last-design-tool.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "36781",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-05-01T10:42:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 36781,
+          "title": null,
+          "description": "스케치, 피그마, 프레이머… 모두 써봤지만 우리에게 딱 맞는 건 없었어요. 그래서 만들었습니다. 토스만의 디자인 툴, 데우스.",
+          "urlSlug": "36781",
+          "primaryKeyword": {
+            "id": 37406,
+            "content": "토스 디자인",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "토스가 디자인툴을 만든 이유",
+          "description": "",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/dp/simplicity-season4-asset/session-graphic-bg-still/bg-the-last-design-tool.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 1974,
+          "name": "조유성",
+          "slug": "yuseong-cho",
+          "shortDescription": "토스 Frontend UX Engineer",
+          "description": "-",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 4,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "",
+        "fullDescription": "",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 1279
+      },
+      {
+        "id": 35921,
+        "updatedTime": "2025-06-28T17:38:19+09:00",
+        "createdTime": "2025-04-24T22:28:12+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          },
+          {
+            "name": "Simplicity 4",
+            "id": 1881,
+            "slug": "simiplicity4",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "Simplicity 4 : 한 번쯤 이상을 꿈꿔본 모두에게",
+        "subtitle": "토스 디자인 컨퍼런스 Simplicity가 돌아왔어요.",
+        "bottomButtonConfig": {
+          "ctaType": "NONE",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": null,
+          "landingUrl": null,
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": null,
+          "landingExternal": null
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/career-resource/simplicity_4_.png",
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "key": "35921",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-04-24T22:30:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 35921,
+          "title": null,
+          "description": "토스 디자인 컨퍼런스, Simplicity가 돌아왔어요.",
+          "urlSlug": "35921",
+          "primaryKeyword": {
+            "id": 37414,
+            "content": "토스심플리시티",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 37402,
+              "content": "토스 디자인 컨퍼런스",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 37406,
+              "content": "토스 디자인",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 51153,
+              "content": "심플리시티25",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 51155,
+              "content": "심플리시티4",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "Simplicity 25 : 한 번쯤 이상을 꿈꿔본 모두에게",
+          "description": "토스 디자인 컨퍼런스, Simplicity가 돌아왔어요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/career-resource/simplicity_4_.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": {
+          "id": 6715,
+          "relatedPosts": [],
+          "title": "연관 콘텐츠"
+        },
+        "editor": {
+          "id": 2515,
+          "name": "유아란",
+          "slug": null,
+          "shortDescription": null,
+          "description": null,
+          "imageUrl": null,
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 1,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "토스 디자인 컨퍼런스 네 번째 이야기, Simplicity 4\n\n\n일하면서 한 번쯤, 이상을 꿈꿔본 적이 있나요? \n빠른 문제해결이 중요한 토스에서도, 그 너머의 이상을 그리는 사람들이 있어요. 디자이너, 리서처, 라이터, 엔지니어링 등 다양한 분야에서 정교하고 아름다운 UX를 실현하기 위해 새로운 시도를 이어가고 있죠.",
+        "fullDescription": "토스 디자인 컨퍼런스 네 번째 이야기, Simplicity 4\n\n\n일하면서 한 번쯤, 이상을 꿈꿔본 적이 있나요? \n빠른 문제해결이 중요한 토스에서도, 그 너머의 이상을 그리는 사람들이 있어요. 디자이너, 리서처, 라이터, 엔지니어링 등 다양한 분야에서 정교하고 아름다운 UX를 실현하기 위해 새로운 시도를 이어가고 있죠.하지만 현실은 쉽지만은 않아요. \n이번 시즌에서는, 일하는 누구나 꿈꿔본 이상을 현실로 만들기 위해 고군분투한 토스팀의 여정을 들려드려요. 우리는 어떤 고민을 했고, 어떻게 답을 찾았을까요? \n그래픽, 인터랙션, 엔지니어링, UX 라이팅, 리서치, 플랫폼 디자인까지, 총 14개의 이야기가 준비되어 있어요. 잠깐 들여다보실래요?\n\n\n\n\n토스다움을 완성하는 순간들\n\n이토록 아름다운 새로고침 \nGraphic Design\n화면을 아래로 당기면 나오는 그래픽, Pull To Refresh. 그 짧은 찰나에 아름다움을 담기 위한 고민을 들려드려요.\n\n인터랙션으로 첫인상 만들기 \nInteraction Design \n토스를 처음 써보는 외국인에게 토스를 어떻게 소개해야 할까? 모두가 감탄한 온보딩, 그 중심에는 인터랙션이 있었어요.\n\n토스 그래픽 더 토스답게 만들기 \nGraphic Design\nIT 업계에 3D 그래픽이 넘쳐나는 시대. 토스는 어떻게 '토스다움'을 만들어냈을까요? 그 여정을 보여드려요.\n\n디자인 조직의 개발자들 \nAndroid, FE, iOS \n인터랙션 개발의 매력은 무엇일까요? 아름다움과 감각을 설계하는 세 명의 인터랙션 개발자가 답해드릴게요.\n\n\n\n\n진짜 ‘모두’를 위한 유니버셜 UX\n\n진짜 모두를 위한 금융 \nUniversal Design\n2,800만 명이 쓰는 앱에서 7,000명의 스크린 리더 사용자 경험까지 챙기기 위해, 토스는 어떤 노력을 하고 있을까요?\n\n우리가 몰랐던 시각 장애인의 UX \nUX Research\n시각 장애인이 토스를 더 쉽게 쓰려면, 무엇이 달라져야 할까요? 리서치를 통해 얻은 세 가지 인사이트를 공유할게요.\n\n\n\n\n토스가 사용자 경험과 마주하는 법\n\n경험을 수치화하는 방법 \nUX Research\n사용자가 원하는 기능을 잘 찾는지, 정성적인 경험도 이제 수치로 말할 수 있어요. 토스만의 새로운 기준으로요.\n\n모두가 유저를 만나는 순간까지 \nUX Research\n일하느라 사용자를 만날 시간이 없다면, 점심시간은 어떨까요? 식사하며 사용자의 목소리를 듣는 토스 팀의 이야기를 들려드릴게요.\n\n\n\n\nUX가 AI를 만났을 때\n\nAI시대에 라이터로 살아남기 \nUX Writing\nAI는 UX라이터에게 위기이자 기회예요.\n다크패턴을 계기로, 라이터에서 프롬프트 엔지니어로 성장한 이야기를 들려드려요.\n\nAI봇을 만들면서 배운 3가지 \nUX Research\n사용자를 만나기 전에 가볍게 의견을 물어볼 수 있는 AI UT봇. ‘휴리봇’ 을 만들면서 배운 3가지들 알려드릴게요.\n\n토스 그래픽을 10초 만에 그리는 AI \nGraphic Design\n‘토스트’를 소개합니다. 인간이 3일 걸려 만드는 3D 그래픽을 10초 만에 만든다니, 퀄리티까지 따라올 수 있을까요? \n\n\n\n\n익숙함 너머, 본질을 보다\n\n동의 화면도 간결해질 수 있을까 \nInteraction Design \n각종 법적 제한 때문에 자유롭지 않은 동의 화면 디자인. 관성을 깨면 얼마나 달라질 수 있을까요?\n\n토스가 디자인툴을 만든 이유 \nUX Engineering \n스케치, 피그마, 프레이머… 모두 써봤지만 우리에게 딱 맞는 건 없었어요. 그래서 만들었습니다. 토스만의 디자인 툴, 데우스.\n\n아무도 쓰지 않는 디자인 시스템 \nPlatform Design\n새로운 컴포넌트를 배포했는데, 왜 아무도 안 쓰지? 컴포넌트를 넘어서, 일하는 방식 자체를 바꿔보기로 했어요.\n\n\nVision Driven Design\nSimplicity 4는 거창한 해답보다는, 현실 속에서도 이상을 놓지 않으려 한 태도에 대해 이야기 하려고 해요. \"정말 이런 게 가능할까?\" 싶은 순간에도 끝까지 답을 찾으려고 한 사람들의 이야기. 그리고 그 집요함이 만들어낸 변화를 들려드리고 싶었어요. 토스는 어떻게 상상 속에만 있던 UX를 현실로 만들어냈는지, 그 과정을 함께 즐겨주세요. \n\nSimplicity 알림 신청하기 >> \n\n여러분이 가장 기대되는 세션은 무엇인가요? 댓글로 남겨주세요 !\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 15490
+      },
+      {
+        "id": 35379,
+        "updatedTime": "2025-06-28T21:40:13+09:00",
+        "createdTime": "2025-04-21T22:11:00+09:00",
+        "category": "데이터/ML",
+        "categories": [
+          {
+            "name": "데이터/ML",
+            "id": 1821,
+            "slug": "data-ml",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "토스는 어떻게 광고를 보여줄까? 토스애즈 ML 톺아보기",
+        "subtitle": "토스앱의 다양한 광고는 어떤 과정을 거쳐 유저에게 노출될까요?",
+        "bottomButtonConfig": {
+          "ctaType": "NONE",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": null,
+          "landingUrl": null,
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": null,
+          "landingExternal": null
+        },
+        "coverConfig": {
+          "coverType": "IMAGE",
+          "imageUrl": "https://static.toss.im/illusts-content/0422-tech-ad-thumb-2.png",
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/illusts-content/0422-tech-ad-thumb-2.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "ads-ml",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-04-21T22:13:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 35379,
+          "title": null,
+          "description": "토스앱의 다양한 광고는 어떤 과정을 거쳐 유저에게 노출될까요?",
+          "urlSlug": "ads-ml",
+          "primaryKeyword": {
+            "id": 50793,
+            "content": "Machine Learning",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 50791,
+              "content": "ML",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 51007,
+              "content": "토스애즈",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 51009,
+              "content": "토스광고",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 51011,
+              "content": "광고추천",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 51013,
+              "content": "광고추천시스템",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": [
+            {
+              "id": 42172,
+              "content": "Machine Learning",
+              "wordType": "TAG"
+            },
+            {
+              "id": 50801,
+              "content": "ML",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "토스는 어떻게 광고를 보여줄까? 토스 애즈 ML 톺아보기",
+          "description": "안녕하세요, 토스 Ads Performance 팀 ML Engineer 김영호입니다. 토스앱 진입 시 확인하실 수 있는 다양한 광고들은 어떤 과정을 거쳐 유저에게 노출될까요? 이 글에서는 토스 광고 추천 시스템의 전체 흐름과 그 안의 머신러닝 활용 방식을 소개해 드리겠습니다.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/illusts-content/0422-tech-ad-thumb-2.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": {
+          "id": 6459,
+          "relatedPosts": [
+            {
+              "id": 35215,
+              "updatedTime": "2025-06-28T21:40:50+09:00",
+              "createdTime": "2025-04-17T12:40:27+09:00",
+              "categories": [
+                {
+                  "name": "데이터/ML",
+                  "id": 1821,
+                  "slug": "data-ml",
+                  "parentId": null,
+                  "iconUrl": ""
+                }
+              ],
+              "series": null,
+              "title": "🛒 토스 쇼핑 추천 시스템: 수백만 사용자와 상품을 잇는 멀티 스테이지 접근법",
+              "subtitle": "토스 쇼핑은 어떻게 수백만 사용자에게 개인화된 상품 추천을 제공할까요? 그 접근법을 소개해 드릴게요.",
+              "bottomButtonConfig": {
+                "ctaType": "ONLY_BUTTON",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": null,
+                "description": null,
+                "ctaName": "ML Engineer 공고 보러가기",
+                "landingUrl": "https://toss.im/career/job-detail?job_id=6543523003&company=%ED%86%A0%EC%8A%A4&detailedPosition=General",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D6543523003%26company%3D%25ED%2586%25A0%25EC%258A%25A4%26detailedPosition%3DGeneral&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/career/job-detail?job_id=6543523003&company=%ED%86%A0%EC%8A%A4&detailedPosition=General"
+              },
+              "coverConfig": {
+                "coverType": "IMAGE",
+                "imageUrl": "https://static.toss.im/illusts-content/cover-techblog-shopping.jpg",
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/illusts-content/cover-techblog-shopping.jpg",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2507,
+                "name": "김정오",
+                "slug": "jung-oh",
+                "shortDescription": null,
+                "description": "ML 엔지니어",
+                "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 1,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "toss-shopping-recommendation-system",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2025-04-17T12:40:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            }
+          ],
+          "title": "연관 콘텐츠"
+        },
+        "editor": {
+          "id": 2517,
+          "name": "김영호",
+          "slug": "young-ho",
+          "shortDescription": null,
+          "description": ".",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 1,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "안녕하세요, 토스 Ads Performance 팀 ML Engineer 김영호입니다.\n토스앱 진입 시 확인하실 수 있는 다양한 광고들은 어떤 과정을 거쳐 유저에게 노출될까요? 이 글에서는 토스 광고 추천 시스템의 전체 흐름과 그 안의 머신러닝 활용 방식을 소개해 드리겠습니다.\n\n웹사이트나 앱에서 볼 수 있는 대부분의 광고",
+        "fullDescription": "안녕하세요, 토스 Ads Performance 팀 ML Engineer 김영호입니다.\n토스앱 진입 시 확인하실 수 있는 다양한 광고들은 어떤 과정을 거쳐 유저에게 노출될까요? 이 글에서는 토스 광고 추천 시스템의 전체 흐름과 그 안의 머신러닝 활용 방식을 소개해 드리겠습니다.\n\n웹사이트나 앱에서 볼 수 있는 대부분의 광고는 실시간 입찰 방식을 통해 노출됩니다. 매체에서 광고 지면에 노출 기회가 발생하면 해당 정보를 광고주에게 전달하고, 광고주는 기회에 대한 가치를 평가해 자신이 지불할 금액을 산정하여 입찰에 참여하죠. 제출된 입찰가 중 가장 높은 금액을 제시한 광고주의 광고가 최종적으로 해당 지면에 노출됩니다.\n\n실시간 입찰에는 여러 광고 플랫폼이 관여하는데요, 대표적으로 SSP(Supply-Side Platform)와 DSP(Demand-Side Platform)가 있습니다. 이 둘은 실시간 입찰 과정에서 유기적으로 연동되어 매체에 안정적인 수익을, 광고주에는 효율적인 광고 집행 및 성과 최적화를 제공합니다.\nSSP: 매체가 보유한 지면을 효율적으로 관리・판매하도록 돕는 플랫폼입니다. 광고 노출 기회마다 자동으로 여러 DSP를 연결하여 최적의 입찰을 유도함으로써 매체 수익을 극대화합니다. \nDSP: 광고주를 대신해 실시간 입찰에 참여하며, 설정된 예산과 목표에 따라 최소 비용으로 최대 광고 성과를 달성하도록 돕는 플랫폼입니다.\n토스는 리스트・모먼트 배너 등 다양한 광고 지면을 보유한 매체이자, 토스애즈 플랫폼을 통해 광고주가 토스 앱 내에서 손쉽게 광고를 집행하고 최적화할 수 있는 환경을 제공합니다. 따라서 광고 요청부터 노출까지의 모든 과정이 토스 내에서 이루어지죠.\n\n유저 접속부터 광고 노출까지\n유저가 광고 지면이 있는 토스 앱 화면에 접속하면 광고 요청이 발생하고, 입찰을 통해 최적의 광고가 선정되어 노출됩니다. 이 과정은 크게 Targeting, Filtering, Ranking의 세 단계로 이루어지며, 각 단계에서 머신러닝이 활용돼요.\n\n1. Targeting\n유저 정보를 기반으로 노출할 광고를 선별하는 과정이에요. 광고주마다 캠페인 목표와 원하는 타겟 유저가 다르기 때문에, 광고 노출 대상인 유저가 설정된 타겟에 포함되는지 확인합니다. 포함되지 않을 경우 해당 광고는 제외돼요.\n성별, 연령대, 직업 등의 특성을 바탕으로 유저를 세분화하여 광고를 집행하는 전략을 오디언스 타겟팅(Audience Targeting)이라고 합니다. 광고주는 인구통계학적 정보만으로도 타겟팅 그룹을 만들 수 있지만, 많은 광고주들은 자신의 상품을 구매한 유저와 유사한 특성을 지닌 잠재 고객을 타겟팅하고 싶어하죠.\n이러한 니즈를 충족시키기 위해 Lookalike 모델을 활용해 광고주가 타겟으로 설정한 오디언스와 행동 패턴이 유사한 잠재 고객을 찾습니다. 유저의 행동 로그를 학습하거나 Two-tower 모델을 통해 유저와 광고 간의 상호작용을 학습하여 유저 임베딩을 생성하고, 주어진 오디언스와의 임베딩 유사도를 계산해 잠재 고객을 선별해요.\n\n\n2. Filtering\n이 단계에서는 유저에게 제공할 광고 후보를 선별하고, 광고주의 예산 및 광고 품질을 고려한 필터링 과정을 수행합니다.\n광고 후보군 선정(Candidate Selection): 유저를 타겟팅하는 수십만~수백만 개의 광고 중에서 사용자가 관심을 가질 만한 광고를 빠르게 선택해야 해요. 모든 광고를 실시간으로 개별 평가하면 지연 시간이 늘고 연산 비용이 크게 증가하므로, 유저의 관심사를 기반으로 광고 후보군을 선별합니다. 이 과정에서는 정확성도 중요하지만 대규모 광고 풀에서 알맞은 후보군을 빠르게 추출하는 것이 중요한데요. 이 단계에서는 주로 Two-tower 모델을 활용해 유저와 광고에 대한 임베딩을 생성하고, 유사도 검색을 통해 관련 광고를 빠르게 탐색합니다.\n예산 소진 조절(Pacing): 광고주가 설정한 캠페인 예산을 기간 내에 균등하고 안정적으로 소진하도록 광고 노출 및 입찰을 제어합니다. 과거 입찰 로그를 바탕으로 시간대・요일 등 컨텍스트에 따른 트래픽을 예측하고, 이를 바탕으로 사용 가능한 예산을 산정하고 실시간으로 소진 속도를 조절해요.\n노출 빈도 제한(Frequency Capping): 동일한 광고가 한 유저에게 일정 기간 내에 노출될 최대 횟수를 설정하여 광고 피로도를 줄입니다. 하루 최대 3회와 같이 고정 캡을 설정할 수 있지만, 유저의 행동 패턴에 따른 최적 빈도를 예측해 적용할 수 있어요.\n\n3. Ranking\n이전 단계에서 선별된 후보 광고의 입찰가를 산출해 노출될 광고를 결정합니다. 입찰가는 매체의 기대 수익을 의미하는 eCPM(effective Cost Per Mille, 1,000회 노출당 비용)으로 표현하며, 이 값을 기준으로 광고 순위를 매겨요. eCPM은 광고주가 클릭당 지불하는 비용(CPC, Cost Per Click)과 광고의 클릭률(CTR, Click-Through Rate)을 기반으로 계산합니다.\neCPM(1,000회 노출당 비용) = CPC(클릭당 지불 비용) * CTR(클릭률) * 1,000\n이때 실제 CTR은 광고가 실제로 노출된 후에야 알 수 있기 때문에, 노출 전 단계에서는 유저, 광고, 컨텍스트 정보를 기반으로 CTR을 예측하여 사용합니다. CTR 예측 모델은 광고 ID, 유저 속성 등 고차원의 희소 특징(Sparse Feature) 간의 상호작용을 효과적으로 학습해야 하기 때문에, 주로 FM(Factorization Machine), DeepFM, DCN(Deep & Cross Network) 구조를 사용해요. \n또한, 광고주는 각 노출 기회마다 전환율(CVR, Conversion Rate)을 예측해 입찰가를 조절할 수 있습니다. 전환율이 낮다고 예상되는 상황에서는 클릭당 비용을 낮춰 불필요한 지출을 최소화하고, 전환율이 높다고 예상될 때 클릭당 비용을 높여 경쟁 우위를 차지할 수 있어요. \n\n결론\n앞서 살펴본 광고 노출 과정 이외에도 머신러닝은 광고 운영 전반에서 다양하게 활용될 수 있습니다.\n동적 입찰가 조절: 광고주가 설정한 클릭당 비용은 고정된 값이기 때문에 실시간으로 변화하는 경쟁 상황에 빠르게 대응하지 못해요. 이를 보완하기 위해 DQN(Deep Q-Network)와 같은 강화학습 모델을 사용하여 광고 운영 현황에 따라 클릭당 비용을 동적으로 조절함으로써 광고 효율 저하를 방지합니다.\n광고 소재 최적화: 사용자에게 노출되는 광고 소재의 성과를 향상시키기 위해 생성형 AI를 활용하여 다양한 소재를 자동 생성・테스트하고 최적의 소재를 찾습니다.\n\n토스애즈는 광고 플랫폼의 기반을 만들어가는 단계로, 광고 시스템 전반에 필요한 머신러닝 모델을 초기부터 설계하고 고도화할 수 있어요. 광고는 머신러닝 모델의 작은 변화가 바로 비즈니스 성과로 이어지는 분야입니다. 다양한 실험을 통해 머신러닝 모델로 비즈니스 성과를 만들어가고 싶으신 분들의 많은 지원을 기다립니다.\n",
+        "isDisplayingFeedback": false,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 16807
+      },
+      {
+        "id": 35215,
+        "updatedTime": "2025-06-28T21:40:50+09:00",
+        "createdTime": "2025-04-17T12:40:27+09:00",
+        "category": "데이터/ML",
+        "categories": [
+          {
+            "name": "데이터/ML",
+            "id": 1821,
+            "slug": "data-ml",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "🛒 토스 쇼핑 추천 시스템: 수백만 사용자와 상품을 잇는 멀티 스테이지 접근법",
+        "subtitle": "토스 쇼핑은 어떻게 수백만 사용자에게 개인화된 상품 추천을 제공할까요? 그 접근법을 소개해 드릴게요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "ML Engineer 공고 보러가기",
+          "landingUrl": "https://toss.im/career/job-detail?job_id=6543523003&company=%ED%86%A0%EC%8A%A4&detailedPosition=General",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D6543523003%26company%3D%25ED%2586%25A0%25EC%258A%25A4%26detailedPosition%3DGeneral&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/career/job-detail?job_id=6543523003&company=%ED%86%A0%EC%8A%A4&detailedPosition=General"
+        },
+        "coverConfig": {
+          "coverType": "IMAGE",
+          "imageUrl": "https://static.toss.im/illusts-content/cover-techblog-shopping.jpg",
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/illusts-content/cover-techblog-shopping.jpg",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "toss-shopping-recommendation-system",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-04-17T12:40:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 35215,
+          "title": null,
+          "description": "안녕하세요, 토스 커머스 개인화팀에서 토스 쇼핑 추천시스템을 개발하고 있는 ML Engineer 김정오입니다. 토스 쇼핑은 어떻게 수백만 사용자에게 개인화된 상품 추천을 제공할까요? 그 접근법을 소개해 드릴게요.",
+          "urlSlug": "toss-shopping-recommendation-system",
+          "primaryKeyword": {
+            "id": 50793,
+            "content": "Machine Learning",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 48469,
+              "content": "토스쇼핑",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50791,
+              "content": "ML",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50795,
+              "content": "추천시스템",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50797,
+              "content": "커머스",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50799,
+              "content": "머신러닝",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": [
+            {
+              "id": 42172,
+              "content": "Machine Learning",
+              "wordType": "TAG"
+            },
+            {
+              "id": 50801,
+              "content": "ML",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "🛒 토스 쇼핑 추천 시스템: 수백만 사용자와 상품을 잇는 멀티 스테이지 접근법",
+          "description": "안녕하세요, 토스 커머스 개인화팀에서 토스 쇼핑 추천시스템을 개발하고 있는 ML Engineer 김정오입니다. 토스 쇼핑은 어떻게 수백만 사용자에게 개인화된 상품 추천을 제공할까요? 그 접근법을 소개해 드릴게요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/illusts-content/cover-techblog-shopping.jpg",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": {
+          "id": 6439,
+          "relatedPosts": [
+            {
+              "id": 32191,
+              "updatedTime": "2025-06-28T09:56:00+09:00",
+              "createdTime": "2024-12-04T18:55:37+09:00",
+              "categories": [
+                {
+                  "name": "데이터/ML",
+                  "id": 1821,
+                  "slug": "data-ml",
+                  "parentId": null,
+                  "iconUrl": ""
+                }
+              ],
+              "series": null,
+              "title": "[SLASH 24] ML 플랫폼으로 개발 속도와 안정성 높이기",
+              "subtitle": "머신러닝 모델을 빠르고 안정적으로 개발할 수 있는 방법은 없을까요? 토스에서 ML 플랫폼을 통해 어떻게 이 문제를 해결하고 있는지 소개합니다.",
+              "bottomButtonConfig": {
+                "ctaType": "ONLY_BUTTON",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": null,
+                "description": null,
+                "ctaName": "세션 바로가기",
+                "landingUrl": "https://toss.im/slash-24/sessions/23",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fslash-24%2Fsessions%2F23%3F&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/slash-24/sessions/23"
+              },
+              "coverConfig": {
+                "coverType": "NONE",
+                "imageUrl": null,
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": false,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/career-resource/slash24_chanju.jpg",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2415,
+                "name": "김찬주",
+                "slug": null,
+                "shortDescription": null,
+                "description": null,
+                "imageUrl": null,
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 1,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "32191",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-09-12T21:23:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            },
+            {
+              "id": 32159,
+              "updatedTime": "2025-06-28T09:50:13+09:00",
+              "createdTime": "2024-12-04T18:38:34+09:00",
+              "categories": [
+                {
+                  "name": "데이터/ML",
+                  "id": 1821,
+                  "slug": "data-ml",
+                  "parentId": null,
+                  "iconUrl": ""
+                }
+              ],
+              "series": null,
+              "title": "[SLASH 24] ML 기반 자동 타겟팅으로 고객 만족과 마케팅 효율 모두 잡기!",
+              "subtitle": "늘 고민되는 세그먼트 타겟팅, 더 효율적이고, 더 효과적으로 할 수 없을까요? ML 기반 자동 타겟팅으로 사용자 만족과 마케팅 효율 모두를 잡은 과정을 소개합니다.",
+              "bottomButtonConfig": {
+                "ctaType": "ONLY_BUTTON",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": null,
+                "description": null,
+                "ctaName": "세션 바로가기",
+                "landingUrl": "https://toss.im/slash-24/sessions/20",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fslash-24%2Fsessions%2F20%3F&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/slash-24/sessions/20"
+              },
+              "coverConfig": {
+                "coverType": "NONE",
+                "imageUrl": null,
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": false,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/career-resource/slash24_hayoung.jpg",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2411,
+                "name": "김하영",
+                "slug": null,
+                "shortDescription": null,
+                "description": null,
+                "imageUrl": null,
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 1,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "32159",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-09-12T18:38:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            }
+          ],
+          "title": "연관 콘텐츠"
+        },
+        "editor": {
+          "id": 2507,
+          "name": "김정오",
+          "slug": "jung-oh",
+          "shortDescription": null,
+          "description": "ML 엔지니어",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 1,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "안녕하세요, 토스 커머스 개인화팀의 ML Engineer 김정오입니다.\n현재 토스 앱 하단 메뉴의 중앙은 저희팀에서 만들어가고 있는 토스 쇼핑이 자리하고 있는데요. 토스 쇼핑은 사용자 데이터를 기반으로 사용자에게 가장 필요한 상품을 추천해주게 되어있어요. 이 글을 통해서 토스 쇼핑은 어떻게 개인화 추천 시스템을 만들고 있",
+        "fullDescription": "안녕하세요, 토스 커머스 개인화팀의 ML Engineer 김정오입니다.\n현재 토스 앱 하단 메뉴의 중앙은 저희팀에서 만들어가고 있는 토스 쇼핑이 자리하고 있는데요. 토스 쇼핑은 사용자 데이터를 기반으로 사용자에게 가장 필요한 상품을 추천해주게 되어있어요. 이 글을 통해서 토스 쇼핑은 어떻게 개인화 추천 시스템을 만들고 있는지 간략히 설명해 드리고자 합니다.\n🔍 목적형 사용자와 탐색형 사용자\n토스 쇼핑은 다양한 소비자 유형을 다루고 있어요. 이 중 특히 중요한 두 가지 유형은 목적형 사용자와 탐색형 사용자인데요, 그 정의는 아래와 같습니다.\n목적형 사용자 (Goal-Oriented User)\n명확한 구매 목표 또는 특정 상품에 대한 수요를 가지고 플랫폼에 방문하는 사용자입니다. \n이들은 구체적인 상품명, 카테고리, 가격대 등의 기준을 기반으로 검색 및 탐색 활동을 수행하며, 최대한 빠르게 원하는 상품을 발견하고 구매하는 것을 목표로 해요.\n탐색형 사용자 (Exploratory User)\n명시적인 구매 목적 없이 플랫폼을 탐색하며 다양한 상품을 둘러보는 사용자입니다.\n이들은 우연히 발견한 상품 및 정보를 통해 흥미를 느끼고, 구매로 이어질 가능성을 높이는 행동 패턴을 보여요. 탐색형 사용자는 상품 카테고리에 대한 관심이 광범위하며, 구매 결정까지 상대적으로 긴 경로를 거치는 경향이 있습니다.\n→ 토스 쇼핑은 탐색형 사용자의 비중이 높습니다. 따라서, 사용자가 자연스럽게 흥미를 느끼고 구매 행동으로 이어지도록 돕는 개인화 추천 시스템이 필수적이에요.\n\n📈 추천 시스템의 필요성\n수백만 명의 사용자와 수백만 건의 상품이 존재하는 대규모 플랫폼에서는, 사용자와 상품 간의 최적 매칭을 수작업으로 제공하는 것은 불가능합니다.\n특히 탐색형 사용자의 경우, 명확한 검색 키워드 없이도 매력적인 상품을 발견할 수 있도록 돕는 개인화 추천 시스템이 핵심 역할을 합니다.\n추천 시스템은 사용자 경험을 향상시키고, 구매 전환율을 높이며, 서비스 체류 시간을 증가시키는 데 직접적인 영향을 미칩니다.\n\n🛠 멀티 스테이지 추천 시스템\n대규모 추천 문제를 해결하기 위해, 저희는 성능과 속도를 모두 고려하여 멀티 스테이지(Multi-Stage) 구조를 채택했어요. 이 구조는 크게 다음과 같은 단계로 이루어집니다.\n\n1. Retrieval\nRetrieval 단계에서는 수백만 개의 상품 중에서 사용자에게 어울릴 가능성이 높은 수천 개의 상품을 빠르게 후보로 뽑아내요.\n이 단계는 매우 빠른 응답 속도가 요구되며, 아래와 같이 다양한 방법론이 활용됩니다.\nTwo-Tower 모델: 사용자와 아이템 각각을 임베딩하여 벡터 공간에 매핑하고, 벡터 검색(Nearest Neighbor Search)을 통해 유사한 상품을 빠르게 검색합니다. DNN 기반 인코딩을 사용하며, 두 타워의 임베딩 결과를 내적(Dot Product)하여 유사도를 계산합니다.\nGraph 기반 모델: 사용자-상품 상호작용 데이터를 그래프 형태로 표현하여, Graph Neural Network(GNN)를 통해 잠재적 연관성을 학습합니다. GraphSAGE, PinSage, LightGCN 등의 기술이 활용돼요.\nSequence 모델: 사용자의 행동 이력을 시퀀스로 모델링하고, Transformer 기반 모델(SASRec, BERT4Rec 등)을 통해 시계열 관계를 포착하여 다음 상호작용 상품을 예측합니다.\nRetrieval 단계는 정확성과 효율성의 균형을 맞추는 것이 중요하며, 이후 Ranking 단계로 넘어가기 위해 충분히 다양한 후보를 확보하는 역할을 합니다.\n\n2. Ranking\nRanking 단계에서는 Retrieval 단계에서 얻은 수천 개의 후보군을 받아 개인화 모델을 통해 점수를 매기고 정렬해요. \n주요 목표는 pCTR(predicted Click-Through Rate) 및 pCVR(predicted Conversion Rate)을 정확히 예측하는 것입니다. 이 단계 역시 아래와 같이 다양한 방법론이 사용됩니다.\nDeepFM: FM(Factorization Machine)으로 특징 간의 이차 상호작용을 포착하고, DNN으로 비선형 관계를 학습하는 구조입니다.\nDLRM(Deep Learning Recommendation Model): 조밀 특징(Dense features)과 희소 특징(Sparse features)을 통합하여 복잡한 사용자-상품 관계를 모델링합니다.\nDCN(Deep & Cross Network): 특징 간의 조합(Cross Feature Interactions)을 명시적으로 학습하여 고차원적인 특징 조합을 효과적으로 반영합니다.\nESMM(Entire Space Multi-Task Model): 클릭(Click)과 전환(Conversion) 확률을 함께 학습하는 Multi-Task Learning 기반 모델로, pCTR과 pCVR을 동시에 고려하여 학습 효율성과 일반화를 높입니다.\n이러한 모델들은 개별 예측 성능을 높이는 것뿐만 아니라, 서비스의 핵심 지표(GMV, Orders 등) 최적화에도 큰 기여를 합니다.\n3. Re-ranking\n최종 단계인 Re-ranking에서는 초기 모델 점수 외에도 다양한 비즈니스 로직과 사용자 경험 향상을 위한 요소를 반영하여 결과를 조정합니다.\n주요 목표는 추천 결과의 다양성(Diversity), 신선도(Novelty), 비즈니스 지표 최적화를 동시에 만족시키는 것이에요.\n신선도(Novelty) 보장: 사용자에게 새로운 경험을 제공하기 위해, Cold-Start 아이템(최근 등록된 신상품 또는 상호작용 데이터가 적은 상품)을 일정 비율 포함시킵니다.\n광고 상품과 비광고 상품의 혼합: 광고 성과를 극대화하기 위해, 광고 상품과 비광고 상품을 자연스럽게 섞어 노출해요. 광고 상품이 과도하게 몰리지 않도록 조정하여 사용자 경험을 해치지 않으면서 높은 ROI를 기대할 수 있도록 합니다.\n다양성 및 카테고리 균형 고려: 다양한 카테고리와 상품 타입을 고르게 배치하여 추천 품질을 높입니다.\n이렇게 다양한 요소를 반영한 Re-ranking은 단순 예측 점수에 기반한 정렬보다 실제 사용자 경험과 비즈니스 목표 모두를 동시에 만족시키는 데 중요한 역할을 합니다.\n\n📝 결론\n토스 쇼핑의 홈 피드 추천 시스템은 탐색형 사용자의 특성을 고려하여 설계된 멀티 스테이지 추천 시스템입니다.\n수백만 명의 사용자와 수백만 건의 상품을 다루는 환경에서, Retrieval, Ranking, Re-ranking을 통한 점진적인 후보군 정제가 핵심 전략이죠. 이를 통해 사용자는 명확한 구매 목표 없이도 자연스럽게 흥미로운 상품을 발견하고, 구매로 이어질 수 있습니다.\n토스 쇼핑에서는 각 스테이지(Retrieval, Ranking, Re-ranking)별 추천 모델을 지속적으로 개선하고 고도화할 ML Engineer를 찾고 있어요. 토스 쇼핑의 추천 시스템을 함께 만들어가실 분들의 많은 지원을 기다립니다!\n\n",
+        "isDisplayingFeedback": false,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 19149
+      },
+      {
+        "id": 34899,
+        "updatedTime": "2025-06-28T21:47:24+09:00",
+        "createdTime": "2025-04-08T11:14:13+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "UX 리서처가 양말 파는 사장님이 된 이유",
+        "subtitle": "사장님들을 더 깊게 이해하고 싶어, 직접 사장님이 되어봤습니다. 사업자 등록부터 판매까지 여정을 통해 배운 점들을 들려드릴게요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "UX Researcher 서류 프리패스 전형 바로가기",
+          "landingUrl": "https://toss.im/career/job-detail?job_id=5913667003",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D5913667003&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/career/job-detail?job_id=5913667003"
+        },
+        "coverConfig": {
+          "coverType": "IMAGE",
+          "imageUrl": "https://static.toss.im/illusts-content/img-socks-research-blue-4.png",
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/illusts-content/img-socks-research-blue-4.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "34899",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-04-10T15:52:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34899,
+          "title": null,
+          "description": "사장님들을 더 깊게 이해하고 싶어, 직접 사장님이 되어봤습니다. 사업자 등록부터 판매까지 여정을 통해 배운 점들을 들려드릴게요.",
+          "urlSlug": "34899",
+          "primaryKeyword": {
+            "id": 50713,
+            "content": "UX Research",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 37552,
+              "content": "유저리서치",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 37618,
+              "content": "UX리서치",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50715,
+              "content": "B2B리서치",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50717,
+              "content": "사장님리서치",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": [
+            {
+              "id": 41734,
+              "content": "UX Research",
+              "wordType": "TAG"
+            },
+            {
+              "id": 46069,
+              "content": "UX리서치",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "UX 리서처가 양말 파는 사장님이 된 이유",
+          "description": "사장님들을 더 깊게 이해하고 싶어, 직접 사장님이 되어봤습니다. 사업자 등록부터 판매까지 여정을 통해 배운 점들을 들려드릴게요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/illusts-content/img-socks-research-blue-4.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": {
+          "id": 6425,
+          "relatedPosts": [
+            {
+              "id": 26109,
+              "updatedTime": "2024-12-19T14:58:50+09:00",
+              "createdTime": "2024-03-07T23:25:05+09:00",
+              "categories": [
+                {
+                  "name": "디자인",
+                  "id": 1038,
+                  "slug": "design",
+                  "parentId": null,
+                  "iconUrl": null
+                }
+              ],
+              "series": null,
+              "title": "토스 UX 리서처는 어떤 방법론을 사용할까?",
+              "subtitle": "토스팀에서 맥락도 도메인도 너무나 다양한 문제들을 마주하는 UX 리서치팀은 어떤 리서치 방법론을 사용하는지 소개해요.",
+              "bottomButtonConfig": {
+                "ctaType": "EMPHASIS_TEXT",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": "서연님과 일해보고 싶다면?",
+                "description": null,
+                "ctaName": "UX Researcher로 지원하기",
+                "landingUrl": "https://toss.im/career/job-detail?job_id=5644184003&&utm_source=techblog&utm_medium=post&utm_campaign=article_button",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D5644184003%26utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Darticle_button&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/career/job-detail?job_id=5644184003&&utm_source=techblog&utm_medium=post&utm_campaign=article_button"
+              },
+              "coverConfig": {
+                "coverType": "IMAGE",
+                "imageUrl": "https://static.toss.im/illusts/research_method_image.png",
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/illusts/research_method_image.png",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 594,
+                "name": "김서연",
+                "slug": "seyon-kim",
+                "shortDescription": "토스증권 UX Researcher",
+                "description": "-",
+                "imageUrl": "https://static.toss.im/photos/seyonkim.png",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 4,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "uxresearch-method",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-03-13T22:00:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            },
+            {
+              "id": 25275,
+              "updatedTime": "2024-12-19T14:56:10+09:00",
+              "createdTime": "2024-01-29T16:20:57+09:00",
+              "categories": [
+                {
+                  "name": "디자인",
+                  "id": 1038,
+                  "slug": "design",
+                  "parentId": null,
+                  "iconUrl": null
+                }
+              ],
+              "series": null,
+              "title": "UX 리서처, 신입은 어디에서 경력을 쌓나요?",
+              "subtitle": "유저 리서치 팀에서는 처음으로 신입 리서처를 채용했어요. 새롭게 설계한 채용 과정을 소개할게요.",
+              "bottomButtonConfig": {
+                "ctaType": "EMPHASIS_TEXT",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": "지희님과 일해보고 싶다면?",
+                "description": null,
+                "ctaName": "UX Researcher로 지원하기",
+                "landingUrl": "https://toss.im/career/job-detail?job_id=5644184003&&utm_source=techblog&utm_medium=post&utm_campaign=article_button",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D5644184003%26utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Darticle_button&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/career/job-detail?job_id=5644184003&&utm_source=techblog&utm_medium=post&utm_campaign=article_button"
+              },
+              "coverConfig": {
+                "coverType": "IMAGE",
+                "imageUrl": "https://static.toss.im/career-resource/og-image.png",
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/illusts-common/research_blog.png",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 1927,
+                "name": "박지희",
+                "slug": "jeehee-pak",
+                "shortDescription": "토스 UX Researcher",
+                "description": "-",
+                "imageUrl": "https://static.toss.im/assets/toss-tech/jeeheepak.png",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 2,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "ux-research-partner",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-01-30T14:45:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            },
+            {
+              "id": 28336,
+              "updatedTime": "2024-12-19T15:08:14+09:00",
+              "createdTime": "2024-06-19T15:09:31+09:00",
+              "categories": [
+                {
+                  "name": "디자인",
+                  "id": 1038,
+                  "slug": "design",
+                  "parentId": null,
+                  "iconUrl": null
+                }
+              ],
+              "series": null,
+              "title": "UX리서치 조직에서 리옵매란?",
+              "subtitle": "토스의 효율적인 UX리서치 환경을 만드는 데 ‘UX 리서치 오퍼레이션 매니저’는 어떤 역할을 하고 있고 또 어떤 고민을 해결해 가고 있는지 소개해요.",
+              "bottomButtonConfig": {
+                "ctaType": "EMPHASIS_TEXT",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": "토스에서 효율적인 UX리서치 시스템을 함께 만들고 싶다면?",
+                "description": null,
+                "ctaName": "채용공고 보러가기",
+                "landingUrl": "https://toss.im/career/job-detail?job_id=5942748003&&utm_source=techblog&utm_medium=post&utm_campaign=article_button",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D5942748003%26utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Darticle_button&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/career/job-detail?job_id=5942748003&&utm_source=techblog&utm_medium=post&utm_campaign=article_button"
+              },
+              "coverConfig": {
+                "coverType": "IMAGE",
+                "imageUrl": "https://static.toss.im/assets/toss-tech/승희님-테크블로그-본문썸네일.png",
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/assets/toss-tech/승희님-테크블로그-본문썸네일.png",
+                "backgroundColor": null,
+                "isFill": false,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2290,
+                "name": "도승희",
+                "slug": "sunny-do",
+                "shortDescription": "토스 Research Platform Team Leader",
+                "description": "Research Platform Team Leader",
+                "imageUrl": "https://static.toss.im/assets/toss-tech/sunny-do.jpg",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 1,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "what-is-research-ops",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-07-01T11:17:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            }
+          ],
+          "title": "연관 콘텐츠"
+        },
+        "editor": {
+          "id": 2503,
+          "name": "정명화",
+          "slug": "mh-jung",
+          "shortDescription": "토스 User Research Team Leader",
+          "description": "토스에서 UX Researcher로 일하고 있어요.",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "토스페이먼츠는 온라인 결제를 담당하는 PG(Payment Gateway)사예요. 토스페이먼츠가 사장님 대신 결제를 처리하고 정산까지 도와주죠. 온라인 쇼핑몰과 카드사를 연결하는 ‘결제의 중간 다리’ 역할을 한다고 볼 수 있어요.\n처음 몇 달은 PG 서비스를 중심으로 유저 리서치를 진행했어요. 사장님들이 웹/앱 서비스를 어",
+        "fullDescription": "토스페이먼츠는 온라인 결제를 담당하는 PG(Payment Gateway)사예요. 토스페이먼츠가 사장님 대신 결제를 처리하고 정산까지 도와주죠. 온라인 쇼핑몰과 카드사를 연결하는 ‘결제의 중간 다리’ 역할을 한다고 볼 수 있어요.\n처음 몇 달은 PG 서비스를 중심으로 유저 리서치를 진행했어요. 사장님들이 웹/앱 서비스를 어떻게 만드는지, PG사를 선택할 때 가장 중요한 요소는 무엇인지, 매출과 정산은 어떻게 관리하는지 등을 깊게 파고들었어요. 인터뷰에서 만난 어떤 사장님의 말을 듣기 전까지는요.\n“처음 온라인 결제를 준비할 때 필수 신고 절차를 몰랐어요. 홈페이지를 다 만들고 나서야 그 절차를 알아서 시간 낭비를 많이 했죠. 이런 과정을 한눈에 따라갈 수 있는 흐름이 있었으면 좋겠다고 생각했어요.”  \n\n직접 만나서 이야기를 들어보니 제가 몰랐던 다른 세계가 있더라고요. 사장님들이 실제로 겪는 문제들이 얼마나 중요한 문제인지, 사장님들이 말하지 않는 숨겨진 고충은 없는지 파악하는 것도 쉽지 않았어요. 저는 사업을 해본 적이 없었으니까요. \n그때 단순히 결제 프로세스를 넘어, 사업 운영 전반의 니즈와 문제를 더 깊이 이해할 필요가 있다고 느꼈어요. B2C 서비스는 리서처가 직접 써보며 공감대를 형성할 수 있지만 B2B는 그 자체를 직접 경험하기 어려운 한계가 있잖아요.\n사장님들의 어려움을 제대로 이해하려면 직접 겪어보는 수밖에 없겠더라고요. 그래서 결심했죠. 진짜 사장님이 되어보기로요.\n\n\nUX리서처, 진짜 사장님이 되다\n\n1단계: 사업자 등록하기\n사업을 시작하는 것부터 쉽지 않았어요. 진행해야 할 행정 절차가 참 많더라고요. 사업자 유형, 업종 정의, 사업장 주소, 사업용 전화번호 등을 하나하나 입력해 사업자 등록을 마쳐야 했고, 온라인 판매를 위해선 구매안전서비스 이용 확인증을 발급받고, 통신판매업 신고도 별도로 진행해야 했어요.\n예상치 못한 절차들이 계속 나와서, 사업을 시작하기도 전에 이미 벅찬 느낌이 들었어요. 사장님들도 처음 사업을 시작할 때 비슷한 어려움을 겪겠구나 싶었어요.\n\n2단계: 판매 아이템 정하기\n판매할 아이템을 찾기 위해 동대문 새벽시장에도 가봤는데요. 사장님들의 포스에 눌려 말 한마디도 쉽게 못 꺼내겠더라고요. ‘깔(컬러)’, ‘장끼(영수증)’, ‘미송(품절 시 선결제 후 예약)’ 같은 거래 용어를 하나도 모르니까요.\n몇 번 시장을 오가다 보니, 말투나 준비물도 점점 현장에 맞춰졌어요. 처음엔 회사원 복장으로 갔다가, 나중엔 현금 가방과 사입 가방까지 챙기는 사장님 모드가 됐죠. 그렇게 시장을 돌아다니다가 드디어 아이템을 정했어요.\n양말. 뜬금없이 들릴 수도 있겠지만, 단가가 낮고 판매가 쉬울 거라 생각했거든요.\n\n동대문 새벽시장의 풍경\n\n3단계: 쇼핑몰 구축하기\n양말을 팔아야겠다고 결정하면서 쇼핑몰도 함께 준비했어요. 비용을 아끼려고 직접 촬영 공간을 만들고, 지인을 모델로 섭외해 촬영을 진행했는데 생각보다 훨씬 어려운 과정이더라고요. 조명 세팅, 구도 잡기, 보정 작업… 모든 게 처음이어서 예상보다 시간과 에너지가 많이 들어갔죠. 초기 예산에서도 큰 비중을 차지했고요.\n그렇게 우여곡절 끝에 상세페이지 구성, 상품 등록, 가격 설정 등을 하나씩 해나갔고, 약 한 달 만에 쇼핑몰을 오픈했어요.\n\n제품 촬영 과정\n\n\n드디어, 첫 주문이 들어오다\n첫 주문이 들어왔을 때의 기쁨이 아직도 생생해요. 상품을 포장해 택배로 보내고, 정산 금액을 직접 받고 나니 “아, 내가 진짜로 양말을 팔았구나” 하는 실감이 났죠. \n하지만 막상 판매를 해보니, 양말은 단가가 낮은 만큼 정말 많이 팔아야 수익이 남는 구조였어요. 이 아이템을 잘 선택한 게 맞을까 고민되고 혼란스럽더라고요.\n여러 채널에서 판매한 정산 금액을 확인하고 데이터를 관리하는 과정도 번거로웠어요. 리서치 과정에서 사장님들이 “여러 판매처의 정산 내역을 일일이 확인하는 게 너무 불편하다”고 자주 이야기해주셨는데요. 직접 경험해보니, 왜 그런 이야기가 나왔는지 알겠더라고요.\n\n오픈한 실제 쇼핑몰 \n\n\n물건 판매는 끝이 아니라 시작이다\n쇼핑몰을 준비할 땐 “일단 오픈하는 게 목표다”라는 마음으로 달렸는데, 막상 오픈하고 나니 너무 당연하게도 그게 끝이 아니라 진짜 시작이더라고요. 이제는 어떻게 하면 상품을 잘 팔 수 있을지 고민하고 방법을 찾아야 했죠.\n우선 상품이 팔리려면 ‘노출’이 돼야 했고, 광고와 홍보가 필수였거든요. 그래서 유튜브, 블로그, 사장님들 커뮤니티 등을 참고해가며 키워드별·상품별·타겟별로 광고를 직접 집행하고, 성과를 분석하면서 전략도 조금씩 조정해 나갔어요.\n모든 게 처음이다 보니, 온라인에서 정보를 찾는 데에도 시간이 많이 들었어요. 검색해보면 오래됐거나 부정확한 정보가 대부분이었고, 구체적인 설명보다는 흐름만 짚는 자료가 많았거든요. 같은 키워드로 여러 번 검색하고, 여러 자료를 비교해가며 겨우 내용을 파악했죠.\n이렇게 처음부터 끝까지 부딪혀보면서, 사업을 운영하는 데는 생각보다 훨씬 많은 단계와 결정이 필요하다는 걸 절실히 깨달았어요. 사업자 등록, 상품 소싱, 쇼핑몰 제작, 마케팅, 정산 관리까지 — 어느 하나 단순하거나 중요도가 낮은 과정은 없었고, 한 단계라도 꼬이면 그 여파가 다음 단계에 고스란히 이어졌어요.\n\n\n맨 땅에 헤딩으로 이뤄낸 결과물\n직접 사업을 준비하면서 단순한 인터뷰만으로는 파악하기 어려웠던 사장님들의 ‘진짜 고충’을 훨씬 더 깊이 이해할 수 있었어요. 사업자의 여정을 단계별로 분석하면서 제품이나 콘텐츠를 기획할 때 어떤 기준을 세워야 하는지 더욱 명확해졌고요. 다음 리서치를 더 깊고 실제적인 방향으로 이끌 수 있는 중요한 발판이 되어주기도 했죠.\n무엇보다 온라인 사업을 시작할 때 PG 서비스 연결 뿐만 아니라, 사업자 등록, 통신판매업 신고 등 필수 절차들이 훨씬 더 간편해져야 한다는 점을 절실히 느꼈어요. 실제로 이후 리서치에서도, 사장님들이 여러 사이트를 오가며 각각의 신고 절차를 따로 진행해야 하는 불편함을 겪고 있다는 걸 확인할 수 있었어요.\n이 문제를 해결하기 위해, 토스페이먼츠에서는 사업자 등록과 통신판매업 신고를 한 번에 처리할 수 있는 서비스를 새롭게 개발했고, 사장님들이 더 쉽고 빠르게 사업을 시작할 수 있도록 지원할 수 있었어요.\n또한, 사업자 등록 전·후로 알아야 할 정보 — 예를 들어 세금 신고, 택배 계약, 가격 설정, 절세 전략 등 사업 운영에 꼭 필요한 지식들을 담은 콘텐츠 100여 개도 함께 제작했어요. 이 콘텐츠들이 사장님들의 막막함을 덜어주고, 실제로 도움이 되는 출발점이 되길 바라면서요.\n\n해당 리서치 과정에서 발행된 콘텐츠 (일부)\n사업자 등록과 신고\n쇼핑몰 창업 준비하는 사장님이 사업자 등록 신청하기 전 꼭 해야 할 일 총정리\n사업자등록 신청, 제대로 하고 절세하기\n사입과 가격 책정\n사입이 처음인 사장님을 위한 사입 용어와 준비물 알아보기\n초보 사장님이 꼭 알아야 할 상품 가격 결정 방법 총정리\n마케팅\n눈길을 사로잡는 상품 썸네일 제작 방법 5가지\n쇼핑몰 사장님을 위한 인스타그램 마케팅 총정리\n\n\nB2B 리서처들에게 하고 싶은 말\n리서처는 도메인 지식이 필요한 리서치를 맡게 되는 일이 많죠. 이럴 때 작게라도 빠르게 직접 경험해보는 것만으로도 초기 이해도가 눈에 띄게 높아질 수 있어요. 그리고 그렇게 높아진 이해도는, 리서치가 얼마나 깊이 있는 인사이트로 이어질 수 있는지를 좌우하더라고요. \n특히 B2B 리서치에서는 인사이트의 깊이나 제안의 실효성에 대해 아쉬움을 느낄 때가 많을텐데요. 이럴 땐 작은 단위라도 직접 경험해보는 과정이 도움이 될 수 있어요. 사용자를 더 입체적으로 이해할 수 있고, 리서치 방향을 훨씬 정교하게 설계할 수 있거든요.\n물론 이 접근이 모든 프로젝트에 무조건 적용될 수 있는 건 아니에요. 리서치의 목적, 서비스의 특성, 그리고 리서처가 실제로 사용자와 유사한 상황에 놓일 수 있는지를 함께 고려해 선택적으로 시도해보는 것이 중요하죠.\n그럼에도 분명한 건, 직접 부딪혀본 경험이 리서치의 깊이를 바꿀 수 있다는 거예요.\n\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 38814
+      },
+      {
+        "id": 34895,
+        "updatedTime": "2025-06-28T18:52:43+09:00",
+        "createdTime": "2025-04-08T11:13:31+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "토스 프론트엔드에 이력서 없이 리포지토리 링크로 지원하세요 (~5/31)",
+        "subtitle": "이력서 작성에 고민해보신 적이 있나요? 토스에는 여러분의 고민한 내용이 남긴 GitHub 저장소 링크 하나만 제출하면 돼요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": "Server Developer로 지원하기",
+          "description": null,
+          "ctaName": "토스 프론트엔드에 리포지토리 링크로 지원하기",
+          "landingUrl": "https://toss.im/career/job-detail?job_id=4071101003&company=토스",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": 10007,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D4071101003%26company%3D%25ED%2586%25A0%25EC%258A%25A4&external=true&clearHistory=true&swipeRefresh=true&svc_id=10007",
+          "landingExternal": "https://toss.im/career/job-detail?job_id=4071101003&company=토스"
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/ipd-tcs/toss_core/live/e813a909-42ab-461c-bcec-f934404747a7/bg.jpg",
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "key": "frontend-apply-without-resume",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-04-08T11:00:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34895,
+          "title": null,
+          "description": "토스에서 이력서 없이 \"GitHub 리포지토리 링크로 지원하기\" 메뉴가 열렸어요. 이력서를 다듬고 최신화하는 것이 쉽지 않죠. 토스에는 여러분의 고민한 내용이 남긴 GitHub 저장소 링크 하나만 제출하면 돼요. 새로운 전형은 2025년 4월 30일 23:59까지 열려 있어요.",
+          "urlSlug": "frontend-apply-without-resume",
+          "primaryKeyword": {
+            "id": 37498,
+            "content": "프론트엔드",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 43186,
+              "content": "코드퀄리티",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 47301,
+              "content": "채용",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50581,
+              "content": "사용자 경험",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "토스 프론트엔드에 이력서 없이 리포지토리 링크로 지원하세요 (~4/30)",
+          "description": "안녕하세요, 토스 프론트엔드 엔지니어링 헤드 박서진입니다.토스에서 이력서 없이 \"GitHub 리포지토리 링크로 지원하기\" 메뉴가 열렸어요. 이력서 작성에 고민해보신 적이 있나요? 이력서를 다듬고 최신화하는 것이 쉽지 않죠. 토스에는 여러분의 고민한 내용이 남긴 GitHub 저장소 링크 ...",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/ipd-tcs/toss_core/live/e813a909-42ab-461c-bcec-f934404747a7/bg.jpg",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": {
+          "id": 6399,
+          "relatedPosts": [
+            {
+              "id": 33231,
+              "updatedTime": "2025-06-28T21:38:17+09:00",
+              "createdTime": "2025-01-24T17:09:36+09:00",
+              "categories": [
+                {
+                  "name": "개발",
+                  "id": 1024,
+                  "slug": "tech",
+                  "parentId": null,
+                  "iconUrl": ""
+                }
+              ],
+              "series": null,
+              "title": "무엇이든 물어보세요 (feat. 프론트엔드 코드, 디렉토리 관리) | EP.10 캠프파이어 특집 상편",
+              "subtitle": "모닥불 10화 특집: 캠프파이어 에피소드 🔥\n이번 모닥불은 특별히 시청자 여러분과 함께하는 시간으로 준비했어요.\n\n사전에 접수된 시청자 여러분의 다양한 사연과 질문 그리고 코드 리뷰까지!\n지금 바로 확인해보세요!",
+              "bottomButtonConfig": {
+                "ctaType": "NONE",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": null,
+                "description": null,
+                "ctaName": null,
+                "landingUrl": null,
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": null,
+                "landingExternal": null
+              },
+              "coverConfig": {
+                "coverType": "NONE",
+                "imageUrl": null,
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": false,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/photos/modakbul10-4.png",
+                "backgroundColor": null,
+                "isFill": false,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2292,
+                "name": "토스 프론트엔드 챕터",
+                "slug": "frontend-chapter",
+                "shortDescription": null,
+                "description": "-",
+                "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 13,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "firesidechat_frontend_10",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2025-01-24T15:00:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            },
+            {
+              "id": 30427,
+              "updatedTime": "2025-06-28T18:22:56+09:00",
+              "createdTime": "2024-09-25T15:49:34+09:00",
+              "categories": [
+                {
+                  "name": "개발",
+                  "id": 1024,
+                  "slug": "tech",
+                  "parentId": null,
+                  "iconUrl": ""
+                }
+              ],
+              "series": null,
+              "title": "토스 개발자는 개발만 잘해도 될까 | EP.5 모닥불",
+              "subtitle": "토스에서 말하는 일 잘하는 개발자의 기준은 무엇일까요?\n\n토스증권 이정연, 최지민 님이 직접 전하는 \"일 잘하는 개발자란 바로 이런 것!\" 함께 들어보세요!",
+              "bottomButtonConfig": {
+                "ctaType": "NONE",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": null,
+                "description": null,
+                "ctaName": null,
+                "landingUrl": null,
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": false,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": null,
+                "landingExternal": null
+              },
+              "coverConfig": {
+                "coverType": "IMAGE",
+                "imageUrl": "https://static.toss.im/photos/%EB%AA%A8%EB%8B%A5%EB%B6%885%ED%99%94_1.png",
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/photos/%EB%AA%A8%EB%8B%A5%EB%B6%885%ED%99%94_1.png",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2292,
+                "name": "토스 프론트엔드 챕터",
+                "slug": "frontend-chapter",
+                "shortDescription": null,
+                "description": "-",
+                "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 13,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "firesidechat_frontend_5",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-09-25T18:44:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            },
+            {
+              "id": 31643,
+              "updatedTime": "2025-06-28T21:25:42+09:00",
+              "createdTime": "2024-11-14T17:12:31+09:00",
+              "categories": [
+                {
+                  "name": "개발",
+                  "id": 1024,
+                  "slug": "tech",
+                  "parentId": null,
+                  "iconUrl": ""
+                }
+              ],
+              "series": null,
+              "title": "토스 프론트엔드 개발자들이 더 이상 문서를 찾지 않는 이유",
+              "subtitle": "토스 프론트엔드 팀은 이제 문서를 찾아 헤매지 않아요. 문서와 AI로 개발자의 질문에 바로 답변해주는 환경을 만들고 있거든요. 개발에만 온전히 집중할 수 있는 새로운 문서 시스템, 어떻게 만들었는지 알려드려요.",
+              "bottomButtonConfig": {
+                "ctaType": "ONLY_BUTTON",
+                "imageUrl": null,
+                "imageAlt": null,
+                "title": null,
+                "description": null,
+                "ctaName": "지원하기",
+                "landingUrl": "https://toss.im/career/job-detail?job_id=4397469003",
+                "isSearchBottomCta": false,
+                "landingInExternalBrowser": true,
+                "serviceId": null,
+                "stockConfig": null,
+                "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D4397469003&external=true&clearHistory=true&swipeRefresh=true",
+                "landingExternal": "https://toss.im/career/job-detail?job_id=4397469003"
+              },
+              "coverConfig": {
+                "coverType": "NONE",
+                "imageUrl": null,
+                "videoUrl": null,
+                "backgroundColor": null,
+                "isFill": false,
+                "imageAlt": null
+              },
+              "thumbnailConfig": {
+                "imageUrl": "https://static.toss.im/illusts-content/cover-ai.png",
+                "backgroundColor": null,
+                "isFill": true,
+                "imageAlt": null
+              },
+              "editor": {
+                "id": 2373,
+                "name": "한주연",
+                "slug": "juyeon-han",
+                "shortDescription": "토스 Technical Writer",
+                "description": ".",
+                "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+                "url": null,
+                "facebook": null,
+                "twitter": null,
+                "instagram": null,
+                "postCount": 1,
+                "ogConfig": null,
+                "seoConfig": null,
+                "priority": 1000,
+                "isDisplaying": false,
+                "isHomeRecommendation": false
+              },
+              "key": "toss-frontend-ai-docs",
+              "minAge": 0,
+              "isDisplaying": true,
+              "isDisplayingPublishedTime": true,
+              "workspaceId": 15,
+              "isPublished": true,
+              "publishedTime": "2024-11-15T16:46:00+09:00",
+              "commentBoard": null,
+              "disclaimer": null
+            }
+          ],
+          "title": "함께 읽어보면 좋을 콘텐츠"
+        },
+        "editor": {
+          "id": 556,
+          "name": "박서진",
+          "slug": "sojin-park",
+          "shortDescription": "토스 Head of Frontend",
+          "description": "토스에서 프론트엔드 엔지니어링 헤드로 일하고 있어요.",
+          "imageUrl": "https://static.toss.im/assets/toss-tech/sojin.jpg",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 11,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "\n안녕하세요, 토스 프론트엔드 엔지니어링 헤드 박서진입니다.\n토스에서 이력서 없이 \"GitHub 리포지토리 링크로 지원하기\" 메뉴가 열렸어요. 이력서 작성에 고민해보신 적이 있나요? 이력서를 다듬고 최신화하는 것이 쉽지 않죠. 토스에는 여러분의 고민한 내용이 남긴 GitHub 저장소 링크 하나만 제출하면 돼요. 저희 프론",
+        "fullDescription": "\n안녕하세요, 토스 프론트엔드 엔지니어링 헤드 박서진입니다.\n토스에서 이력서 없이 \"GitHub 리포지토리 링크로 지원하기\" 메뉴가 열렸어요. 이력서 작성에 고민해보신 적이 있나요? 이력서를 다듬고 최신화하는 것이 쉽지 않죠. 토스에는 여러분의 고민한 내용이 남긴 GitHub 저장소 링크 하나만 제출하면 돼요. 저희 프론트엔드 리더들은 오직 코드를 기준으로 평가할게요.\n새로운 전형은 2025년 5월 31일 23:59까지 열려 있어요. 이력서가 아니라 코드만으로 평가받고 싶으신 분은 이번 기회를 놓치지 마세요.\n\n이런 리포지토리를 찾아요\n토스가 중요하게 생각하는 요소들을 다음 “리포지토리 제출 가이드” 에 담았어요.\n리포지토리 제출 가이드\n모듈화 및 코드 품질을 지키기 위해 고민한 리포지토리면 좋아요. \n명확한 디렉토리 구조로 코드 파일을 찾고 수정하기 쉽도록 고민한 리포지토리면 좋아요.\nTypeScript를 정확하게 사용하기 위해 고민한 리포지토리면 좋아요.\n제품의 완성도(성능 또는 사용 경험)를 끌어올리기 위해 고민한 리포지토리면 좋아요.\n커밋이나 Pull Request를 읽기 쉽게 나눠서 협업을 쉽게 한 리포지토리면 좋아요.\n화려한 기술이나 코드 패턴보다는 본질적인 코드의 고민이 드러나는 리포지토리면 좋아요.\n프로젝트가 어떤 것을 구현하는지 알 수 있는 README가 있는 리포지토리가 좋아요.\n코드 품질, 모듈화, 디렉토리 구조\n토스는 프론트엔드 코드의 품질, 모듈화, 디렉토리 구조를 제일 중요하게 생각해요. 토스에서는 소스 코드가 하루에 수십 번 업데이트되고 있는 만큼, 수정하기 쉬운 코드를 작성하는 것이 필수예요. 이런 핵심적인 요소들은 Frontend Fundamentals의 “변경하기 쉬운 코드” 에서도 다루고 있어요.\n여러분의 리포지토리에 “변경하기 쉬운 코드”, “재사용하기 쉬운 모듈”, “소스 코드를 쉽게 찾을 수 있는 디렉토리 구조”에 대한 고민이 담겨 있다면, 자신 있게 공유해 보세요.\nTypeScript\n토스에서는 모든 코드베이스가 TypeScript로 작성되어 있어요. 코드를 실행하기 전에 오류를 미리 감지하기 위해서는, 함수나 컴포넌트의 입출력 형식을 정확하게 TypeScript로 표현하는 능력이 중요해요. \n여러분이 TypeScript 타입을 정확하고 엄격하게 작성하기 위해 노력한 경험이 있는 코드라면, 꼭 공유해 주세요.\n제품의 완성도: 성능 또는 사용자 경험\n토스는 플랫폼 기업으로서, 최고의 사용자 경험이 비즈니스의 핵심이에요. 모바일 제품은 네이티브 앱과 구별하기 어려운 정도를 목표로 완성도를 높이려고 노력하고 있어요. 데스크톱 제품은 DEUS 에디터처럼 성능이 중요한 제품들이 계속 등장하고 있어요.\n사용자가 로딩 화면을 오래 기다리지 않고, 화면이 끊기거나 부자연스럽게 느껴지지 않도록 고민한 코드가 있으면 보여 주세요.\n협업\n토스에서는 프론트엔드 개발자들이 “챕터” 라고 하는 직군을 이루어 서로의 코드를 리뷰하고 지식을 공유하며 협업하고 있어요. 코드 컨벤션을 지키고 함께 성장하는 개발 문화를 만들기 위해 협업 능력은 필수예요.\n다른 개발자와 효율적으로 협업하기 위해 Pull Request나 커밋의 단위, 커밋 메시지 등에 신경쓴 리포지토리가 있다면, 공유해 주세요.\n\n화려한 기술이나 코드 패턴은 중요하지 않아요\n최근 프론트엔드 생태계에는 새로운 기술과 코드 패턴이 계속 등장하고 있어요. TanStack의 라우터나 폼, 기능 분할 설계(FSD) 같은 새로운 패턴도 제안되고 있죠.\n하지만 토스 프론트엔드에서는 이런 새로운 기술이나 패턴을 아는지 여부를 중요하게 생각하지 않아요. 대신 수정하기 쉬운 코드에 대한 여러분만의 고민과 철학, 제품 완성도에 몰입해 본 경험, 다른 프론트엔드 개발자들과 효율적으로 협업할 수 있는 능력 같은 것들을 중요하게 보고 있어요.\n특정 기술의 사용 여부보다는, 여러분의 고민과 철학이 담긴 코드를 보여주세요.\n\n이런 부분은 주의해 주세요\n전체에게 공개되어 있는 리포지토리 링크를 공유해 주세요. 재직하고 있는 회사의 리포지토리처럼, 비공개로 개발하고 있는 리포지토리는 공유하지 마세요. \n\n토스 프론트엔드 챕터와 함께해요\n토스의 프론트엔드 개발자들은 단순히 비즈니스 요구사항을 구현해 내는 것을 넘어, 프론트엔드 기술이 회사의 승리 전략이 될 수 있도록 탁월한 프론트엔드 개발 역량을 갖추기 위해 노력하고 있어요.\n프론트엔드 기술에 대한 고민을 오픈 소스로 공개하며, 1년만에 1만 개 이상의 GitHub 스타와 NPM 기준 주간 수십만 회 이상의 다운로드를 기록했어요. Storybook, Ink와 같은 유명 오픈소스 프로젝트들에서도 토스의 라이브러리들을 채택하고 있어요.\n토스의 프론트엔드 개발환경을 연내에 공개하여, 더 넓은 프론트엔드 개발에 대해서도 함께 고민하려고 해요. (참고 아티클 1, 참고 아티클 2)\n좋은 프론트엔드 코드란 무엇일까? 이런 고민을 “Frontend Fundamentals” 라고 하는 프로젝트로 출범시켜, 1천명 이상의 개발자와 함께 소통하고 있어요.\n올해부터는 한국의 개발 컨퍼런스를 넘어 세계적인 컨퍼런스에 참여하며 프론트엔드 생태계에 지속적으로 기여하려고 해요.\n\n여러분의 코드로 지원해 보세요\n지금까지 프론트엔드 개발에 진심이었고, 앞으로 프론트엔드 개발을 회사의 승리 전략으로 만드는 여정에 함께하고 싶다면, 부담 없이 “이력서 없이 리포지토리 링크로 지원하기” 전형으로 지원해 보세요. \n여러분의 리포지토리 링크에서 보이는 열정과 고민의 깊이를 기대할게요.\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 33591
+      },
+      {
+        "id": 34481,
+        "updatedTime": "2025-06-28T21:31:51+09:00",
+        "createdTime": "2025-03-24T20:56:16+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "캐시를 적용하기 까지의 험난한 길 (TPS 1만 안정적으로 서비스하기)",
+        "subtitle": "TPS가 평균 1만, 최대 2만까지 늘어난 약관(terms) 서버에 안정적인 서비스 제공을 위해 캐시를 적용한 이야기를 들려드리려고 해요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "Server Developer로 지원하기",
+          "landingUrl": "https://toss.im/career/job-detail?job_id=4071141003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC&detailedPosition=Product",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D4071141003%26company%3D%25ED%2586%25A0%25EC%258A%25A4%25EB%25B1%2585%25ED%2581%25AC%26detailedPosition%3DProduct&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/career/job-detail?job_id=4071141003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC&detailedPosition=Product"
+        },
+        "coverConfig": {
+          "coverType": "IMAGE",
+          "imageUrl": "https://static.toss.im/assets/finance-tips/cover-financial-tips-cache-data.jpg",
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/assets/finance-tips/cover-financial-tips-cache-data.jpg",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "34481",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-03-31T11:32:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34481,
+          "title": null,
+          "description": "TPS가 평균 1만, 최대 2만까지 늘어난 약관(terms) 서버에 안정적인 서비스 제공을 위해 캐시를 적용한 이야기를 들려드리려고 해요.",
+          "urlSlug": "34481",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": [
+            {
+              "id": 41784,
+              "content": "Server",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "캐시를 적용하기 까지의 험난한 길 (TPS 1만 안정적으로 서비스하기)",
+          "description": "TPS가 평균 1만, 최대 2만까지 늘어난 약관(terms) 서버에 안정적인 서비스 제공을 위해 캐시를 적용한 이야기를 들려드리려고 해요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/assets/finance-tips/cover-financial-tips-cache-data.jpg",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2285,
+          "name": "김경윤",
+          "slug": "kyungyoonkim",
+          "shortDescription": "토스뱅크 Server Developer",
+          "description": "-",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "안녕하세요, 토스뱅크 Server Developer 김경윤 입니다.\n토스 커뮤니티, 그리고 토스뱅크에서는 하루에 수 백번의 라이브 배포가 일어나고 있으며 다양한 개선점과 신규 제품들이 빠르게 출시되고 있어요. 이렇게 많은 배포를 기반으로 토스뱅크가 성장하면서 토스뱅크를 이용하는 사용자도 많아졌는데요. 이로 인해서 TPS가",
+        "fullDescription": "안녕하세요, 토스뱅크 Server Developer 김경윤 입니다.\n토스 커뮤니티, 그리고 토스뱅크에서는 하루에 수 백번의 라이브 배포가 일어나고 있으며 다양한 개선점과 신규 제품들이 빠르게 출시되고 있어요. 이렇게 많은 배포를 기반으로 토스뱅크가 성장하면서 토스뱅크를 이용하는 사용자도 많아졌는데요. 이로 인해서 TPS가 평균 1만, 최대 2만까지 늘어난 약관(terms) 서버에 안정적인 서비스 제공을 위해 캐시를 적용한 이야기를 들려드리려고 해요.\nDatabase: 더 이상 버틸 수 없다!\n약관 서버는 사용자가 동의 또는 철회한 약관 및 동의서 동의 여부를 기록하고 조회할 수 있는 서비스예요. 사용자가 동의 그리고 철회하는 경우는 그렇게 많지 않지만, 동의 여부에 따라서 개인 정보를 제3자에게 제공해도 되는지, 토스뱅크가 사용해도 되는지 등 다양한 비지니스에서 약관 및 동의서 동의 여부를 확인해요. \n(앞으로는 ‘약관 및 동의서’를 간단히 ‘약관’이라고 부를게요.)\n\n\n어느 날, 토스뱅크에서 새로운 서비스를 배포하면서 TPS가 급증했고, 이로 인해 DB 조회량이 급증하여 DB 부하가 심각해졌었어요. 이 트래픽이 유지될 경우 다른 서비스에도 문제가 생길 수 있다고 판단했고, 급히 롤백을 진행하며 DB 부하를 줄일 방안을 고민하게 되었어요. 그 결과, 많은 분들이 알고 계신 ‘캐시’를 적용하기로 했지만, 막상 시도해 보니 생각보다 간단치 않았어요.\n\n캐시 적용은 보다 신중하게\n이 글을 읽으면서, “어? 그럼 Replication된 Database를 두고 부하를 분산하면 되는거 아니야?” 라고 생각할 수 있어요. 약관은 토스뱅크 고객의 개인정보와 밀접한 연관성이 있어요. 약관 동의 여부는 사용자의 정보를 특정 목적으로 이용해도 되는지, 제3자에게 공유가 되도 되는지 결정하는 기준이기 때문이에요. \n그래서 약관 동의 여부는 값이 DB에 Commit 되는 순간, 바로 다음 요청에 DB에 저장된 값이 정확하게 응답되어야해요. 이를 Strong Consistency라고 부르며, 데이터의 무결성을 보장하기 위해 필수적이에요. 만약, 잘못된 응답을 한 번이라도 발생하면, 고객이 약관을 철회한 이후에도 개인정보가 공유되는 등의 보안 문제가 발생할 수 있어요. 따라서 데이터 신뢰성과 정확성을 보장하기 위해 Replication Database는 사용하지 않기로 했어요. Replication 구조에서는 복제 지연(Replication Delay)이 발생할 가능성이 있기 때문이에요. 대신, Strong Consistency를 유지하면서도 빠르게 조회가 가능한 Redis Cache를 활용해 고객의 약관 동의 상태를 안전하게 관리하기로 결정했어요.\n복제 지연(Replication Delay)?\n\n주 DB(Primary)와 보조 DB(Replica) 간의 데이터 동기화가 지연되는 현상\n\n이러한 방식으로 캐시를 적용했어요!\n\n약관 서버는 대부분 조회성으로 캐시를 접근하므로, DB의 정보가 자주 변경되지 않고, 대부분의 케이스는 Cache Hit를 하기 때문에, Look-aside 전략을 사용했어요. Look-aside 전략은 캐시에 원하는 데이터가 있는지 먼저 확인하고, 데이터가 없다면 DB에 접근한 후에 캐시에 저장하고 응답하는 방식이예요. 만약 DB 정보가 자주 변경된다면 다른 방식을 고민해야해요.\n\n@Component\nclass TermsAgreementEntityListener {\n    private val eventPublisher: ApplicationEventPublisher by lazy {\n        SpringContext.context\n    }\n\n    @PostUpdate\n    @PostRemove\n    @PostPersist\n    fun postProcess(termsAgreement: TermsAgreement) {\n        eventPublisher.publishEvent(\n\t        StrongConsistencyCacheEvictEvent.of(\n            termsAgreement = termsAgreement,\n\t        )\n        )\n    }\n}\n\n@Component\nclass StrongConsistencyCacheEvictListener(\n    private val strongConsistencyCacheService: StrongConsistencyCacheService,\n) {\n    @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)\n    fun listen(event: StrongConsistencyCacheEvictEvent) {\n        strongConsistencyCacheService.evict(\n            // ...\n        )\n    }\n}\n캐시 만료처리는 Spring의 @EntityListener와 @TransactionalEventListener 를 사용해서, DB에 Commit된 이후에 캐시가 만료되도록 했어요. DB에 Commit 전에 만료처리를 한다면, 다른 요청에서 Commit 전 데이터를 다시 캐시에 적재하는 아래와 같은 케이스가 발생할 수 있기 때문이에요.\n\n[과거 버전이 다시 적재되는 케이스]\nA Thread: 약관 동의 여부가 변경되어, Entity Version이 1에서 2로 올라감\nA Thread: Entity Version 1 캐시가 Evict 처리 됨 (아직 Commit 전)\nB Thread: Cache Miss로 Database에서 ⚠️ Entity Version 1을 다시 Cache에 적재함 ⚠️\nA Thread: Entity Version 2 Commit\nC Thread: Cache Hit로 ⚠️ 잘못된 Entity Version 1을 응답함 ⚠️\n\n이렇게 보면, 완벽한 것 같지만, @TransactionalEventListener 가 AFTER_COMMIT 으로 설정되어 있어, Cache Evict 처리가 실패해도, 이미 Commit 된 상태이기 때문에 Transaction이 Rollback 되지 않는 문제가 있어요. 그러면, 과거 캐시 버전이 지속적으로 응답되는 문제가 있죠. \n\n/* Strong Consistency Cache 서비스 */\n@Service\n@CircuitBreaker(name = ResilienceConfiguration.REDIS_CIRCUIT_BREAKER)\nclass StrongConsistencyCacheService\n\n/* Circuit Breaker 설정 */\n@Bean\nfun redisCircuitBreaker(registry: CircuitBreakerRegistry): CircuitBreaker {\n    val circuitBreaker = registry.circuitBreaker(\n        REDIS_CIRCUIT_BREAKER,\n        circuitBreakerConfig()\n    )\n\n    circuitBreaker.eventPublisher.onError { error: CircuitBreakerOnErrorEvent ->\n        // 하나의 오류라도 발생하면, 즉시 Force Open\n        circuitBreaker.transitionToForcedOpenState()\n    }\n\n    return circuitBreaker\n}\n\n/* Cache Get 하는 메서드 */\nfun <T> getOrElse(\n    key: String,\n    orElseFunc: () -> T?,\n): T? {\n    val value: T? = try {\n\t\t    // [1] - Cache Get 도중에 Circuit이 걸려서 Exception 발생\n        strongConsistencyCacheService.get(\n\t\t\t\t\t\tkey = key,\n        )\n    } catch (ex: Exception) {\n\t\t    // [2] - Circuit이 열려 있으면?\n        if (redisCircuitBreaker.state.isOpened()) {\n\t\t        // [3] - Database 기준으로 리턴!\n            return orElseFunc()\n        } else {\n\t\t\t\t\t\tthrow e            \n        }\n    }\n    \n    // ...\n}\n그러한 문제를 해결하기 위해서, Circuit Breaker를 활용했어요. 만약, Cache Evict을 실패하면, Circuit을 Force Open 해서 자동으로 닫히지 않도록 하고, Cache Get할 때 Circuit이 Open 되어있다면, 모든 트래픽은 바로 Database를 조회하도록 하여, 잘못된 캐시가 응답되지 않도록 방어해두었어요. 이러한 방법은 Database에 큰 부하가 부담될 수 있지만, 잘못된 약관 동의 상태가 응답되어 문제가 발생되는 것보다, Database에 부하를 주고 빠르게 캐시에 대한 문제를 파악 및 해결하는 것이 맞다고 생각해서에요. 아직 이러한 경우를 만난 적이 없지만, 문제 발생 시 빠르게 확인, 해결할 수 있도록 상시 모니터링 중입니다!\nCircuit Breaker?\n\n주로 MSA 구조로된 서비스에서 서비스 간의 장애 전파를 미리 차단하고자 사용하는 기술\nCircuit Breaker에 대해 자세히 설명되어 있는 글을 소개드려요.\n이렇게 열심히 생각했지만 현실은…?\n그럼 Strong Consistency를 잘 지키고 있는지 확인을 해야 하는데요. 그러기 위해서 서버에는 캐시를 적용했지만, 응답은 항상 DB에 저장된 데이터를 응답 하도록하고 DB와 캐시 데이터를 비교해서 확인했어요. 열심히 준비했기 때문에 한 번에 테스트를 통과할 줄 알았지만 언제나 그렇듯, 아래와 같은 문제를 만났어요.\n0.003초 차이로 발생하는 불일치 케이스\n[문제 과정]\nA Thread - 약관 동의 발생\nA Thread - TermsAgreement 값이 변경되어서, ApplicationEvent 발행\nA Thread - 약관 동의 여부 변경 Kafka Event Produce\nA Thread - TermsAgreement가 DB에 Commit 됨\nB Thread - 약관 동의 여부 변경 Kafka Event Consume\nB Thread - 약관 동의 여부 조회시 캐시로부터 ⚠️ 이전 Entity Version 조회 됨 ⚠️ \nA Thread - AFTER_COMMIT 설정이 되어있어, 이때 Cache Evict 됨\n\nA Thread에서 Commit 이후, Cache를 Evict하는 그 0.003초 사이에 Kafka Event를 Consume한 곳에서 잘못된 캐시를 조회한 문제를 발견했어요. 이 케이스는 생각보다 간단히 해결할 수 있었어요. Kafka Event를 Cache Evict 처리 이후에 발행하도록 하면 되죠.\n\n/* Strong Consistency Cache Evict Listener */\n@Component\nclass StrongConsistencyCacheEvictListener(\n    private val strongConsistencyCacheService: StrongConsistencyCacheService,\n) {\n    @Order(Ordered.LOWEST_PRECEDENCE - 1)\n    @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)\n    fun listen(event: StrongConsistencyCacheEvictEvent)\n}\n\n/* @TransactionalEventListener와 동일한 역할을 하는 메서드 */\nfun doActionAfterCommitIfTransactionExist(order: Int = Ordered.LOWEST_PRECEDENCE, action: () -> Unit) {\n    if (TransactionSynchronizationManager.isSynchronizationActive()) {\n        TransactionSynchronizationManager.registerSynchronization(object : TransactionSynchronization {\n            override fun afterCommit() {\n                action()\n            }\n\n            override fun getOrder(): Int {\n                return order\n            }\n        })\n    } else {\n        action()\n    }\n}\n\n/* Kafka Event Produce 하는 부분 */\ndoActionAfterCommitIfTransactionExist {\n    tossKafkaTemplate.send(\n        topic = termsAgreementChangeTopic,\n        key = termsAgreement.userId.toString(),\n        value = termsAgreement,\n    )\n}\nCache Evict과 비슷한 방식으로, Database Commit 이후에 처리되도록 TransactionSynchronizationManager를 활용했어요. 이때, Cache Evict과 Kafka Event Produce가 Commit 이후에 발생하도록 되어있으므로, 반드시 Cache Evict 이후에 Kafka Event Produce가 되도록 @Order와 TransactionSynchronization Interface의 getOrder메서드를 Override 하여 순서를 지정하여 처리 순서를 보장되도록 했어요. 자, 이제 그러면 아래와 같이 처리되므로 문제가 해결될거예요.\n\n[문제 해결 후 과정]\nA Thread - 약관 동의 발생\nA Thread - TermsAgreement 값이 변경되어서, ApplicationEvent 발행\nA Thread - TermsAgreement가 DB에 Commit 됨\nA Thread - AFTER_COMMIT 설정이 되어있어, 이때 Cache Evict 됨\nA Thread - 약관 동의 여부 변경 Kafka Event Produce\nB Thread - 약관 동의 여부 변경 Kafka Event Consume\nB Thread - 약관 동의 여부 조회시 캐시로부터 변경 후 Entity Version이 조회 됨\n그래도 Commit 이후 Cache Evict 처리 되기전에 조회하면…?\nKafka Event가 아니더라도, 발생할 확률은 엄청나게 낮지만, 여전히 Cache Evict 되기 전에 사용자의 요청이 들어온다면, 발생할 수 있어요. 이 경우는 코드로 어떻게든 해결할 수 있지만, 정책으로 해결했어요. “정책??” 이라는 생각이 잠깐 드실 거예요. 다시 처음으로 가보면, 우리는 아래와 같은 목표를 가졌어요.\n약관 동의 여부는 값이 DB에 Commit 되는 순간, 바로 다음 요청에 DB에 저장된 값이 응답되어야 한다.\n중요한 포인트는 “바로 다음 요청에 DB에 저장된 값이 응답되어야 한다” 입니다. @TransactionalEventListener 로 전달된 이벤트가 모두 처리되기 전에는 아직 API 응답을 하기 전 상태예요. 즉, 약관 동의 또는 철회 요청이 아직 완벽히 처리가 되기 전인 상태입니다. 그래서, Cache Evict 처리 되기 전은 아직 API가 처리 중인 상태인거죠! 그래서, 약관 서버는 아래와 같은 정책을 최종적으로 가지게 됩니다.\n약관 동의 여부는 약관 동의 또는 철회 요청 API 처리가 완료된 순간, 바로 다음 요청에 DB에 저장된 값이 응답되어야 한다.\n이러면, 제가 생각했던 문제가 더 이상 문제가 아니게 되었고, 코드를 작성하는 저와 제품을 담당하는 PO 모두 행복하게 약관을 서비스할 수 있게 되었어요!\n캐시를 적용하면서 느낀점\nExecution Over Perfection (완벽해지려 하기보다 실행에 집중하라)\n토스 커뮤니티의 여러 Core Value 중 하나인데요. 사실 매우 중요한 시스템 중 하나이기 때문에, 캐시를 적용하기 전에 완벽해지기 위해 Legal, Compliance 등 다양한 부분들을 먼저 검토하고 어떤 문제가 발생할지에 대해 다양한 방면을 고민하느라 캐시를 적용하는데 많은 시간이 들었던 것 같아요. 만약 Legal, Compliance 검토 이후 정책을 바로 세우고 캐시를 적용하여 모니터링해가며 만났던 문제들을 하나씩 해결해 나간다면 좀 더 빠르게 적용할 수 있었지 않을까 생각이 들었어요.\n코드로 해결할 수 있지만, 정책을 조금만 틀면 더 쉽게 해결할 수 있다\n프로그래머는 모든 것을 코드로 해결하려고 하면 안된다고 개인적으로 생각해요. 다양한 문제들이 존재할 때, 코드보다 더 쉬운 방법이 어딘가에는 존재할거에요. 이번에 말씀드린 문제를 해결한 과정은 정말 짧아 보이지만, 그 전에 수 많은 코드를 작성하고, 지웠고, 방법들을 고민했었어요. 결국 정책을 수정하여 코드보다 간단히 해결할 수 있었어요.\n마무리\n지금은 DB에 큰 부하 없이, 최대 2만 TPS 트래픽을 든든하게 버텨주는 서비스가 되었어요. 최대 2만 TPS의 트래픽은 사실, 한 번 사용자의 요청에 MSA 서비스들이 여러번 호출해서 수치가 높게 보이는 부분도 있는데요? 이런 불필요한 트래픽을 줄이기 위해, Netflix의 Passport와 비슷한 개념인, TermsPassport 와 같은 기술도 고민하고 있어요. 아직은 트래픽이 그렇게 높지 않아 적용을 하지 않지만, 만약 적용한다면 추후에 다시 글로 찾아뵐께요! \n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 49961
+      },
+      {
+        "id": 34521,
+        "updatedTime": "2025-06-28T20:33:37+09:00",
+        "createdTime": "2025-03-26T10:28:05+09:00",
+        "category": "디자인",
+        "categories": [
+          {
+            "name": "디자인",
+            "id": 1038,
+            "slug": "design",
+            "parentId": null,
+            "iconUrl": null
+          },
+          {
+            "name": "토스 피플",
+            "id": 1879,
+            "slug": "toss-people",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "토스 피플: 이것도 ‘나니까’ 할 수 있다고 생각하기",
+        "subtitle": "네비게이션부터 홈, 그로스까지. 토스에서 10개 넘는 팀을 거치며 새로운 역할에 도전해온 지윤님. 해보지 않은 일을 맡을 때마다, 어떤 마음가짐으로 마주하고 해냈는지 그 이야기를 들려드려요.",
+        "bottomButtonConfig": {
+          "ctaType": "NONE",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": null,
+          "landingUrl": null,
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": null,
+          "landingExternal": null
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/illusts-content/0326-tech-8-thumb.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "Tosspeople_LeeJiyoon",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-03-27T23:28:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34521,
+          "title": null,
+          "description": "이번 토스 피플에서는 Product Designer 이지윤 님의 인터뷰를 공유드려요. 지윤님은 여러 도메인의 회사들을 거쳐 토스에 입사하셨고, 토스 안에서도 총 10 개 내외의 팀을 거치며 다양한 경험을 쌓으셨어요. 토스에서 했던 주요 프로젝트는 함께 토스 켜기, 전체 탭 및 홈 탭 개...",
+          "urlSlug": "Tosspeople_LeeJiyoon",
+          "primaryKeyword": {
+            "id": 37406,
+            "content": "토스 디자인",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 37480,
+              "content": "토스프로덕트디자인",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50329,
+              "content": "함께 토스 켜기",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50331,
+              "content": "토스 디자이너",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50377,
+              "content": "토스 프로덕트디자인",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": []
+        },
+        "openGraph": {
+          "title": "토스 피플: 이것도 ‘나니까’ 할 수 있다고 생각하기",
+          "description": "네비게이션부터 홈, 그로스까지. 토스에서 10개 넘는 팀을 거치며 새로운 역할에 도전해온 지윤님. 해보지 않은 일을 맡을 때마다, 어떤 마음가짐으로 마주하고 해냈는지 그 이야기를 들려드려요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/illusts-content/0326-tech-8-thumb.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 1048,
+          "name": "이지윤",
+          "slug": "jiyoon-lee",
+          "shortDescription": "토스 Product Designer",
+          "description": "-",
+          "imageUrl": "https://static.toss.im/photos/E01JAGTHP8R-U01JA1049BQ-93561329024d-512.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "\n이번 토스 피플에서는 Product Designer 이지윤 님의 인터뷰를 공유드려요. 지윤님은 여러 도메인의 회사들을 거쳐 토스에 입사하셨고, 토스 안에서도 총 10 개 내외의 팀을 거치며 다양한 경험을 쌓으셨어요. 토스에서 했던 주요 프로젝트는 함께 토스 켜기, 전체 탭 및 홈 탭 개선 등이 있고, 지금은 새로운 서비",
+        "fullDescription": "\n이번 토스 피플에서는 Product Designer 이지윤 님의 인터뷰를 공유드려요. 지윤님은 여러 도메인의 회사들을 거쳐 토스에 입사하셨고, 토스 안에서도 총 10 개 내외의 팀을 거치며 다양한 경험을 쌓으셨어요. 토스에서 했던 주요 프로젝트는 함께 토스 켜기, 전체 탭 및 홈 탭 개선 등이 있고, 지금은 새로운 서비스에 유저를 끌어오는 그로스 일을 하고 계세요.\n\n\nQ. 지윤님은 토스에 오시기 전에 4개의 회사에 다니셨다고 들었어요. 가장 기억에 남는 곳은 어디인가요?\n아무래도 A회사였죠. 당시 학교에 다니고 있었을 땐데, 펠로우십 공고를 보고 반드시 지원해야겠다고 생각했어요. 제 전공이 산업 디자인이었는데, 제품 디자인은 진짜 장인 정신과 디테일이 중요한 분야더라고요. 저는 디테일에 강한 타입이 아니라는 걸 스스로 알고 있었고, UX/UI는 학점이 괜찮았어서 이 쪽으로 가야겠다고 생각하고 있었어요. 너무 하고 싶어서, 다른 분들이 이 공고를 못 봤으면 좋겠다고 바랄 정도였죠. \n감사하게도 참여할 기회를 얻게 됐는데, 졸업 전시를 준비하면서 매주 펠로우십 과제를 하는 일정이었거든요. 재미도 있었지만 너무 힘들었어요. 인턴과 정규직 전환 등의 기회가 있었는데, 모두에게 기회가 주어지지 않았기 때문에 분위기가 조금 경쟁적이기도 했고요. 마지막엔 완전히 지쳐서, 결국 정규직에 전환되지 못했었어요. \n\n\n\n\nQ. 졸업 전시에 과제, 경쟁까지… 듣기만 해도 진이 빠지네요. 토스에는 어떻게 오게 되셨나요?\n인턴 기간이 끝나고, 대기업 준비하는 것보다 작은 회사에 들어가서라도 빨리 경험을 쌓아야 겠다는 생각을 했었어요. 실제로 큰 기업들에 합격하기도 했는데, 뭔가 제가 거기에 다닌다는 게 잘 상상이 안되더라고요. 그래서 서류 합격했는데 더 진행하지 않았었어요. 이후에 두 곳 정도의 스타트업에 다니다가 퇴사하게 됐는데, 우연히 토스에 다니고 있던 디자이너 분께 연락을 받아서 지원하게 됐었죠. \n솔직히 처음에는 ‘내가 감히?’라는 생각도 했었어요. 왜냐면 제 경력이 2년도 채 되지 않을 때였고, 토스가 워낙 유명했었으니까요. 실제로 와보니 굉장히 힘들었던 것도 맞는데, 도파민이 장난 아니긴 했었죠. 바로 옆에 승건 님이 일하고 계시고, 저도 제 제품에 욕심이 많았거든요. \n\n\n\nQ. 2년 차 되었을 때는 점수가 엄청 떨어졌네요.\n네… 저희끼리는 2년 병이라는 말도 하는데요. 허니문 기간 동안 폭발적인 성장을 하고, 끝나고 나서 점점 떨어졌어요. 당시 토스는 인원이 적기도 하고 직급이 뚜렷하게 나뉘어져있던 때가 아니어서, 영향력이 엄청 중요했거든요. 그런데 저는 주니어라 경험도 부족했고, 그러다보니 어쩔 수 없이 제가 다룰 수 없는 영역들이 있다고 생각했던 것 같아요. \n그러다가 유저 그로스할 때 엄청 올라갔던 것 같아요. 그때 PO가 승건 님이었거든요. 바로 옆에서 승건 님이 일하시는 걸 보면서 엄청 압축적으로 배울 수 있었죠. 가장 충격적이었던 건 승건님은 전체 회사의 대표임에도 완전히 디테일하고 집요하게 사용자에게 집착한다는 점이었어요. 멀리서 보았을 땐 아무래도 대표라는 자리이니 큰 그림 위주로 보는 분인 줄 알았는데 생각보다 사용자의 가치, 사용자가 느끼는 점 등을 굉장히 디테일하게 신경쓰고 해결하려 하시더라고요.\n\n\n\n\nQ. 사실 대표랑 한 팀으로 일한다는 게 좀 겁났을 수도 있을 것 같은데… \n아, 겁에 대해서는 저 나름의 전략이 있는데. 모든 일은 겁이 나잖아요, 작은 일이든 큰 일이든. 근데 겁이 나면 일단은 그 감정에서 벗어나려고 해요. 그러니까, 다른 데로 정신을 돌리는 거죠. 그리고 저는 약간 충동적인 성향도 있거든요. 그래서 어느 날 갑자기 ‘하고 싶다’라는 생각이 들 때가 있어요. 그때 확 질러버리는 거죠. ‘저 할게요’하고요. 다시 못 돌아가게. 그렇게 하고 나면 제가 저지른 게 있으니까 어떻게든 하게 되더라고요. 일단 벌려놓고 나면 마무리해야 하는 스타일이라서요. 이상하게 하든 말든 어떻게든 하긴 하는 거죠. \n사실 이건 제가 첫 회사에서 정규직 전환이 안되고 생긴 습관 같기도 해요. 그때의 저는 통제를 좋아하고 완벽을 추구하는 사람이었거든요. 고민도 진짜 많이 하는데, 사실 저한테 주어진 시간은 한정적인데 그 고민의 굴레에서 벗어나기가 너무 힘들더라고요. 그래서 이후에는 ‘일단 지르고 보자! 미래의 내가 어떻게든 해내겠지.’ 이렇게 되더라고요. \n\n\n\n\nQ. 너무 부지런하다… 그때가 몇 년 차 정도 되셨나요?\n아마 3년 조금 넘었을 때였을 거예요. 토스 내에서는 디자이너로서도 꽤 오래 일한 셈이 된 거죠. 그러다가 승건 님이 토스 신용 페이의 PM 역할을 제게 부탁하셨어요. 토스에서는 디자이너들이 보통 PM이나 PO역할도 조금씩 나눠서 하니까, 저는 그 정도로 예상하고 알겠다고 했죠. 그런데 실제로 해보니까 정말 디자인을 거의 할 일이 없는 거예요. 매일 제휴사들이랑 통화하고, 만나서 협상하고 그런 일들을 했어요. 그런데 그때 지금까지 해본 적 없는 완전히 새로운 일을 하니까 나쁘지 않더라고요. 꽤 재미있었어요. \n그 일을 마친 다음에는 네비게이션 팀에서 일하게 됐어요. 첫 업무는 토스의 전체 탭을 개선하는 일이었죠. 당시 전체 탭이 정말 문제가 많았거든요. 각 제품별로는 디자이너가 있는데, 이렇게 공통으로 쓰는 영역은 회색 지대라서 아무도 맡은 사람이 없었어요. 게다가 전체 탭은 모든 제품의 진입점으로 쓰이는 공간이니까, 맡은 사람은 없지만 모두가 이해 관계자인 복잡한 제품이었죠. 그걸 끝내고 나서도 계속 플랫폼적인 일을 했었어요. 예를 들면 사용자들이 제품별로 진입점을 얼마나 잘 찾는지 점수화한 EVR이라든가… 이것도 디자인만큼이나 팀원들을 설득하는 데에 시간을 많이 써야 하는 일이었어요. 계속 하니까 좀 고되더라고요.\n\n\n\nQ. 그래서 점수가 좀 떨어졌었네요. 근데, 홈 팀 업무 하시면서 다시 올라갔어요.\n사실 홈이 저한테는 참… 아픈 손가락이에요. 그때 정말 힘들었거든요. 얼마나 힘들었냐면, 엘리베이터를 타면 사람들이 ‘이지윤 왜 저렇게 못 하냐’ 비난할 것 같다고 혼자서 상상하면서 괴로워할 정도로… 좀 우울이 심했던 것 같아요. 근데 네비게이션 일할 때보다는 좀 더 주도적으로 일할 수 있었기 때문에, (그래서 더 두렵기도 했던 것이지만) 점수는 더 높았던 것 같아요. \n그리고 처음에 홈 일을 시작할 때 ‘해결해야 할 것 10가지’를 정리해놨었거든요? 제가 1번으로 적어놨던 걸 8월에 발의를 했는데, 12월에 해결한 게 몇 개 있었어요. 사실 그 사이에 아무것도 안 했는데, 12월에 돌아보니 되어있었던 거죠. 중간에 한 번 좌절됐었을 때, 그냥 ‘이거 안 되겠다’, ‘못하겠어’하고 그만뒀었는데, 그걸 다시 끌고 와서 제가 12월에 결국 해냈다는 게 되게 고무적이었어요. 저 스스로의 집요함을 알게 된 순간이었다고 해야 하나. \n\n\n\nQ. 요즘은 좀 어떤 상태인가요? 5년 전의 지윤님에게 해주고 싶은 말이 있다면 그것도 궁금해요.\n지금요? 지금은 너무 좋아요. 사실 불안감은 지금까지 겪었던 것 중 가장 크거든요. 과거에 크다고 생각했던 문제들이 별 거 아니었던 것처럼 느껴질 정도로요. 솔직히 하루에도 몇 번씩 그 생각이 들어요. ‘이게 맞나?’ \n그럴 때 저는 약간의 나르시시즘이 좀 필요하다는 생각을 해요. ‘나니까 버티는 거지.’ 과거에 했던 성공들을 떠올리면서 스스로 다독여보는 거죠. ‘그래도 네가 한 것들이 있는데, 이것도 그렇게 하겠지.’라고 자기 주문을 외는 것 같아요. 실패한 것들 떠올려봤자 좋을 게 없잖아요. ‘나 아니면 누가 하겠어.’ 계속 그렇게 생각해보는 거죠. 과거의 저도 힘들었던 순간에 이렇게 생각했으면 좋겠다 싶어요. \n\n지윤님과 함께 해보고 싶다면?\n지윤님과 비슷한 커리어 패스를 밟아보고 싶거나, 지윤님이 소속되신 AppsInToss Growth Team에서 일해보고 싶은 분들은 댓글을 남겨주세요! 정성스런 댓글을 남겨주신 분 중 추첨하여 지윤님과 토스 오피스에서 1:1 커피챗(30분)에 초대해드려요. *발행일 1주일 뒤에, 그동안 달린 댓글을 기준으로 결과를 공유드려요.\n\nInterviewee: 이지윤\nInterviewer & Editor: 김자유, 유아란\n\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 14920
+      },
+      {
+        "id": 34479,
+        "updatedTime": "2025-06-28T21:28:56+09:00",
+        "createdTime": "2025-03-24T20:56:12+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "React Native에서 타입 안전한 파일 기반 라우팅 구현하기",
+        "subtitle": "오늘은 토스 자체 React Native 프레임워크 Granite이 어떻게 파일 기반 라우팅의 문제를 해결했는지 소개해드릴게요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "FE Platform Engineer로 지원하기",
+          "landingUrl": "https://toss.im/career/job-detail?job_id=4397469003&company=%ED%86%A0%EC%8A%A4&detailedPosition=%EA%B3%B5%ED%86%B5",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D4397469003%26company%3D%25ED%2586%25A0%25EC%258A%25A4%26detailedPosition%3D%25EA%25B3%25B5%25ED%2586%25B5&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/career/job-detail?job_id=4397469003&company=%ED%86%A0%EC%8A%A4&detailedPosition=%EA%B3%B5%ED%86%B5"
+        },
+        "coverConfig": {
+          "coverType": "IMAGE",
+          "imageUrl": "https://static.toss.im/illusts-content/250525-thumbnail.png",
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/illusts-content/250525-thumbnail.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "rn-toss-bedrock",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-03-26T14:18:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34479,
+          "title": null,
+          "description": "오늘은 토스 자체 React Native 프레임워크 Granite가 어떻게 파일 기반 라우팅의 문제를 해결했는지 소개해드릴게요.",
+          "urlSlug": "rn-toss-bedrock",
+          "primaryKeyword": null,
+          "relatedKeywords": [],
+          "tags": [
+            {
+              "id": 41728,
+              "content": "Frontend",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "React Native에서 타입 안전한 파일 기반 라우팅 구현하기",
+          "description": "오늘은 토스 자체 React Native 프레임워크 Granite가 어떻게 파일 기반 라우팅의 문제를 해결했는지 소개해드릴게요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/illusts-content/250525-thumbnail.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2489,
+          "name": "강선규",
+          "slug": "gronxb",
+          "shortDescription": "토스 Frontend Platform Engineer",
+          "description": ".",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 1,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "안녕하세요. React Native Framework Team에 속한 Frontend Platform Engineer 강선규입니다. 오늘 소개해 드릴 이야기는 토스에서 만드는 React Native Framework와 그 기능에 관한 이야기에요.\nGranite이란?\n토스는 이전 글 토스가 꿈꾸는 React Native 기",
+        "fullDescription": "안녕하세요. React Native Framework Team에 속한 Frontend Platform Engineer 강선규입니다. 오늘 소개해 드릴 이야기는 토스에서 만드는 React Native Framework와 그 기능에 관한 이야기에요.\nGranite이란?\n토스는 이전 글 토스가 꿈꾸는 React Native 기술의 미래에서 자체적인 React Native 프레임워크를 개발한다고 공개했어요. 이 글을 통해서 해당 프레임워크, Granite을 처음 공개해요.\nGranite은 React Native 프레임워크로, 단단한 화강암을 의미하는 이름처럼 프로젝트 개발에 견고한 기초를 제공해요. Granite은 안정적이고 신뢰할 수 있는 구조를 바탕으로, 다양한 플랫폼에서 일관된 성능과 사용자 경험을 제공해요. 아직은 토스 내부 및 일부 협력사만 사용할 수 있지만, 추후에 공개를 목표로 오픈소스를 목표로 하고 있어요. (5월 29일자로 Granite는 외부 공개 되었어요🎉 https://github.com/toss/granite)\n기존 React Native 생태계에는 이미 Expo 같은 프레임워크가 존재하며, expo-router는 파일 기반 라우팅(File-Based Routing)을 사용해 화면을 정의합니다. Granite 역시 이와 유사하게 파일 기반 라우팅을 채택했으며, 이는 react-navigation v6를 기반으로 합니다. \n오늘은 토스 자체 React Native 프레임워크 Granite이 어떻게 파일 기반 라우팅의 문제를 해결했는지 소개해드릴게요.\n기존 파일 기반 라우팅의 문제점\n기존의 Granite 파일 기반 라우팅은 React Navigation을 추상화한 형태로, pages 폴더에 컴포넌트를 만들고 export default로 화면을 자동 등록하는 방식이었어요.\n예제 코드:\nexport default function Page() {\n    const params = useRoute().params;\n \n    return <View>Hello {params.name}</View>;\n}\n하지만 이 방식은 화면 간 이동할 때 필요한 파라미터의 타입을 정의하기 어렵다는 문제가 있었어요. 그 결과, 어떤 파라미터가 필요한지 명확하게 알기 힘들었어요.\n\n1. Type-Safe Routing을 향한 발전\n이런 문제 때문에 최근 웹 프론트엔드에서는 tanstack router처럼 타입 안정성(Type-Safety)을 핵심으로 하는 라우터 프레임워크가 인기를 끌고 있어요.\nGranite도 기존 방식의 한계를 보완하기 위해 tanstack router의 방식에서 영감을 받아 Type-Safe한 파일 기반 라우팅을 도입했어요.\n이 방식은 co-location 원칙을 적용해서 각 화면의 타입을 같은 위치에서 정의하도록 했어요. 덕분에 더 명확한 개발 경험을 제공할 수 있어요.\n개선된 방식 예시\nimport React from 'react';\nimport { View, Text } from 'react-native';\nimport { createRoute } from '@granite-js/react-native';\nimport { z } from 'zod';\n\n// 라우트 정의\nexport const Route = createRoute('/page-a', {\n  component: Page,\n  validateParams: (params) => \n    z.object({ name: z.string() }).parse(params), // 파라미터 검증 및 타입 추론\n});\n\n// 화면 컴포넌트\nfunction Page() {\n  const params = Route.useParams(); // { name: string }으로 자동 추론됨\n  return (\n    <View>\n      <Text>Hello, {params.name}!</Text>\n    </View>\n  );\n}\n이 방식에서는 validateParams로 파라미터를 검증하고, 그 결과를 자동으로 추론해서 params 타입으로 활용할 수 있어요. 그래서 라우팅이 더 명확하고 안전해졌어요.\n기존에는 export default를 기준으로 페이지가 등록됐지만, 이제는 export Route의 component 속성을 기준으로 페이지가 등록돼요.\n또한, validateParams를 활용해 각 화면의 타입을 명확하게 정의할 수 있도록 개선됐어요.\n🚩 useParams 내부 구현\n화면의 파라미터는 일반적으로 react-navigation의 useRoute().params 를 통해 가져올 수 있어요.\nGranite에서는 이를 활용하여 라우팅 로직과 독립적인 useParams를 별도로 정의하고, 해당 훅을 createRoute에 연결하는 방식을 사용했어요.\n실제 구현은 복잡할 수 있지만, 이해를 돕기 위해 간소화된 코드로 설명할게요.\n✅ 1. 독립적인 useParams 구현하기\nimport { useRoute } from \"@react-navigation/native\";\n\nfunction useParams() {\n  return useRoute().params;\n}\n이렇게 만든 useParams는 현재 활성화된 라우트의 파라미터만 가져오며, 아직 타입 안정성은 없어요.\n✅ 2. createRoute에 useParams를 연결하기\n이제 위에서 만든 useParams를 createRoute의 반환값에 넣고, validateParams를 통해 타입 추론을 추가했어요.\nexport interface RouteOptions<T extends Readonly<object | undefined>> {\n  validateParams?: (params: Readonly<object | undefined>) => T;\n  component: React.FC<any>;\n}\n\nexport const createRoute = <T extends Readonly<object | undefined>>(\n  path: keyof RegisterScreen,\n  options: RouteOptions<T>\n) => {\n  const { component, ...restOptions } = options;\n\n  return {\n    useParams: () => useParams() as T, // validateParams를 통해 타입이 추론됨\n  };\n};\n위 코드에서 useParams가 호출될 때, validateParams의 반환 타입(T)을 통해 파라미터의 타입이 명확히 추론돼요.\n\n\n2. 화면 타입의 중앙 관리\n앞서 설명한 것처럼, Route.useParams()는 각 화면에서 정의한 validateParams를 기반으로 파라미터의 타입을 자동 추론해서 제공합니다.\n이렇게 추론된 각 화면의 타입은 외부 파일에서 중앙 집중적으로 관리하고 있어요. 이를 위해 타입 선언 병합(Declaration Merging)을 사용해서, 라이브러리 내부에서도 각 화면의 타입 정보를 명확히 알 수 있게 했어요.\n다음 예시를 살펴볼게요:\nimport { Route as _PageARoute } from '../pages/page-a';\nimport { Route as _PageBRoute } from '../pages/page-b';\n\n// @granite-js/react-native 라이브러리에 선언 병합\n// 화면 경로가 키가 되고, 화면 파라미터 타입이 값이 돼요.\ndeclare module '@granite-js/react-native' {\n  interface RegisterScreen {\n    '/page-a': ReturnType<typeof _PageARoute.useParams>;\n    '/page-b': ReturnType<typeof _PageBRoute.useParams>;\n  }\n}\n이 코드가 의미하는 것:\n화면 경로(예: /page-a, /page-b)가 타입 등록의 키(Key)가 돼요.\n각 경로에 해당하는 값(Value)은 Route.useParams()의 반환값으로, 각 페이지에서 정의한 validateParams의 결과 타입이에요.\n새로운 페이지를 추가할 때마다 여기에 화면의 경로와 타입을 간단히 추가하면, 전체 앱의 라우팅 타입을 명확하게 관리할 수 있어요.\n이렇게 하면 모든 페이지에 관해서 모든 타입을 한번에 관리할 수 있어요.\n\n3. 컴파일 타임 자동 타입 생성\n화면이 많아질수록 수동으로 모든 타입을 관리하는 건 어렵기 때문에, 이를 자동화하는 방식을 도입했어요.\n토스의 자체 React Native 번들러는 웹 생태계와 유사한 플러그인 구조를 갖추고 있어서, 번들러의 라이프사이클에 접근할 수 있어요. 이를 활용해 자동 타입 생성 플러그인을 만들었어요.\n번들러가 /pages 폴더의 변경 사항을 감지하고, 새로운 페이지가 추가될 때마다 자동으로 타입을 등록하도록 만들었어요.\n설정 파일 예제\n자동 타입 생성을 사용하려면 번들러 설정에 RouteGenPlugin 플러그인을 추가하면 돼요.\nimport { router } from \"@granite-js/plugin-router\";\n\nexport default defineConfig({\n  plugins: [router()],\n});\n이제 /pages 폴더에 새로운 파일을 추가하면 자동으로 해당 페이지의 라우트와 타입이 생성돼요.\n자동 타입 생성 방식\n이 플러그인은 chokidar 나 @parcel/watcher를 활용해 /pages 폴더의 변경 사항을 실시간으로 감시할 수 있어요.\n새로운 파일이 추가되면 이를 새로운 페이지로 인식하고, 자동으로 라우트와 타입을 생성해요. 즉, 파일명이 곧 페이지 경로가 되며, 기본적인 스캐폴딩 코드가 자동으로 생성돼요. 예를 들어, pages/about.tsx 파일을 만들면 자동으로 아래와 같은 코드가 생성돼요.\n자동 생성되는 페이지 코드\nimport React from 'react';\nimport { Text, View } from 'react-native';\nimport { createRoute } from '@granite-js/react-native';\n\nexport const Route = createRoute('/about', {\n  validateParams: (params) => params, // 현재는 검증 없음\n  component: About,\n});\n\nexport function About() {\n  return (\n    <View>\n      <Text>Hello About</Text>\n    </View>\n  );\n}\n자동 생성되는 타입 등록 코드\n이 플러그인은 /pages 폴더의 변경 사항을 감지해 새로운 페이지가 추가될 때마다 자동으로 타입을 생성해요. 위에 언급한 대로 파일을(pages/about.tsx)를 만들면 아래와 같은 코드가 자동으로 등록돼요.\nimport { Route as _AboutRoute } from '../pages/about';\n\ndeclare module '@granite-js/react-native' {\n  interface RegisterScreen {\n    '/about': ReturnType<typeof _AboutRoute.useParams>;\n  }\n}\n마찬가지로, pages/page-b.tsx 파일을 추가하면 /page-b에 대한 타입도 자동으로 반영돼요.\nimport { Route as _AboutRoute } from '../pages/about';\nimport { Route as _HomeRoute } from '../pages/home';\n\ndeclare module '@granite-js/react-native' {\n  interface RegisterScreen {\n    '/about': ReturnType<typeof _AboutRoute.useParams>;\n    '/home': ReturnType<typeof _HomeRoute.useParams>;\n  }\n}\n\n하지만 /pages 폴더에 새 파일이 추가되었다고 무조건 타입을 추가하면 문제가 생길 수 있어요. 파일 내부에 export const Route가 정의되지 않은 경우가 있을 수 있기 때문이에요.\n\n여기서 Route를 내보내는 방법은 크게 두 가지가 있어요.\n// 1. 선언 후 export\nconst Route = createRoute(...);\nexport { Route };\n\n// 2. 선언과 동시에 export\nexport const Route = createRoute(...);\n\n정규 표현식으로 문자열을 검사하면 코드 포맷에 따라 발생하는 예외 케이스(예: 줄바꿈이나 공백 등)를 처리하기 어려워요. 따라서 이를 해결하기 위해 SWC를 활용해 AST(Abstract Syntax Tree)를 분석해서, 파일이 실제로 Route를 내보내고 있는지 정확하게 확인해요.\n\n\nimport { parseFileSync } from '@swc/core';\n\n/**\n * 파일에 Route가 export되어 있는지 확인합니다.\n */\nexport function checkExportRoute(path: string) {\n  try {\n    const ast = parseFileSync(path, {\n      syntax: 'typescript',\n      tsx: true,\n    });\n\n    // export { Route } 형태 체크\n    const hasExportSpecifiers = ast.body.some((node) => {\n      if (node.type !== 'ExportNamedDeclaration') {\n        return false;\n      }\n      return node.specifiers?.some((specifier) => {\n        if (specifier.type !== 'ExportSpecifier') {\n          return false;\n        }\n        return specifier.orig?.value === 'Route';\n      });\n    });\n\n    if (hasExportSpecifiers) {\n      return true;\n    }\n\n    // export const Route = ... 형태 체크\n    const hasExportNamedVariable = ast.body.some((node) => {\n      if (node.type !== 'ExportDeclaration') {\n        return false;\n      }\n      if (node.declaration.type !== 'VariableDeclaration') {\n        return false;\n      }\n\n      return node.declaration.declarations.some(\n        (declaration) => declaration.id.type === 'Identifier' && declaration.id.value === 'Route'\n      );\n    });\n\n    return hasExportNamedVariable;\n  } catch {\n    return false;\n  }\n}\n\n이런 방식을 통해, 개발자는 더 이상 별도로 타입을 수동 정의할 필요가 없어요. 단지 새로운 페이지를 추가하는 것만으로도 타입이 자동으로 관리되어 유지보수가 간편하고 라우팅 안정성이 높아져요.\n4. 타입-안전한 useNavigation 구현하기\n기존의 react-navigation에서는 네비게이션 사용 시 페이지마다 명시적으로 타입을 선언해주어야 했습니다.\n예를 들어 기존 방식은 아래와 같습니다:\nimport { useNavigation, type NativeStackNavigationProp } from \"@react-navigation/native\";\n\ninterface Screen {\n  'page-a': { name: string },\n  'page-b': undefined,\n}\n\nfunction PageB() {\n  const navigation = useNavigation<NativeStackNavigationProp<Screen>>();\n\n  return (\n    <Button\n      onPress={() => navigation.navigate(\"page-a\", { name: \"Toss\" })}\n      title=\"page-a 이동\"\n    />\n  );\n}\n\nGranite에서의 개선된 접근법\nGranite에서는 중앙에서 관리되는 타입 선언(RegisterScreen)을 선언 병합(declaration merging)하여, 모든 화면에서 자동으로 타입이 제공되도록 개선할 수 있습니다.\n아래는 Granite의 개선된 useNavigation 훅 구현입니다:\nimport {\n  useNavigation as useNavigationNative,\n  type NativeStackNavigationProp,\n  ParamListBase\n} from \"@react-navigation/native\";\n\nexport type NavigationProps = NativeStackNavigationProp<\n  keyof RegisterScreen extends never ? ParamListBase : RegisterScreen\n>;\n\nexport function useNavigation() {\n  return useNavigationNative<NavigationProps>();\n}\n\n개발자는 이제 별도의 제네릭을 매번 설정하지 않고도, 각 화면의 타입을 자동으로 정확하게 추론하여 사용할 수 있습니다.\n타입 추론을 활용한 화면 이동 예시\n다음과 같은 화면 이동 시, Granite이 제공하는 타입 추론으로 인해 파라미터의 타입이 자동 검증됩니다:\nimport { createRoute, useNavigation } from '@granite-js/react-native';\nimport { StyleSheet, View, Text, Pressable } from 'react-native';\n\n// Page B 라우트 정의\nexport const Route = createRoute('/page-b', {\n  validateParams: (params) => params, // 현재 검증 로직 없음\n  component: PageB,\n});\n\n// Page B 컴포넌트\nfunction PageB() {\n  const navigation = useNavigation();\n\n  const handlePress = () => {\n    navigation.navigate('/page-a', {\n      name: \"Toss\", // '/page-a'에서 정의한 타입이 자동 적용됨\n    });\n  };\n\n  return (\n    <View style={[styles.container, { backgroundColor: '#3182f6' }]}>\n      <Text style={styles.text}>Page B</Text>\n      <Pressable onPress={handlePress}>\n        <Text style={styles.buttonLabel}>A 페이지로 이동하기</Text>\n      </Pressable>\n    </View>\n  );\n}\n\n이제 잘못된 파라미터 값을 전달하면 컴파일 단계에서 오류가 즉시 발생하여, 개발자의 타입 안정성을 크게 높일 수 있습니다.\n\n\n\n마무리하며\n이 기능을 활용하면 React Native에서 화면 전환을 훨씬 더 안전하게 관리할 수 있어요. 화면의 경로를 문자열로 직접 입력하지 않고 타입으로 정의하기 때문에, 오타로 엉뚱한 화면으로 이동하는 일을 막을 수 있죠. 어떤 화면으로 이동할 수 있는지도 코드에서 바로 확인할 수 있어서 개발 생산성도 높아져요.\nGranite은 iOS, Android, 프론트엔드 플랫폼 개발자들이 각자의 전문성을 살려 함께 RN Framework Team에서 만든 프로젝트예요. React Native 번들러부터 인프라까지 직접 구축해, 이 모든 걸 누구나 쓸 수 있도록 공개하는 게 목표예요.\n장기적으로는 전 세계 React Native 개발자들이 함께 사용할 수 있는 모범 사례(Best Practice)가 되는 것을 지향하고 있어요. 더 나아가, 웹 개발자들도 네이티브 앱 개발에 쉽게 참여할 수 있도록 확장해 나갈 계획이에요!\n\n이 글의 최초 발행시에는 Bedrock이라는 이름으로 작성되었으나, 공개되면서 Granite로 변경되어 수정 반영했어요. Granite에 많은 관심 부탁드려요!\n\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 18766
+      },
+      {
+        "id": 34477,
+        "updatedTime": "2025-06-28T21:26:03+09:00",
+        "createdTime": "2025-03-24T20:56:11+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "토스의 디자인 편집기 ‘데우스’, 이렇게 만들었어요! | EP.11",
+        "subtitle": "토스의 디자인 편집기 데우스(Deus)!\n이번 모닥불에서는 토스의 자체 디자인 편집기 데우스(Deus) 프로젝트를 소개합니다! \n\n디자인과 개발 사이의 경계를 넘나드는 새로운 가능성을 만나보세요! 데우스(Deus)가 풀어낸 기술적 도전과 그 여정을 통해, 우리가 함께 만들어갈 미래를 이야기합니다.",
+        "bottomButtonConfig": {
+          "ctaType": "NONE",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": null,
+          "landingUrl": null,
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": null,
+          "landingExternal": null
+        },
+        "coverConfig": {
+          "coverType": "NONE",
+          "imageUrl": null,
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": false,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/photos/modakbul11.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "firesidechat_frontend_11",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": false,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-03-24T21:04:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34477,
+          "title": null,
+          "description": "토스의 디자인 편집기 데우스(Deus)!\n이번 모닥불에서는 토스의 자체 디자인 편집기 데우스(Deus) 프로젝트를 소개합니다! 디자인과 개발 사이의 경계를 넘나드는 새로운 가능성을 만나보세요! 데우스(Deus)가 풀어낸 기술적 도전과 그 여정을 통해, 우리가 함께 만들어갈 미래를 이야기합니다.",
+          "urlSlug": "firesidechat_frontend_11",
+          "primaryKeyword": {
+            "id": 50085,
+            "content": "Frontend",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 37498,
+              "content": "프론트엔드",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50189,
+              "content": "데우스",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50191,
+              "content": "Deus",
+              "wordType": "SEO_KEYWORD"
+            },
+            {
+              "id": 50193,
+              "content": "디자인 편집기",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": [
+            {
+              "id": 49547,
+              "content": "프론트엔드",
+              "wordType": "TAG"
+            },
+            {
+              "id": 50195,
+              "content": "데우스",
+              "wordType": "TAG"
+            },
+            {
+              "id": 50197,
+              "content": "Deus",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "토스의 디자인 편집기 ‘데우스’, 이렇게 만들었어요! | EP.11",
+          "description": "토스의 디자인 편집기 데우스(Deus)!\n이번 모닥불에서는 토스의 자체 디자인 편집기 데우스(Deus) 프로젝트를 소개합니다! 디자인과 개발 사이의 경계를 넘나드는 새로운 가능성을 만나보세요! 데우스(Deus)가 풀어낸 기술적 도전과 그 여정을 통해, 우리가 함께 만들어갈 미래를 이야기합니다.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/photos/modakbul11.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2292,
+          "name": "토스 프론트엔드 챕터",
+          "slug": "frontend-chapter",
+          "shortDescription": null,
+          "description": "-",
+          "imageUrl": "https://static.toss.im/icons/png/4x/icon-toss-logo.png",
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 13,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "\n토스의 디자인 편집기 데우스(Deus)!\n이번 모닥불에서는 토스의 자체 디자인 편집기 데우스(Deus) 프로젝트를 소개합니다!🔥\n시장에 이미 훌륭한 디자인 툴이 있는데, 토스는 왜 자체 편집기를 만들었을까요?\n데우스(Deus), 성능 최적화를 위해 어떠한 기술적 도전들이 있었고, 어떻게 해결 했을까요?\n디자인과 개발 사",
+        "fullDescription": "\n토스의 디자인 편집기 데우스(Deus)!\n이번 모닥불에서는 토스의 자체 디자인 편집기 데우스(Deus) 프로젝트를 소개합니다!🔥\n시장에 이미 훌륭한 디자인 툴이 있는데, 토스는 왜 자체 편집기를 만들었을까요?\n데우스(Deus), 성능 최적화를 위해 어떠한 기술적 도전들이 있었고, 어떻게 해결 했을까요?\n디자인과 개발 사이의 경계를 넘나드는 새로운 가능성을 만나보세요!🔥\n데우스(Deus)가 풀어낸 기술적 도전과 그 여정을 통해, 우리가 함께 만들어갈 미래를 이야기합니다.\n\n타임스탬프\n00:00 인트로\n01:24 데우스(Deus), 무엇인가요?\n01:43 토스가 디자인 편집기 '데우스(Deus)' 를 직접 만든 이유\n03:23 지난 개발 과정에서 마주한 수많은 기술적 도전과 과제들\n07:24 상태 관리를 위해 MobX를 선택한 기술적 배경은?\n14:37 데우스(Deus)의 무한한 가능성 그리고 앞으로의 목표\n\n출연진\n박서진, 토스 Head of Frontend\n임지훈, 토스 Frontend UX Engineer\n조유성, 토스 Frontend UX Engineer\n\n토스 Frontend Developer(Deus) 포지션\n  📍바로 지원하기 👉 https://buly.kr/Coheij\n\n다른 모닥불 회차 보러가기\nEP.9 프론트엔드 서비스 최적화? 토스에서는 '이렇게' 합니다!\nEP.10 캠프파이어 특집 상편 | 무엇이든 물어보세요 (feat. 프론트엔드 코드, 디렉토리 관리)\nEP.10 캠프파이어 특집 하편 | 무엇이든 물어보세요 (feat. 테스트 코드, ESLint Rule)\n\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 18854
+      },
+      {
+        "id": 34275,
+        "updatedTime": "2025-06-28T20:49:17+09:00",
+        "createdTime": "2025-03-17T15:55:05+09:00",
+        "category": "개발",
+        "categories": [
+          {
+            "name": "개발",
+            "id": 1024,
+            "slug": "tech",
+            "parentId": null,
+            "iconUrl": ""
+          }
+        ],
+        "series": null,
+        "seriesSlug": null,
+        "title": "ESBuild를 위한 HMR, 직접 만들기",
+        "subtitle": "프론트엔드 개발 경험을 향상시키는 HMR(Hot Module Replacement)의 원리와 다양한 번들러가 HMR을 어떻게 지원하는지 살펴보고, ESBuild 기반 번들러를 직접 개발한 과정을 소개드려요.",
+        "bottomButtonConfig": {
+          "ctaType": "ONLY_BUTTON",
+          "imageUrl": null,
+          "imageAlt": null,
+          "title": null,
+          "description": null,
+          "ctaName": "프론트엔드 플랫폼 엔지니어 지원하기",
+          "landingUrl": "https://toss.im/career/job-detail?job_id=4397469003&company=%ED%86%A0%EC%8A%A4&detailedPosition=%EA%B3%B5%ED%86%B5",
+          "isSearchBottomCta": false,
+          "landingInExternalBrowser": false,
+          "serviceId": null,
+          "stockConfig": null,
+          "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D4397469003%26company%3D%25ED%2586%25A0%25EC%258A%25A4%26detailedPosition%3D%25EA%25B3%25B5%25ED%2586%25B5&external=true&clearHistory=true&swipeRefresh=true",
+          "landingExternal": "https://toss.im/career/job-detail?job_id=4397469003&company=%ED%86%A0%EC%8A%A4&detailedPosition=%EA%B3%B5%ED%86%B5"
+        },
+        "coverConfig": {
+          "coverType": "IMAGE",
+          "imageUrl": "https://static.toss.im/illusts-content/tech-0318-thumb.png",
+          "videoUrl": null,
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "thumbnailConfig": {
+          "imageUrl": "https://static.toss.im/illusts-content/tech-0318-thumb.png",
+          "backgroundColor": null,
+          "isFill": true,
+          "imageAlt": null
+        },
+        "key": "frontend-esbuild-hmr",
+        "minAge": 0,
+        "isDisplaying": true,
+        "isDisplayingPublishedTime": true,
+        "workspaceId": 15,
+        "isPublished": true,
+        "publishedTime": "2025-03-18T17:35:00+09:00",
+        "likeCount": 0,
+        "commentBoard": null,
+        "relatedPostTitle": null,
+        "relatedPosts": [],
+        "disclaimer": null,
+        "seoConfig": {
+          "post": 34275,
+          "title": null,
+          "description": "프론트엔드 개발 경험을 향상시키는 HMR(Hot Module Replacement)의 원리와 다양한 번들러가 HMR을 어떻게 지원하는지 살펴보고, ESBuild 기반 번들러를 직접 개발한 과정을 소개드려요.",
+          "urlSlug": "frontend-esbuild-hmr",
+          "primaryKeyword": {
+            "id": 37596,
+            "content": "번들링",
+            "wordType": "SEO_KEYWORD"
+          },
+          "relatedKeywords": [
+            {
+              "id": 50085,
+              "content": "Frontend",
+              "wordType": "SEO_KEYWORD"
+            }
+          ],
+          "tags": [
+            {
+              "id": 41728,
+              "content": "Frontend",
+              "wordType": "TAG"
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "ESBuild를 위한 HMR, 직접 만들기",
+          "description": "프론트엔드 개발 경험을 향상시키는 HMR(Hot Module Replacement)의 원리와 다양한 번들러가 HMR을 어떻게 지원하는지 살펴보고, ESBuild 기반 번들러를 직접 개발한 과정을 소개드려요.",
+          "backgroundColor": "#424242",
+          "imageAlt": null,
+          "imageUrl": "https://static.toss.im/illusts-content/tech-0318-thumb.png",
+          "imageType": "썸네일 이미지"
+        },
+        "relatedPostConfig": null,
+        "editor": {
+          "id": 2393,
+          "name": "이근혁",
+          "slug": null,
+          "shortDescription": null,
+          "description": null,
+          "imageUrl": null,
+          "url": null,
+          "facebook": null,
+          "twitter": null,
+          "instagram": null,
+          "postCount": 2,
+          "ogConfig": null,
+          "seoConfig": null,
+          "priority": 1000,
+          "isDisplaying": false,
+          "isHomeRecommendation": false
+        },
+        "disclaimerConfig": null,
+        "shortDescription": "토스 기술 조직의 각 챕터는 라이트닝 토크에서 다양한 주제에 대한 인사이트와 아이디어를 자유롭게 공유합니다. 기록을 통해 생생한 라이트닝 토크 현장을 함께 느껴보세요!\n\n이번 라이트닝 토크에서 다루는 내용\n- HMR(Hot Module Replacement)의 개념과 동작 원리\n- Metro, Webpack, Vite 등",
+        "fullDescription": "토스 기술 조직의 각 챕터는 라이트닝 토크에서 다양한 주제에 대한 인사이트와 아이디어를 자유롭게 공유합니다. 기록을 통해 생생한 라이트닝 토크 현장을 함께 느껴보세요!\n\n이번 라이트닝 토크에서 다루는 내용\n- HMR(Hot Module Replacement)의 개념과 동작 원리\n- Metro, Webpack, Vite 등 다양한 번들러의 HMR 구현 방식 비교\n- ESBuild 기반 번들러에서 HMR 구현 시 해결해야 할 과제들\n- 런타임 모듈 접근, 의존성 그래프 구축, 파일 변경 감지 등 핵심 구현 전략\n\n프론트엔드 개발을 하면서 좋은 개발 경험이 무엇인지 고민해 보신 적 있으신가요? 요즘 우리는 이미 좋은 환경에서 개발하고 있다고 생각하는데요. 코드 가독성과 일관성을 위한 포맷터와 린터, 복잡한 구현 없이 사용할 수 있는 번들러, 강력한 디버깅 도구들이 모두 우리의 개발 경험에 기여하고 있죠.\n이번 시간에는 그 중에서도 제가 생각하는 가장 편한 기능을 소개해 보려고 해요. 개발자라면 누구나 한 번쯤 ‘이거 진짜 편하네!’라고 감탄했던 경험이 있을 겁니다. 바로 HMR(Hot Module Replacement)인데요. 코드를 수정하고 저장했을 때, 페이지를 새로고침하지 않아도 변경사항이 즉시 반영되는 기능이죠. 프론트엔드 개발에서는 빠른 피드백 루프가 곧 생산성으로 연결되기 때문에, HMR은 개발자 경험을 혁신하는 핵심 기능 중 하나예요. 웹 개발뿐 아니라 React Native 환경에서도 널리 사용되고 있고요.\n그럼 먼저 HMR이 어떤 원리로 동작하는지, 그리고 Metro, Webpack, Vite, ESBuild 같은 다양한 번들러가 HMR을 어떻게 지원하는지 살펴볼게요. 그런 뒤, 제가 ESBuild 기반 번들러를 어떻게 만들었는지 그 과정을 소개해 볼게요.\nHMR이란\nHMR은 변경된 코드 조각만 런타임에서 동적으로 교체하는 기능이에요. HMR이 적용되어 있다면 페이지를 새로고침하지 않고도 코드 수정 사항이 즉시 반영돼요. 우리의 일반적인 개발 플로우를 떠올려볼까요?\n코드를 작성하고 저장한다.\n페이지를 새로고침하지 않아도 코드가 반영된다.\n브라우저 또는 React Native 앱에서 즉시 변경된 내용을 확인한다.\n이 과정에서 가장 큰 장점은 상태를 유지하면서도 코드 변경을 반영할 수 있다는 것입니다. 전체 페이지를 새로고침하면 폼 입력값이나 UI 상태가 초기화되어 불편한데요. HMR을 활용하면 이러한 불편 없이 변경을 확인할 수 있어요.\n번들러별 HMR 구현 방식\n이 HMR 기능은 번들러마다 서로 다른 방식으로 구현되어 있는데요. 대표적인 번들러들의 HMR 구현 방식을 알아볼게요.\nMetro: React Native 기본 번들러\nMetro는 React Native 환경에서 HMR을 지원하는 기본 번들러인데요. 핵심 원리는 모듈을 전역에 등록한 뒤, 변경된 모듈만 교체하는 방식입니다.\n코드가 변경되면, 해당 모듈의 고유 ID를 찾아 업데이트합니다.\n전체 앱을 다시 실행할 필요 없이, 변경된 부분만 새로운 코드로 교체됩니다.\n다음은 Metro의 HMR 지원을 위한 코드 일부예요.\n(function (global) {\n  global[`${__METRO_GLOBAL_PREFIX__}__d`] = define;\n\n  function define(factory, moduleId, dependencyMap) {\n    modules.set(moduleId, { factory, dependencyMap, isInitialized: false, publicModule: { exports: {} } });\n  }\n})(typeof globalThis !== 'undefined' ? globalThis : this);\nMetro는 HMR을 위해 코드를 다음과 같이 변환해요. __d라는 함수를 사용해서 각 모듈에 고유한 ID를 부여하고, 이 ID를 이용해 런타임에서 모듈을 참조할 수 있도록 하는 거죠. 중요한 점은 모듈이 런타임에서 교체 가능한 상태로 등록된다는 점입니다. 이 방식 덕분에 React Native 개발 시 빠른 코드 반영이 가능해져요. \n// message.js\nexport const message = 'Hello, world!';\n\n// App.js\nimport { message } from './message';\nimport logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n\treturn (\n\t\t<div className=\"App\">\n\t\t\t<header className=\"App-header\">\n\t\t\t\t<img src={logo} className=\"App-logo\" alt=\"logo\" />\n\t\t\t\t<h1>{message}</h1>\n\t\t\t</header>\n\t\t</div>\n\t);\n}\n\nexport default App;\n아래 변환된 코드를 보면 중간에 모듈 ID가 배열에 들어가 있어요.\n__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {\n  var _reactNative = _$$_REQUIRE(_dependencyMap[0], \"react-native\");\n\n  function App() {\n    // ...\n  }\n\n  var _default = exports.default = App;\n}, 0, [1, 104, 631, 589], \"index.js\"); // 모듈의 ID 모음\n\n__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {\n  Object.defineProperty(exports, \"__esModule\", {\n    value: true\n  });\n  exports.message = void 0;\n  var message = exports.message = 'Hello, world!';\n}, 631, [], \"message.js\", {\"0\":[],\"631\":[0]});\n\nWebpack: 전통적인 HMR 방식\nWebpack도 Metro와 유사하게 런타임에 모듈을 등록한 뒤 관리하는 구조인데요. 전역 객체(__webpack_modules__)를 활용해 변경된 모듈만 교체하는 방법을 사용해요.\n변경된 모듈을 감지하면, 서버가 새로운 코드 조각을 생성합니다.\n클라이언트에서 기존 모듈을 대체하는 방식으로 업데이트합니다.\n의존성 그래프를 추적하여 변경된 모듈을 참조하는 모든 상위 모듈도 갱신됩니다.\n다음은 Webpack의 HMR 지원을 위한 코드 일부예요.\nvar __webpack_modules__ = {\n  './src/App.js': (module, __webpack_exports__, __webpack_require__) => {\n    // ...\n  },\n  '...': (module, __webpack_exports__, __webpack_require__) => {\n    // ...\n  },\n};\nHMR은 이렇게 등록된 모듈을 런타임에서 직접 참조하거나 교체하는 식으로 동작해요.\n\nVite: 네이티브 ESM을 활용한 HMR\n모던 번들러 중 하나인 Vite는 브라우저의 네이티브 ESM(ES Modules)을 최대한 활용해, 불필요한 런타임 로직 없이 HMR을 구현합니다.\n변경된 모듈의 URL에 타임스탬프를 추가해 브라우저 캐시를 무효화합니다.\n필요한 모듈만 다시 불러오기 때문에 빠르고 간단하게 HMR이 동작합니다.\n예를 들어, foo.ts 파일을 변경하면 import 경로 뒤에 타임스탬프가 붙어 새로운 모듈로 로드돼요.\nimport { foo } from './foo.ts?t=1708957319787'\n이렇게 간단하게 구현되어 있어서 다른 방식에 비해 상대적으로 복잡도가 낮다는 장점이 있어요.\n\nESBuild\nESBuild는 초고속 번들링을 목표로 개발된 번들러이기 때문에, 기본적으로 HMR 기능을 제공하지 않아요. 하지만 토스에서는 ESBuild를 기반으로 한 React Native 번들러를 사용하고 있어서 HMR 기능을 자체적으로 구현했어요.\n\nESBuild 기반 번들러에서 HMR 구현하기\n토스에서는 빠른 빌드 속도를 위해 ESBuild 기반 번들러를 사용하고 있어요. 하지만 HMR이 지원되지 않아 불편함이 있었죠. 개발 편의성도 놓칠 수 없었기에, HMR 기능을 직접 구현했어요. 구현 과정에서 해결해야 했던 주요 과제들을 살펴볼게요.\n1. 런타임 모듈 접근 구현\nHMR을 구현하려면 먼저 런타임 환경에서 모듈을 참조하거나 등록할 수 있는 구조가 필요합니다. ESBuild가 생성하는 번들은 이런 구조를 제공하지 않기 때문에, SWC 플러그인을 구현해서 코드를 변환했어요.\n예를 들어, 다음과 같은 원본 코드가 있다면,\nimport foo from './foo';\nexport function something() {\n  return foo.value;\n}\n아래와 같이 변환했는데요. 변경된 코드 조각만 변환 및 교체할 수 있도록 처리한 거예요. 런타임에서 모듈을 참조하거나 교체할 수 있도록 global.__modules에 필요한 기능을 구현했어요.\nimport foo from './foo';\n\nglobal.__modules.define(function (__ctx) {\n  var { default: foo } = __ctx.require('/path/to/foo.ts');\n  var __x = function something() {\n    return foo.value;\n  }\n  __ctx.exports(function () {\n    return { something: __x };\n  });\n}, '/path/to/module.ts', __deps);\n\nvar __deps = {\n  '/path/to/foo.ts': function () {\n    return { default: __x };\n  };\n};\nvar __x;\n\nexport { __x as something };\nimport, export 구문이 유지되기 때문에 모듈에 대한 처리는 번들러(ESBuild)에 전적으로 위임하고, 모듈에서 export 하는 대상의 레퍼런스만 등록하는 과정이에요.\n런타임 환경에서는 (ESM) import, export / (CommonJS) require, module 구문을 사용할 수 없기 때문에, 등록된 모듈을 전역에서 참조하는 형태로 변환해요.\n2. 고유 모듈 식별자 생성\n하지만 여기서 필요한 값이 있는데요, 그것은 바로 모듈을 식별하기 위한 ID 값이에요. 모듈을 식별하기 위한 고유한 값이 있어야 런타임에서 모듈을 참조할 수 있게 될 테니까요.\n많은 번들러들이 그렇듯이 ESBuild 번들러 내부에서도 이러한 정보를 수집하고 있는데요, 아쉽게도 플러그인 API에서 접근할 수 있는 방법은 제공되지 않았어요.\n다음 다이어그램은 ESBuild 리포지토리에 게시된 Architecture 자료의 일부인데요. 모듈 해석 과정을 살펴보면, 모듈을 로드하고 AST 분석을 거친 뒤, 참조하고 있는 다른 모듈의 경로를 해석하는 구조로 동작하는 것을 알 수 있어요.\n\n이 말은, 비록 ESBuild 내부 종속성 그래프에 직접 접근할 수는 없지만 다음과 같이 모듈을 식별할 수 있는 고유한 값(Resolved path)을 알아낼 수 있다는 의미예요.\n그래서 다음과 같이 ESBuild의 onLoad 훅에서 넘어오는 args.path를 모듈 ID로 활용하기로 했어요. 이 값은 모듈의 절대 경로로, 각 모듈을 고유하게 식별할 수 있어요.\nconst plugin: Plugin = {\n  name: 'example-plugin',\n  setup(build) {\n    build.onLoad({ filter: /\\.([mc]js|[tj]sx?)$/ }, (args) => {\n      const moduleId = args.path; // 🎉\n      \n      // ...\n    });\n  },\n};\n3. 모듈 의존 관계 추적\n번들러는 코드 스플리팅이나 트리 쉐이킹과 같은 최적화를 위해 모듈 간의 의존 관계를 추적하는데, HMR도 이런 정보가 필요하답니다. 특정 모듈이 변경됐을 때, 해당 모듈을 참조하는 다른 모듈들에도 변경 사항이 전파되어야 하기 때문이죠. 이때 의존성 그래프가 있다면 쉽게 추적할 수 있어요.\nESBuild 번들러의 구현체를 잠시 살펴보면, 번들링 과정에서 수집한 모듈 정보(Path 등)를 Metafile 형식으로 기록해주는 것을 알 수 있어요.\n다음과 같은 모듈 코드가 있을 때 생성되는 Metafile 데이터는 아래 코드와 같아요.\n// index.ts\nimport './foo';\nimport './bar';\nimport './baz';\n\n// ...\n// Metafile 데이터\n{\n  \"inputs\": {\n    \"/path/to/index.ts\": {\n      \"bytes\": 123,\n      \"imports\": [\n        {\n          \"path\": \"/path/to/foo.ts\",\n          \"original\": \"./foo\",\n          \"type\": \"import-statement\"\n        },\n        {\n          \"path\": \"/path/to/bar.ts\",\n          \"original\": \"./bar\",\n          \"type\": \"import-statement\"\n        },\n        {\n          \"path\": \"/path/to/bar.ts\",\n          \"original\": \"./baz\",\n          \"type\": \"import-statement\"\n        }\n      ]\n    },\n    \"/path/to/foo.ts\": { /* ... */ }\n    \"/path/to/bar.ts\": { /* ... */ }\n    \"/path/to/baz.ts\": { /* ... */ }\n  },\n  \"outputs\": { /* ... */ }\n}\n번들에 포함되어있는 모든 모듈이 나열되어있을 뿐만 아니라, 각 모듈에서 참조하고 있는 모듈들의 정보까지 함께 포함되어있는 것을 확인할 수 있는데요. 이 데이터를 잘 정제하면 의존성 그래프로 충분히 활용할 수 있었죠.\n그래서 ESBuild의 metafile 옵션을 활용해 의존성 그래프를 구축했어요. 다음과 같이 어떤 모듈이 어떤 모듈에 의존하는지, 또 어떤 모듈에 의해 참조되는지 추적할 수 있었죠.\n{\n  \"inputs\": {\n    \"/path/to/index.ts\": {\n      \"imports\": [\n        { \"path\": \"/path/to/foo.ts\", \"original\": \"./foo\" },\n        // 다른 import 항목들...\n      ]\n    },\n    // 다른 모듈들...\n  }\n}\n\n4. 파일 변경 감지 구현\nHMR이 트리거되는 시점은 파일이 저장되거나 추가/삭제될 때인데요. 이때 어떤 일이 일어나야 할까요?\n먼저 번들러에서 파일이 변경되었음을 감지하고\n변경된 파일(모듈)을 새로 변환(Transform)해서 런타임 환경으로 전달한 뒤\n런타임에서는 받아온 코드를 평가(Evaluate)하여 변경 사항을 반영해야 합니다.\n모듈이 런타임에 교체될 때는 위와 같은 절차를 거쳐요. 즉, HMR 기능을 트리거 하기 위해 가장 먼저 필요한 것은 파일이 변경되었음을 감지하는 것이죠.\nESBuild의 watch 모드는 단순히 빌드를 새로 트리거할 뿐, 어떤 파일이 변경되었는지 알려주지 않기 때문에, 별도의 파일 감지 기능을 구현했어요.\nconst subscription = await watcher.subscribe(projectPath, (error, events) => {\n  events.forEach((event) => {\n    // 의존성 그래프 업데이트 및 HMR 트리거\n    switch (event.type) {\n      case 'create':\n        // ...\n\n      case 'update':\n        // ...\n      \n      case 'delete':\n        // ...\n    }\n  });\n});\n이렇게 모듈이 새로 추가되거나 수정, 삭제될 때 이벤트를 받아 종속성 그래프에 상태를 업데이트해 주는 방식으로 실제 파일 시스템상의 모듈과 종속성 그래프 간의 상태를 일치시킬 수 있었어요.\n5. 모듈 변환 및 교체\n마지막으로 새로 추가되거나, 수정된 모듈의 경우 참조하고 있는 의존성도 다시 한 번 검증해야 하는데요, 다음과 같은 케이스를 고려해야 해요.\n\n\n\n\n정확한 그래프 정보를 만들려면 모든 케이스에서 파일을 읽어 실제로 참조하고 있는 모듈(Dependency) 정보들을 수집해야 하죠.\n다음과 같이 특정 파일이 변경되면, 해당 모듈을 읽어서 런타임에서 교체할 수 있는 형태로 변환한 후, 웹소켓을 통해 클라이언트에 전송해요.\nfs.readFile(event.path, 'utf-8').then((code) => {\n  const hmrChunk = transformHMRChunk(code, dependencies);\n  socket.send(JSON.stringify({\n    type: 'update',\n    path: event.path,\n    code: hmrChunk,\n    // 변경된 모듈로 인해 영향을 받는 다른 모듈 정보들\n    inverseDependencies: graph.inverseDependenciesOf(event.path)\n  }));\n});\n클라이언트에서는 다음과 같이 이 코드를 평가해서 모듈을 교체해요.\ntry {\n  eval(message.code);\n  for (const id of message.inverseDependencies) {\n    // 영향을 받는 다른 모듈들을 재평가(Re-evaulate) 하여 변경 사항 전파\n    global.__modules.apply(id);\n  }\n} catch (error) {\n  console.error(`[HMR] 모듈 교체 실패`);\n  // 전체 앱 reload 등 대체 처리\n}\n6. React 환경을 위한 추가 구현\nReact 환경에서는 단순히 모듈을 교체하는 것만으로는 변경 사항이 반영되지 않아서 React의 내부 상태를 조작해야 하는데요. 이를 위해 react-refresh 라이브러리를 활용했어요.\n먼저 React 컴포넌트를 빌드할 때 다음과 같이 변환했습니다.\nvar _s = $RefreshSig$();\nfunction App() {\n  _s();\n  // 컴포넌트 코드...\n}\n_s(App, \"A3WfNgzdYyyhx8+TirhyDvdPM54=\");\n$RefreshReg$(App, \"App\");\n이렇게 하면 컴포넌트의 시그니처를 추적하고, 시그니처가 변경되지 않았을 때는 상태를 유지한 채 리렌더링할 수 있어요.\n7. 증분 빌드 구현\n마지막으로, 전체 앱이 새로고침 될 때를 대비해 증분 빌드(Incremental build)를 구현했습니다. 증분 빌드란 전체 코드를 다시 빌드하지 않고, 변경된 부분만 빌드하는 최적화 기법이에요.\nconst context = await esbuild.context(options);\n// 모듈 변경 시\nresult = await context.rebuild();\nESBuild에서 증분 빌드 API(rebuild)를 제공하는데요. 저희처럼 플러그인을 쓴다면 이 API와 별개로 직접 처리를 해줘야 해요. 그래서 플러그인에서 파일 변경 시간을 기반으로 캐싱을 구현했어요.\n결과\n이렇게 구현한 HMR 시스템으로, 토스의 React Native 개발 환경에서도 빠른 빌드 속도와 실시간 코드 반영의 편리함을 동시에 누릴 수 있게 되었습니다. \n다음 데모에서 볼 수 있듯이 코드를 수정하면 즉시 앱에 반영되고, 컴포넌트의 상태도 유지됩니다.\n\n\n마무리하며\n오늘은 이렇게 HMR에 대해 알아보고, ESBuild 기반 번들러에서 HMR을 구현하는 여정을 간략히 소개해 봤는데요. 모든 내용을 다루기에는 시간이 부족했네요. 그래도 핵심 아이디어는 잘 전달되었으리라 생각합니다.\n더 자세한 내용이 궁금하시거나 질문이 있으시다면, 언제든지 알려주세요. 감사합니다!\n\nTalk 이근혁 Edit 한주연 \n\n",
+        "isDisplayingFeedback": true,
+        "quizzes": [],
+        "opinionForm": null,
+        "viewCount": 18981
+      }
+    ]
+  }
+}

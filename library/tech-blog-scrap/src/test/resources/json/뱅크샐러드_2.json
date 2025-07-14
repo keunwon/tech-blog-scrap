@@ -1,0 +1,705 @@
+{
+  "componentChunkName": "component---src-templates-tech-blog-list-tsx",
+  "path": "/tech/page/2",
+  "result": {
+    "data": {
+      "site": {
+        "siteMetadata": {
+          "title": "뱅크샐러드 블로그"
+        }
+      },
+      "sitePage": {
+        "path": "/pnc/pit-stop-2024/"
+      },
+      "allMarkdownRemark": {
+        "edges": [
+          {
+            "node": {
+              "excerpt": "안녕하세요. 저는 뱅크샐러드 Core Data팀 Tech Lead Manager 김민수 입니다. 이번 글에서는 데이터 사용자가 직접 정의, 배포, 관리하는 뱅크샐러드 데이터 파이프라인에 대해 얘기해보려고 합니다. 뱅크샐러드 데이터 인프라 훑어보기 우선 뱅크샐러드의 데이터 분석 인프라를 먼저 소개 드리겠습니다. 뱅크샐러드 프로덕션 서비스는 십수개의 마이크로서비스와 각 서비스의 저장소로 구성됩니다. 데이터 분석 인프라에서는 각 서비스 저장소와 모바일 이벤트, 서버 이벤트, 3rd-party…",
+              "fields": {
+                "slug": "/tech/datapipe/"
+              },
+              "frontmatter": {
+                "date": "05 <span> June </span>",
+                "title": "데이터 분석가가 직접 정의, 배포, 관리하는 뱅크샐러드 데이터 파이프라인",
+                "description": "데이터 분석가가 직접 정의, 배포, 관리하는 뱅크샐러드 데이터 파이프라인을 소개합니다.",
+                "tags": [
+                  "데이터 파이프라인",
+                  "데이터 플랫폼",
+                  "Airflow",
+                  "Spark"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#282868",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/87604d922f73189e828bd366eb3ce4cc/dd515/0_thumbnail.jpg",
+                          "srcSet": "/static/87604d922f73189e828bd366eb3ce4cc/6ac16/0_thumbnail.jpg 50w,\n/static/87604d922f73189e828bd366eb3ce4cc/e07e1/0_thumbnail.jpg 100w,\n/static/87604d922f73189e828bd366eb3ce4cc/dd515/0_thumbnail.jpg 200w,\n/static/87604d922f73189e828bd366eb3ce4cc/47930/0_thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/87604d922f73189e828bd366eb3ce4cc/dbc4a/0_thumbnail.webp 50w,\n/static/87604d922f73189e828bd366eb3ce4cc/d8057/0_thumbnail.webp 100w,\n/static/87604d922f73189e828bd366eb3ce4cc/2e34e/0_thumbnail.webp 200w,\n/static/87604d922f73189e828bd366eb3ce4cc/416c3/0_thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "이 글은 2022년 12월 기준으로 제공된 검색엔진 가이드를 기반으로 작성되었습니다. 가이드 및 정책은 변경될 수 있습니다. 안녕하세요. 뱅크샐러드 웹 프론트엔드 엔지니어 김희찬입니다. 최근 금융쇼핑 PA…",
+              "fields": {
+                "slug": "/tech/how-banksalad-seo/"
+              },
+              "frontmatter": {
+                "date": "05 <span> January </span>",
+                "title": "\"검색엔진 가이드\"를 금융쇼핑 서비스에 SEO로 활용하기",
+                "description": "구글과 네이버에서 제공하고 있는 검색엔진 가이드를 활용한 사례를 공유합니다.",
+                "tags": [
+                  "SEO",
+                  "Web"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#f88888",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/c8f3828949f62cad2eea2c8caa651682/dd515/thumbnail.jpg",
+                          "srcSet": "/static/c8f3828949f62cad2eea2c8caa651682/6ac16/thumbnail.jpg 50w,\n/static/c8f3828949f62cad2eea2c8caa651682/e07e1/thumbnail.jpg 100w,\n/static/c8f3828949f62cad2eea2c8caa651682/dd515/thumbnail.jpg 200w,\n/static/c8f3828949f62cad2eea2c8caa651682/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/c8f3828949f62cad2eea2c8caa651682/dbc4a/thumbnail.webp 50w,\n/static/c8f3828949f62cad2eea2c8caa651682/d8057/thumbnail.webp 100w,\n/static/c8f3828949f62cad2eea2c8caa651682/2e34e/thumbnail.webp 200w,\n/static/c8f3828949f62cad2eea2c8caa651682/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요. 저희는 뱅크샐러드 Data Platform 팀 김민수, 김태일 입니다. 이번 글에서는 뱅크샐러드 데이터 분석환경 컴퓨팅을 EMR, YARN 기반 Spark에서 Self-hosted Kubernetes 기반으로 옮겨가게 된 모험에 대해 소개드리려고 합니다.\n 뱅크샐러드의 데이터 분석 환경 본격적인 문제 소개에 앞서 저희 데이터 분석 환경에 대해 먼저 설명드리겠습니다. 뱅크샐러드 데이터 분석 환경은 Amazon S3, Glue, Spark(on EMR) 기반의 data lake…",
+              "fields": {
+                "slug": "/tech/spark-on-kubernetes/"
+              },
+              "frontmatter": {
+                "date": "05 <span> January </span>",
+                "title": "Spark on Kubernetes로 가자!",
+                "description": "Apache Spark를 EMR, Yarn 기반에서 self-hosted Kubernetes로 이전하게 된 사유와 방법을 공유합니다.",
+                "tags": [
+                  "EMR",
+                  "Spark",
+                  "Kubernetes",
+                  "docker"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#282828",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/a7ea182df9b6604ccdea568c7a2a8d77/dd515/thumbnail.jpg",
+                          "srcSet": "/static/a7ea182df9b6604ccdea568c7a2a8d77/6ac16/thumbnail.jpg 50w,\n/static/a7ea182df9b6604ccdea568c7a2a8d77/e07e1/thumbnail.jpg 100w,\n/static/a7ea182df9b6604ccdea568c7a2a8d77/dd515/thumbnail.jpg 200w,\n/static/a7ea182df9b6604ccdea568c7a2a8d77/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/a7ea182df9b6604ccdea568c7a2a8d77/dbc4a/thumbnail.webp 50w,\n/static/a7ea182df9b6604ccdea568c7a2a8d77/d8057/thumbnail.webp 100w,\n/static/a7ea182df9b6604ccdea568c7a2a8d77/2e34e/thumbnail.webp 200w,\n/static/a7ea182df9b6604ccdea568c7a2a8d77/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요 뱅크샐러드 Web Front-End Engineer 민찬기입니다. 여러분들은 운영하시는 서비스의 폰트를 바꾸신 적이 있으신가요? 바꾸시는 과정에서 어떤 어려움을 겪으셨나요? 눈썰미가 남다르신 분들은 눈치채셨겠지만, 뱅크샐러드는 9월부터 여기 블로그를 포함한 모든 서비스에 Pretendard를 공통 폰트로 사용하고 있습니다. 이번 지면을 빌어 뱅크샐러드 Web/Webview page에서 커스텀 폰트를 적용하며 얻은 경험을 공유하고자 합니다. 커스텀 폰트 표시하기 😎  구문을 전역 CSS…",
+              "fields": {
+                "slug": "/tech/font-preload-on-safari/"
+              },
+              "frontmatter": {
+                "date": "13 <span> December </span>",
+                "title": "지연 시간 없이 웹폰트 서빙하기 - Feat. Safari & Edge functions",
+                "description": "웹 폰트를 빠르게 서빙하는 방법과 Safari의 Font preload 이슈를 해결하는 방법을 살펴봅니다.",
+                "tags": [
+                  "WebFont",
+                  "Preload"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#181828",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/920950892fe1c03241eb2348e623ac4b/5aead/thumbnail.png",
+                          "srcSet": "/static/920950892fe1c03241eb2348e623ac4b/e9fba/thumbnail.png 50w,\n/static/920950892fe1c03241eb2348e623ac4b/15e42/thumbnail.png 100w,\n/static/920950892fe1c03241eb2348e623ac4b/5aead/thumbnail.png 200w,\n/static/920950892fe1c03241eb2348e623ac4b/d6138/thumbnail.png 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/920950892fe1c03241eb2348e623ac4b/dbc4a/thumbnail.webp 50w,\n/static/920950892fe1c03241eb2348e623ac4b/d8057/thumbnail.webp 100w,\n/static/920950892fe1c03241eb2348e623ac4b/2e34e/thumbnail.webp 200w,\n/static/920950892fe1c03241eb2348e623ac4b/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "이 글은 대부분의 웹 프론트엔드에서 사용하는 Node.js와 Npm 을 사용하는 사례를 바탕으로 작성되었습니다. 안녕하세요 뱅크샐러드 웹 프론트엔드 엔지니어 조성동입니다. Web chapter 내 개발 과정의 많은 부분에서 GitHub Action을 활용하고 있습니다. action이 실행되고 이를 기다리는 시간은 지루하고 아깝습니다. 하나의 action이 3분이 걸린다면 20명의 동료들이 한 번씩만 사용한다고 하더라도…",
+              "fields": {
+                "slug": "/tech/github-action-npm-cache/"
+              },
+              "frontmatter": {
+                "date": "29 <span> August </span>",
+                "title": "뱅크샐러드 Web chapter에서 GitHub Action 기반의 CI 속도를 개선한 방법",
+                "description": "프론트엔드 개발 환경을 기준으로 GitHub Action에서 CI 속도를 개선하는 몇가지 방법을 공유합니다",
+                "tags": [
+                  "GitHub Actions"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#c8b8b8",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/9125ccb931a3487d918938e055a78086/5aead/thumbnail.png",
+                          "srcSet": "/static/9125ccb931a3487d918938e055a78086/e9fba/thumbnail.png 50w,\n/static/9125ccb931a3487d918938e055a78086/15e42/thumbnail.png 100w,\n/static/9125ccb931a3487d918938e055a78086/5aead/thumbnail.png 200w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/9125ccb931a3487d918938e055a78086/dbc4a/thumbnail.webp 50w,\n/static/9125ccb931a3487d918938e055a78086/d8057/thumbnail.webp 100w,\n/static/9125ccb931a3487d918938e055a78086/2e34e/thumbnail.webp 200w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요! 뱅크샐러드에서 iOS…",
+              "fields": {
+                "slug": "/tech/test-in-banksalad-ios-3/"
+              },
+              "frontmatter": {
+                "date": "30 <span> May </span>",
+                "title": "뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 3편 - 스펙별 단위 테스트",
+                "description": "문서와 함께 작성되고 문서로 동작하는 스펙별 단위테스트",
+                "tags": [
+                  "iOS",
+                  "Testing",
+                  "Test",
+                  "테스팅",
+                  "테스트"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#283838",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/9e5db807ad06cb956b3f170e018a1f71/dd515/thumbnail.jpg",
+                          "srcSet": "/static/9e5db807ad06cb956b3f170e018a1f71/6ac16/thumbnail.jpg 50w,\n/static/9e5db807ad06cb956b3f170e018a1f71/e07e1/thumbnail.jpg 100w,\n/static/9e5db807ad06cb956b3f170e018a1f71/dd515/thumbnail.jpg 200w,\n/static/9e5db807ad06cb956b3f170e018a1f71/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/9e5db807ad06cb956b3f170e018a1f71/dbc4a/thumbnail.webp 50w,\n/static/9e5db807ad06cb956b3f170e018a1f71/d8057/thumbnail.webp 100w,\n/static/9e5db807ad06cb956b3f170e018a1f71/2e34e/thumbnail.webp 200w,\n/static/9e5db807ad06cb956b3f170e018a1f71/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요! 뱅크샐러드에서 iOS…",
+              "fields": {
+                "slug": "/tech/test-in-banksalad-ios-2/"
+              },
+              "frontmatter": {
+                "date": "27 <span> April </span>",
+                "title": "뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 2편 - 화면 단위 통합 테스트",
+                "description": "개발 속도를 높여주는 화면 단위 통합 테스트",
+                "tags": [
+                  "iOS",
+                  "Testing",
+                  "Test",
+                  "테스팅",
+                  "테스트"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#282828",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/c6ae921ab4a18cf0ac7074bb7ae119e3/dd515/thumbnail.jpg",
+                          "srcSet": "/static/c6ae921ab4a18cf0ac7074bb7ae119e3/6ac16/thumbnail.jpg 50w,\n/static/c6ae921ab4a18cf0ac7074bb7ae119e3/e07e1/thumbnail.jpg 100w,\n/static/c6ae921ab4a18cf0ac7074bb7ae119e3/dd515/thumbnail.jpg 200w,\n/static/c6ae921ab4a18cf0ac7074bb7ae119e3/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/c6ae921ab4a18cf0ac7074bb7ae119e3/dbc4a/thumbnail.webp 50w,\n/static/c6ae921ab4a18cf0ac7074bb7ae119e3/d8057/thumbnail.webp 100w,\n/static/c6ae921ab4a18cf0ac7074bb7ae119e3/2e34e/thumbnail.webp 200w,\n/static/c6ae921ab4a18cf0ac7074bb7ae119e3/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요! 뱅크샐러드에서 iOS…",
+              "fields": {
+                "slug": "/tech/test-in-banksalad-ios-1/"
+              },
+              "frontmatter": {
+                "date": "18 <span> April </span>",
+                "title": "뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 1편 - 통합 UI테스트",
+                "description": "가장 먼저 작성할 테스트, 통합 UI테스트",
+                "tags": [
+                  "iOS",
+                  "Testing",
+                  "Test",
+                  "테스팅",
+                  "테스트"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#282828",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/d7e458bfbe705f3116c399a4f7514a7b/dd515/thumbnail.jpg",
+                          "srcSet": "/static/d7e458bfbe705f3116c399a4f7514a7b/6ac16/thumbnail.jpg 50w,\n/static/d7e458bfbe705f3116c399a4f7514a7b/e07e1/thumbnail.jpg 100w,\n/static/d7e458bfbe705f3116c399a4f7514a7b/dd515/thumbnail.jpg 200w,\n/static/d7e458bfbe705f3116c399a4f7514a7b/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/d7e458bfbe705f3116c399a4f7514a7b/dbc4a/thumbnail.webp 50w,\n/static/d7e458bfbe705f3116c399a4f7514a7b/d8057/thumbnail.webp 100w,\n/static/d7e458bfbe705f3116c399a4f7514a7b/2e34e/thumbnail.webp 200w,\n/static/d7e458bfbe705f3116c399a4f7514a7b/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요, 뱅크샐러드 안드로이드팀 이기정입니다. 뱅크샐러드 안드로이드 앱은 클린 아키텍쳐 기반으로 도메인 별 화면과 유틸리티, 이벤트 로깅, 실험 관리 등, 프로그램을 운영하기 위한 수많은 클래스로 이루어져 있습니다.\n클래스의 객체 생성에 있어 의존성을 줄이고, 원할한 테스트 코드 작성을 위해 Dependency Injection(의존성 주입, 이하 DI) 도구를 사용하여 문제를 해결해오고 있습니다.\n이번 글에서는 뱅크샐러드 안드로이드 프로젝트에서 사용해 오던 DI 도구인 Koin을 어떻게 문제 없이 Dagger Hilt…",
+              "fields": {
+                "slug": "/tech/migrate-from-koin-to-hilt/"
+              },
+              "frontmatter": {
+                "date": "09 <span> April </span>",
+                "title": "뱅크샐러드 안드로이드 앱에서 Koin 걷어내고 Hilt로 마이그레이션하기",
+                "description": "뱅크샐러드 안드로이드 앱에서 Hilt라는 DI 도구를 적용하기까지 과정을 소개합니다.",
+                "tags": [
+                  "안드로이드",
+                  "의존성주입",
+                  "Android",
+                  "DI",
+                  "Koin",
+                  "Hilt",
+                  "Dagger",
+                  "Jetpack",
+                  "협업"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#c8d8d8",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/55e95888d2e5297385926bd902e5a088/dd515/thumbnail.jpg",
+                          "srcSet": "/static/55e95888d2e5297385926bd902e5a088/6ac16/thumbnail.jpg 50w,\n/static/55e95888d2e5297385926bd902e5a088/e07e1/thumbnail.jpg 100w,\n/static/55e95888d2e5297385926bd902e5a088/dd515/thumbnail.jpg 200w,\n/static/55e95888d2e5297385926bd902e5a088/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/55e95888d2e5297385926bd902e5a088/dbc4a/thumbnail.webp 50w,\n/static/55e95888d2e5297385926bd902e5a088/d8057/thumbnail.webp 100w,\n/static/55e95888d2e5297385926bd902e5a088/2e34e/thumbnail.webp 200w,\n/static/55e95888d2e5297385926bd902e5a088/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요, Data Platform팀 Data Engineer 이은지입니다.   코로나로 인해 2020년에 온라인으로 진행된 AWS re:Invent가, 2021년에는 오프라인 행사로 열렸습니다! 2021년 11월 29일부터 12월 05일까지 일주일간 미국 라스베가스에서 진행됐는데요. AWS re:Invent에 참가하며 얻은 경험을 주니어 엔지니어의 시각에서 나눠보려고 합니다. 주니어 엔지니어가 시니어 세션 신청을?   AWS re:Invent는 AWS의 기술을 소개하고 AWS…",
+              "fields": {
+                "slug": "/tech/aws-reinvent-for-junior-engineer/"
+              },
+              "frontmatter": {
+                "date": "22 <span> February </span>",
+                "title": "주니어 엔지니어의 눈으로 본 AWS re:Invent",
+                "description": "AWS re:Invent에 참가하며 얻은 경험을 주니어 엔지니어의 시각에서 나눠봅니다.",
+                "tags": [
+                  "Data Engineer",
+                  "해외컨퍼런스",
+                  "라스베가스",
+                  "미국",
+                  "내길이아닌가",
+                  "왜나만못하지",
+                  "주니어엔지니어",
+                  "엔지니어",
+                  "Junior",
+                  "AWS",
+                  "re:Invent",
+                  "Conference",
+                  "조직문화",
+                  "테크조직"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#280818",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/cc006c492bce4c47fe488f9f546a4c0e/dd515/thumbnail.jpg",
+                          "srcSet": "/static/cc006c492bce4c47fe488f9f546a4c0e/6ac16/thumbnail.jpg 50w,\n/static/cc006c492bce4c47fe488f9f546a4c0e/e07e1/thumbnail.jpg 100w,\n/static/cc006c492bce4c47fe488f9f546a4c0e/dd515/thumbnail.jpg 200w,\n/static/cc006c492bce4c47fe488f9f546a4c0e/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/cc006c492bce4c47fe488f9f546a4c0e/dbc4a/thumbnail.webp 50w,\n/static/cc006c492bce4c47fe488f9f546a4c0e/d8057/thumbnail.webp 100w,\n/static/cc006c492bce4c47fe488f9f546a4c0e/2e34e/thumbnail.webp 200w,\n/static/cc006c492bce4c47fe488f9f546a4c0e/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요. 인증 스쿼드(Authentication Squad)의 엔지니어링 매니저(Engineering Manager) 하조은입니다. 아래의 글은 마이데이터 프로젝트를 회고한 제 블로그의 글을 옮겨온 것입니다. 프로젝트를 진행하며 했던 고민과 행동 그리고 아쉬웠던 점을 솔직하게 정리한 글입니다. 마이데이터라는 도메인에 국한되지 않은 내용이니 많은 분이 공감하실 수 있으리라 생각합니다. 재밌게 읽어주시면 감사하겠습니다. 마이데이터 프로젝트 21년…",
+              "fields": {
+                "slug": "/tech/what-i-learned-from-mydata-project/"
+              },
+              "frontmatter": {
+                "date": "07 <span> February </span>",
+                "title": "마이데이터 프로젝트에서 배운 것들",
+                "description": "뱅크샐러드 인증 스쿼드에서 마이데이터 서비스를 만들며 했던 고민과 행동 그리고 아쉬웠던 점을 회고합니다.",
+                "tags": [
+                  "마이데이터",
+                  "개발문화",
+                  "문서화",
+                  "조직문화",
+                  "협업",
+                  "JIRA",
+                  "회고"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#e8a8a8",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/9bf6e432ba52020aeab60be0a93a7a79/5aead/thumbnail.png",
+                          "srcSet": "/static/9bf6e432ba52020aeab60be0a93a7a79/e9fba/thumbnail.png 50w,\n/static/9bf6e432ba52020aeab60be0a93a7a79/15e42/thumbnail.png 100w,\n/static/9bf6e432ba52020aeab60be0a93a7a79/5aead/thumbnail.png 200w,\n/static/9bf6e432ba52020aeab60be0a93a7a79/d6138/thumbnail.png 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/9bf6e432ba52020aeab60be0a93a7a79/dbc4a/thumbnail.webp 50w,\n/static/9bf6e432ba52020aeab60be0a93a7a79/d8057/thumbnail.webp 100w,\n/static/9bf6e432ba52020aeab60be0a93a7a79/2e34e/thumbnail.webp 200w,\n/static/9bf6e432ba52020aeab60be0a93a7a79/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요. 뱅크샐러드 UX Strategy 팀 Product Manager 이승민 입니다. 저는 2019년 11월부터 2021년 6월까지 Android, iOS, Web, QA 4개의 Frontend 플랫폼의 Engineering Manager를 맡았습니다. 매니저를 맡는동안 Frontend 팀은 15명에서 시작해 40명대까지 성장하였습니다. 1년 7개월간 변화가 많았던 팀을 매니징하면서 매니저로서 배우고 느낀 것들을 공유합니다. 1. Engineering Manager는 무슨 일을 하나요? 엔지니어들을 일, 팀 그리고 사람…",
+              "fields": {
+                "slug": "/tech/engineering-manager-role-growth/"
+              },
+              "frontmatter": {
+                "date": "12 <span> October </span>",
+                "title": "팀과 함께 성장하는 Engineering Manager의 역할",
+                "description": "Engineering Manager로서 1년 7개월을 지내며 배우고 느낀 점들을 공유합니다.",
+                "tags": [
+                  "매니저",
+                  "Manager",
+                  "Engineering Manager",
+                  "원온원",
+                  "1on1",
+                  "팀관리",
+                  "Visioning"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#e8f8f8",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/173a4778419ba91ab375a2d7df9c078c/5aead/0_thumbnail.png",
+                          "srcSet": "/static/173a4778419ba91ab375a2d7df9c078c/e9fba/0_thumbnail.png 50w,\n/static/173a4778419ba91ab375a2d7df9c078c/15e42/0_thumbnail.png 100w,\n/static/173a4778419ba91ab375a2d7df9c078c/5aead/0_thumbnail.png 200w,\n/static/173a4778419ba91ab375a2d7df9c078c/d6138/0_thumbnail.png 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/173a4778419ba91ab375a2d7df9c078c/dbc4a/0_thumbnail.webp 50w,\n/static/173a4778419ba91ab375a2d7df9c078c/d8057/0_thumbnail.webp 100w,\n/static/173a4778419ba91ab375a2d7df9c078c/2e34e/0_thumbnail.webp 200w,\n/static/173a4778419ba91ab375a2d7df9c078c/416c3/0_thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요, 뱅크샐러드 Data Foundation의 Data Engineering팀 Data Engineer Jensen입니다. 뱅크샐러드의 데이터 파운데이션 조직은 데이터 기반 의사결정을 위해 존재하기에, 데이터 파운데이션의 미션은 뱅크샐러드의 제품과 데이터의 ecosystem을 만드는 것입니다. 🌏 제품과 데이터의 Ecosystem은 무엇인가요? Ecosystem은 복잡한 네트워크 또는 상호 연결된 시스템입니다. 뱅크샐러드의 제품과 데이터의 Ecosystem…",
+              "fields": {
+                "slug": "/tech/the-starting-of-datadiscoveryplatform-era-in-banksalad/"
+              },
+              "frontmatter": {
+                "date": "15 <span> September </span>",
+                "title": "뱅크샐러드 Data Discovery Platform의 시작",
+                "description": "Data Discovery Platform이 뱅크샐러드에서 시작하는 이야기를 다룹니다.",
+                "tags": [
+                  "데이터파운데이션",
+                  "데이터엔지니어링",
+                  "데이터",
+                  "조직문화",
+                  "고객임팩트",
+                  "Data Foundation",
+                  "Data Engineering",
+                  "Data Discovery Platform",
+                  "Datahub"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#f8f8f8",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/dd515/thumbnail.jpg",
+                          "srcSet": "/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/6ac16/thumbnail.jpg 50w,\n/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/e07e1/thumbnail.jpg 100w,\n/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/dd515/thumbnail.jpg 200w,\n/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/47930/thumbnail.jpg 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/dbc4a/thumbnail.webp 50w,\n/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/d8057/thumbnail.webp 100w,\n/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/2e34e/thumbnail.webp 200w,\n/static/7fa6a34ec5a77ac8b8b58c97f3d19c3e/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요. 뱅크샐러드 보험 스쿼드의 테크 리드(Tech Lead…",
+              "fields": {
+                "slug": "/tech/grow-fearlessly/"
+              },
+              "frontmatter": {
+                "date": "15 <span> February </span>",
+                "title": "두려움 없이 성장하는 뱅크샐러드",
+                "description": "테크 리드로 성장하며 경험한 뱅크샐러드의 문화를 소개합니다.",
+                "tags": [
+                  "조직문화",
+                  "핵심가치",
+                  "Fearlessness",
+                  "협업",
+                  "개발문화",
+                  "코드리뷰",
+                  "Code Review",
+                  "문서",
+                  "문서화"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#0898f8",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/956b0c5f5be57cccd32bab9e84ae7076/5aead/thumbnail.png",
+                          "srcSet": "/static/956b0c5f5be57cccd32bab9e84ae7076/e9fba/thumbnail.png 50w,\n/static/956b0c5f5be57cccd32bab9e84ae7076/15e42/thumbnail.png 100w,\n/static/956b0c5f5be57cccd32bab9e84ae7076/5aead/thumbnail.png 200w,\n/static/956b0c5f5be57cccd32bab9e84ae7076/d6138/thumbnail.png 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/956b0c5f5be57cccd32bab9e84ae7076/dbc4a/thumbnail.webp 50w,\n/static/956b0c5f5be57cccd32bab9e84ae7076/d8057/thumbnail.webp 100w,\n/static/956b0c5f5be57cccd32bab9e84ae7076/2e34e/thumbnail.webp 200w,\n/static/956b0c5f5be57cccd32bab9e84ae7076/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "안녕하세요. 실험플랫폼 팀 Data Scientist 이수형입니다. 뱅크샐러드는 실험을 통해 제품을 개선하는 노력이 실제로 사용자에게 더 좋은 경험으로 이어지는지 매일매일 데이터를 통해 검증해나가고 있습니다. 여기서 말하는 실험(A/B Test, Online Controlled Experiment)이란 사용자가 마주하는 변화를 정량적인 데이터로 측정하는 과정입니다. 내부적으로 실험을 원활하게 진행하기 위해, 202…",
+              "fields": {
+                "slug": "/tech/experiment-platform-analysis-architecture/"
+              },
+              "frontmatter": {
+                "date": "10 <span> February </span>",
+                "title": "뱅크샐러드의 실험플랫폼 분석 인프라 살펴보기",
+                "description": "뱅크샐러드의 실험플랫폼 분석 인프라를 소개합니다",
+                "tags": [
+                  "A/B Test",
+                  "Online Controlled Experiment",
+                  "Experiment",
+                  "실험",
+                  "실험플랫폼",
+                  "Experiment Platform",
+                  "Experimentation"
+                ],
+                "thumbnail": {
+                  "childImageSharp": {
+                    "gatsbyImageData": {
+                      "layout": "constrained",
+                      "backgroundColor": "#080808",
+                      "images": {
+                        "fallback": {
+                          "src": "/static/e735efa7a7abb3c89116fc57138fb897/5aead/thumbnail.png",
+                          "srcSet": "/static/e735efa7a7abb3c89116fc57138fb897/e9fba/thumbnail.png 50w,\n/static/e735efa7a7abb3c89116fc57138fb897/15e42/thumbnail.png 100w,\n/static/e735efa7a7abb3c89116fc57138fb897/5aead/thumbnail.png 200w,\n/static/e735efa7a7abb3c89116fc57138fb897/d6138/thumbnail.png 400w",
+                          "sizes": "(min-width: 200px) 200px, 100vw"
+                        },
+                        "sources": [
+                          {
+                            "srcSet": "/static/e735efa7a7abb3c89116fc57138fb897/dbc4a/thumbnail.webp 50w,\n/static/e735efa7a7abb3c89116fc57138fb897/d8057/thumbnail.webp 100w,\n/static/e735efa7a7abb3c89116fc57138fb897/2e34e/thumbnail.webp 200w,\n/static/e735efa7a7abb3c89116fc57138fb897/416c3/thumbnail.webp 400w",
+                            "type": "image/webp",
+                            "sizes": "(min-width: 200px) 200px, 100vw"
+                          }
+                        ]
+                      },
+                      "width": 200,
+                      "height": 200
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "limit": 15,
+      "skip": 15,
+      "numPages": 4,
+      "currentPage": 2
+    }
+  },
+  "staticQueryHashes": [
+    "1648253469",
+    "63159454"
+  ]
+}
