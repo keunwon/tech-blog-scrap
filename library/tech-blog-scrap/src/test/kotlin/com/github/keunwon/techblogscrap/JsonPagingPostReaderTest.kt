@@ -13,7 +13,7 @@ class JsonPagingPostReaderTest : FunSpec() {
                     initUrl = "${resource}/토스_1.json",
                     urlTemplate = "${resource}/토스_%d.json",
                 ),
-                pagingTemplate = FilePagingTemplate(),
+                postTemplate = FilePostTemplate(),
                 mapper = JsonPagingMapper(TOSS_JSON_Tag_PROPERTIES, testObjectMapper),
             )
 
@@ -28,7 +28,7 @@ class JsonPagingPostReaderTest : FunSpec() {
                     initUrl = "${resource}/네이버_1.json",
                     urlTemplate = "${resource}/토스_%d.json",
                 ),
-                pagingTemplate = FilePagingTemplate(),
+                postTemplate = FilePostTemplate(),
                 mapper = JsonPagingMapper(NAVER_JSON_Tag_PROPERTIES, testObjectMapper),
             )
 

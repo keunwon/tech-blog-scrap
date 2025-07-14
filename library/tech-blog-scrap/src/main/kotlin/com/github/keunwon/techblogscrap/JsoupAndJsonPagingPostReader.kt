@@ -6,8 +6,8 @@ import java.util.concurrent.CopyOnWriteArrayList
 
 internal class JsoupAndJsonPagingPostReader(
     private val pagingQueryProvider: PagingQueryProvider,
-    private val jsoupPagingTemplate: PagingTemplate,
-    private val jsonPagingTemplate: PagingTemplate,
+    private val jsoupPostTemplate: PostTemplate,
+    private val jsonPostTemplate: PostTemplate,
     private val jsoupMapper: PagingMapper<BlogPost>,
     private val jsonMapper: PagingMapper<BlogPost>,
 ) : AbstractPagingPostReader<Content>() {
@@ -22,10 +22,10 @@ internal class JsoupAndJsonPagingPostReader(
         runCatching {
             val data = if (page == 0) {
                 val query = pagingQueryProvider.generateFirstQuery(page)
-                jsoupMapper.map(jsoupPagingTemplate.fetch(query))
+                jsoupMapper.map(jsoupPostTemplate.fetch(query))
             } else {
                 val query = pagingQueryProvider.generateRemainingQuery(page)
-                jsonMapper.map(jsonPagingTemplate.fetch(query))
+                jsonMapper.map(jsonPostTemplate.fetch(query))
             }
             results.addAll(data.contents)
         }.onFailure { ex ->

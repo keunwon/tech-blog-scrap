@@ -5,7 +5,7 @@ import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 
-internal class HttpClientPagingTemplate : PagingTemplate {
+internal class RestApiPostTemplate : PostTemplate {
     private val httpClient = HttpClient.newBuilder()
         .followRedirects(HttpClient.Redirect.ALWAYS)
         .build()

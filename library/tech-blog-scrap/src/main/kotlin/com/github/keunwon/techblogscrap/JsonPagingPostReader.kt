@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList
 
 internal class JsonPagingPostReader(
     private val pagingQueryProvider: PagingQueryProvider,
-    private val pagingTemplate: PagingTemplate,
+    private val postTemplate: PostTemplate,
     private val mapper: PagingMapper<BlogPost>,
 ) : AbstractPagingPostReader<Content>() {
 
@@ -24,7 +24,7 @@ internal class JsonPagingPostReader(
         }
 
         runCatching {
-            val item = mapper.map(pagingTemplate.fetch(query))
+            val item = mapper.map(postTemplate.fetch(query))
             if (page == 0) {
                 pageSize = item.page.pageSize
                 current = item.page.current

@@ -1,5 +1,5 @@
 package com.github.keunwon.techblogscrap
 
-internal interface PagingTemplate {
+internal interface PostTemplate {
     fun fetch(query: String): String
 }

@@ -10,7 +10,7 @@ class PagingPostReaderApplication {
 
     fun start() {
         val blogTagProperty = BlogTagYamlParser.load(File(resource.path))
-        val pagingTemplate = HttpClientPagingTemplate()
+        val pagingTemplate = RestApiPostTemplate()
 
         val jsonPagingPostReaders = blogTagProperty.json.map { property ->
             val pagingQueryProvider = SimplePagingQueryProvider(property.firstUrl, property.remainingUrlTemplate)
