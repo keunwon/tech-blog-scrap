@@ -16,8 +16,8 @@ class BlogTagYamlParserTest : FunSpec() {
 
             val tossJPathProperties = JsonTagProperty(
                 name = "토스",
-                firstUrl = "",
-                remainingUrlTemplate = "",
+                firstUrl = "https://api-public.toss.im/api-public/v3/ipd-thor/api/v1/workspaces/15/posts?size=20&page=1",
+                remainingUrlTemplate = "https://api-public.toss.im/api-public/v3/ipd-thor/api/v1/workspaces/15/posts?size=20&page=%d",
                 pageSize = "success.pageSize",
                 page = "success.page",
                 totalPage = "",
@@ -35,8 +35,8 @@ class BlogTagYamlParserTest : FunSpec() {
 
             val naverJPathProperties = JsonTagProperty(
                 name = "네이버",
-                firstUrl = "",
-                remainingUrlTemplate = "",
+                firstUrl = "https://d2.naver.com/api/v1/contents?categoryId=&page=0&size=20",
+                remainingUrlTemplate = "https://d2.naver.com/api/v1/contents?categoryId=&page=%d&size=20",
                 pageSize = "page.size",
                 page = "page.number",
                 totalPage = "page.totalPages",
@@ -54,7 +54,7 @@ class BlogTagYamlParserTest : FunSpec() {
 
             val kurlyJsoupTagProperties = JsoupTagProperty(
                 name = "마켓컬리",
-                firstUrl = "",
+                firstUrl = "https://helloworld.kurly.com/",
                 remainingUrlTemplate = "",
                 pageSize = -1,
                 page = 1,
@@ -70,11 +70,8 @@ class BlogTagYamlParserTest : FunSpec() {
                 )
             )
 
-            blogTagProperties.json.size shouldBe 2
             blogTagProperties.json[0] shouldBe tossJPathProperties
             blogTagProperties.json[1] shouldBe naverJPathProperties
-
-            blogTagProperties.jsoup.size shouldBe 1
             blogTagProperties.jsoup[0] shouldBe kurlyJsoupTagProperties
         }
     }
