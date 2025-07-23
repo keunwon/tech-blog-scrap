@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.remote.RemoteWebDriver
 import org.slf4j.LoggerFactory
 
-abstract class NoOffsetPagingReader<T> : PostReader<T>, PostReaderStream, Pageable {
+abstract class NoOffsetPagingSeleniumReader<T> : PostReader<T>, PostReaderStream, Pageable {
     protected val logger = LoggerFactory.getLogger(this::class.java)
 
     abstract val driver: RemoteWebDriver
@@ -47,9 +47,9 @@ abstract class NoOffsetPagingReader<T> : PostReader<T>, PostReaderStream, Pageab
                     .onSuccess { contents.add(it) }
                     .onFailure { e ->
                         if (e is NoSuchElementException) {
-                            logger.info("${i + 1}번째 글의 element 찾지 못하여 추가하지 않습니다.")
+                            logger.info("${i + 1}번째 글의 element 찾지 못하여 추가하지 않습니다. ${e.message}")
                         } else {
-                            logger.warn("${i + 1}번째 글 파싱에 실패아여 추가하지 않습니다.", e)
+                            logger.warn("${i + 1}번째 글 파싱에 실패하였습니다.", e)
                         }
                         isError = true
                     }
@@ -79,7 +79,7 @@ abstract class NoOffsetPagingReader<T> : PostReader<T>, PostReaderStream, Pageab
 
         driver.scrollDown()
         repeat(10) {
-            TimeUnit.MILLISECONDS.sleep(300L)
+            TimeUnit.MILLISECONDS.sleep(500L)
             val now = driver.findAllXPath(contentsXPath).size
             if (before < now) return@repeat
         }

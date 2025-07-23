@@ -1,7 +1,10 @@
 package com.github.keunwon.techblogscrap
 
+import com.fasterxml.jackson.databind.ObjectMapper
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
+
+internal val testObjectMapper = ObjectMapper()
 
 internal val headlessOptions = ChromeOptions().apply {
     addArguments(

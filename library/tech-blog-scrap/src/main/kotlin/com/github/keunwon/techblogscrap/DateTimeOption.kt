@@ -1,7 +1,9 @@
 package com.github.keunwon.techblogscrap
 
+import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime
+import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
@@ -18,7 +20,22 @@ enum class DateTimeOption {
                 LocalDate.parse(date, dateTimeFormatter).atStartOfDay()
             }
         }
+    },
+
+    INSTANCE {
+        override fun convert(date: String): LocalDateTime {
+            return LocalDateTime.ofInstant(Instant.parse(date), ZoneId.systemDefault())
+        }
+    },
+
+    EPOCH_MILLI {
+        override fun convert(date: String): LocalDateTime {
+            val instant = Instant.ofEpochMilli(date.toLong())
+            return LocalDateTime.ofInstant(instant, ZoneId.systemDefault());
+        }
     };
 
     abstract fun convert(date: String): LocalDateTime
+
+    fun convert(date: Long): LocalDateTime = convert(date.toString())
 }

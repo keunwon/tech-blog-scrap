@@ -2,14 +2,14 @@ package com.github.keunwon.techblogscrap.medium
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOption
-import com.github.keunwon.techblogscrap.NoOffsetPagingReader
+import com.github.keunwon.techblogscrap.NoOffsetPagingSeleniumReader
 import com.github.keunwon.techblogscrap.findXPath
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.remote.RemoteWebDriver
 
-class YogiyoMediumReader(
+class YogiyoMediumSeleniumReader(
     override val driver: RemoteWebDriver,
-) : NoOffsetPagingReader<BlogPost>() {
+) : NoOffsetPagingSeleniumReader<BlogPost>() {
     override val url: String = "https://techblog.yogiyo.co.kr/latest"
     override val name: String = "요기요"
     override val contentsXPath: String = "/html/body/div[1]/div[2]/div/div[4]/div/div[1]/div/div/div/div"
@@ -24,6 +24,7 @@ class YogiyoMediumReader(
             BlogPost(
                 title = element.findXPath(TITLE_XPATH).text,
                 comment = element.findXPath(COMMENT_XPATH).text,
+                url = "",
                 authors = listOf(element.findXPath(AUTHOR_XPATH).text),
                 publishedDateTime = DateTimeOption.MMM_ENG_DAY_COMMA_YYYY
                     .convert(element.findXPath(PUBLISHED_DATE_TIME_XPATH).text),

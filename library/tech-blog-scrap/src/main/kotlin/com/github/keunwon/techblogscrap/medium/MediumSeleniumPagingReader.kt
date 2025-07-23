@@ -2,16 +2,16 @@ package com.github.keunwon.techblogscrap.medium
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOption
-import com.github.keunwon.techblogscrap.NoOffsetPagingReader
+import com.github.keunwon.techblogscrap.NoOffsetPagingSeleniumReader
 import com.github.keunwon.techblogscrap.findXPath
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.remote.RemoteWebDriver
 
-class DefaultMediumPagingReader(
+class MediumSeleniumPagingReader(
     override val driver: RemoteWebDriver,
     override val url: String,
     override val name: String,
-) : NoOffsetPagingReader<BlogPost>() {
+) : NoOffsetPagingSeleniumReader<BlogPost>() {
     override val contentsXPath: String = "/html/body/div[1]/div/div[3]/div[2]/div[2]/div/main/div/div[2]/div/div/div"
 
     override fun conditionElement(element: WebElement): Boolean {
@@ -23,6 +23,7 @@ class DefaultMediumPagingReader(
             BlogPost(
                 title = element.findXPath(POST_TITLE_XPATH).text,
                 comment = element.findXPath(POST_COMMENT_XPATH).text,
+                url = "",
                 authors = listOf(),
                 publishedDateTime = DateTimeOption.MMM_ENG_DAY_COMMA_YYYY
                     .convert(element.findXPath(POST_PUBLISHED_DATE_TIME_XPATH).text),

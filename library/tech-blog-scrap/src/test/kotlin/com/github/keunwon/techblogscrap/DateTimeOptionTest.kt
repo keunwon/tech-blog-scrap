@@ -20,5 +20,13 @@ class DateTimeOptionTest : FunSpec() {
                 actual shouldBe LocalDateTime.of(2022, 7, 6, 0, 0, 0)
             }
         }
+
+        context("instance") {
+            test("1688352277664") {
+                val date = "1688352277664"
+                val actual = DateTimeOption.EPOCH_MILLI.convert(date)
+                println(actual)
+            }
+        }
     }
 }
