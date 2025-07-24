@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.other
+package com.github.keunwon.techblogscrap.jsonnode
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper

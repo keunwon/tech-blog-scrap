@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.medium
+package com.github.keunwon.techblogscrap.jsonnode.medium
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.HttpMethod

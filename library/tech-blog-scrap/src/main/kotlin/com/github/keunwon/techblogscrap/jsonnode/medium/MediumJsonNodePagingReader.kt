@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.medium
+package com.github.keunwon.techblogscrap.jsonnode.medium
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -35,12 +35,13 @@ class MediumJsonNodePagingReader(
         )
 
     override fun fetchResponse(): Result<String> {
-        val request = mapOf(
-            "query" to query,
-            "variables" to variables,
-        )
         return apiTemplate.fetch(
-            data = objectMapper.writeValueAsString(request),
+            data = objectMapper.writeValueAsString(
+                mapOf(
+                    "query" to query,
+                    "variables" to variables,
+                )
+            ),
             headers = mapOf("Content-type" to "application/json"),
         )
     }

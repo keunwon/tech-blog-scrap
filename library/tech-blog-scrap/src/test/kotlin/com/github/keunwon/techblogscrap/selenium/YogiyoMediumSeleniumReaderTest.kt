@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.medium
+package com.github.keunwon.techblogscrap.selenium
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
@@ -12,7 +12,7 @@ import io.kotest.matchers.string.shouldNotBeBlank
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.remote.RemoteWebDriver
 
-class YogiyoMediumReaderTest : FunSpec() {
+class YogiyoMediumSeleniumReaderTest : FunSpec() {
     init {
         test("요기요 블로그 글 읽기") {
             val yogiyoReader = YogiyoMediumSeleniumReader(generateDriver())

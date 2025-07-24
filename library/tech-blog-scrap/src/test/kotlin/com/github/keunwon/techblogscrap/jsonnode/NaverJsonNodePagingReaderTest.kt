@@ -1,25 +1,25 @@
-package com.github.keunwon.techblogscrap.other
+package com.github.keunwon.techblogscrap.jsonnode
 
 import com.github.keunwon.techblogscrap.GetApiTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
-import io.kotest.matchers.ints.shouldBeGreaterThanOrEqual
+import io.kotest.matchers.ints.shouldBeGreaterThan
 import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.string.shouldNotBeBlank
 
-class LineJsonNodePagingReaderTest : FunSpec() {
+class NaverJsonNodePagingReaderTest : FunSpec() {
     init {
-        test("라인 블로그 글 읽기") {
-            val reader = LineJsonNodePagingReader(
-                apiTemplate = GetApiTemplate("https://techblog.lycorp.co.jp"),
+        test("네이버 블로그 글 읽기") {
+            val reader = NaverJsonNodePagingReader(
+                apiTemplate = GetApiTemplate("https://d2.naver.com"),
                 objectMapper = testObjectMapper,
             )
 
-            val posts = generateSequence { reader.read() }.toList()
+            val blogPosts = generateSequence { reader.read() }.toList()
 
-            posts.size shouldBeGreaterThanOrEqual 90
-            posts.forAll { post ->
+            blogPosts.size shouldBeGreaterThan 10
+            blogPosts.forAll { post ->
                 post.title.shouldNotBeBlank()
                 post.url.shouldNotBeBlank()
                 post.publishedDateTime.shouldNotBeNull()

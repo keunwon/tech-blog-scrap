@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.other
+package com.github.keunwon.techblogscrap.jsonnode
 
 import com.github.keunwon.techblogscrap.GetApiTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
