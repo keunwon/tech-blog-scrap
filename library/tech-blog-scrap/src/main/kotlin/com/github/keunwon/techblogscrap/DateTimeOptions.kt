@@ -7,7 +7,7 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
-enum class DateTimeOption {
+enum class DateTimeOptions {
     // ex) Jul 6, 2022
     MMM_ENG_DAY_COMMA_YYYY {
         private val shortDateTimeFormatter = DateTimeFormatter.ofPattern("MMM d, yyyy", Locale.ENGLISH)
@@ -19,12 +19,6 @@ enum class DateTimeOption {
             } else {
                 LocalDate.parse(date, dateTimeFormatter).atStartOfDay()
             }
-        }
-    },
-
-    INSTANCE {
-        override fun convert(date: String): LocalDateTime {
-            return LocalDateTime.ofInstant(Instant.parse(date), ZoneId.systemDefault())
         }
     },
 

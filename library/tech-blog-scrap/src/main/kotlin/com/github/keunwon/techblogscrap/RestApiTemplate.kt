@@ -8,16 +8,15 @@ import java.net.http.HttpResponse
 class RestApiTemplate(
     private val url: String,
     private val httpMethod: HttpMethod,
-    private val headers: Map<String, String> = mapOf(),
 ) : ApiTemplate {
-    override fun fetch(json: String): Result<String> {
+    override fun fetch(data: String, headers: Map<String, String>): Result<String> {
         return runCatching {
             val request = HttpRequest.newBuilder()
                 .uri(URI(url))
                 .apply {
                     when (httpMethod) {
                         HttpMethod.GET -> GET()
-                        HttpMethod.POST -> POST(HttpRequest.BodyPublishers.ofString(json))
+                        HttpMethod.POST -> POST(HttpRequest.BodyPublishers.ofString(data))
                     }
                     headers.forEach { (k, v) -> header(k, v) }
                 }

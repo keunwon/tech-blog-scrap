@@ -1,11 +1,17 @@
 package com.github.keunwon.techblogscrap.medium
 
+import com.github.keunwon.techblogscrap.BlogPost
+import com.github.keunwon.techblogscrap.DateTimeOptions
+import com.github.keunwon.techblogscrap.NoOffsetPagingSeleniumReader
+import com.github.keunwon.techblogscrap.findXPath
 import com.github.keunwon.techblogscrap.generateDriver
 import com.github.keunwon.techblogscrap.generateHeadlessDriver
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.comparables.shouldBeGreaterThan
 import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.string.shouldNotBeBlank
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.remote.RemoteWebDriver
 
 class MediumSeleniumPagingReaderTest : FunSpec() {
     init {
@@ -49,4 +55,39 @@ class MediumSeleniumPagingReaderTest : FunSpec() {
 
     private fun generateMediumReader(url: String, name: String) =
         MediumSeleniumPagingReader(generateHeadlessDriver(), url, name)
+}
+
+internal class MediumSeleniumPagingReader(
+    override val driver: RemoteWebDriver,
+    override val url: String,
+    override val name: String,
+) : NoOffsetPagingSeleniumReader<BlogPost>() {
+    override val contentsXPath: String = "/html/body/div[1]/div/div[3]/div[2]/div[2]/div/main/div/div[2]/div/div/div"
+
+    override fun conditionElement(element: WebElement): Boolean {
+        return element.getAttribute("class") == "ac ck"
+    }
+
+    override fun tryToObj(element: WebElement): Result<BlogPost> {
+        return runCatching {
+            BlogPost(
+                title = element.findXPath(POST_TITLE_XPATH).text,
+                comment = element.findXPath(POST_COMMENT_XPATH).text,
+                url = "",
+                authors = listOf(),
+                publishedDateTime = DateTimeOptions.MMM_ENG_DAY_COMMA_YYYY
+                    .convert(element.findXPath(POST_PUBLISHED_DATE_TIME_XPATH).text),
+            )
+        }
+    }
+
+    companion object {
+        private const val POST_TITLE_XPATH = "div/div/article/div/div/div/div/div[1]/div/div[2]/div[1]/div[1]/a/h2"
+
+        private const val POST_COMMENT_XPATH =
+            "div/div/article/div/div/div/div/div[1]/div/div[2]/div[1]/div[1]/a/div/h3"
+
+        private const val POST_PUBLISHED_DATE_TIME_XPATH =
+            "div/div/article/div/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div/span/div/div[1]/span"
+    }
 }

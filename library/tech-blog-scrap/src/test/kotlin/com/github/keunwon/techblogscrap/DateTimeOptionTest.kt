@@ -10,13 +10,13 @@ class DateTimeOptionTest : FunSpec() {
         context("MMM_ENG_DAY_COMMA_YYYY 형식으로 변환") {
             test("Jul 6, 2022") {
                 val date = "Jul 6, 2022"
-                val actual = DateTimeOption.MMM_ENG_DAY_COMMA_YYYY.convert(date)
+                val actual = DateTimeOptions.MMM_ENG_DAY_COMMA_YYYY.convert(date)
                 actual shouldBe LocalDateTime.of(2022, 7, 6, 0, 0, 0)
             }
 
             test("Jul 06, 2022") {
                 val date = "Jul 06, 2022"
-                val actual = DateTimeOption.MMM_ENG_DAY_COMMA_YYYY.convert(date)
+                val actual = DateTimeOptions.MMM_ENG_DAY_COMMA_YYYY.convert(date)
                 actual shouldBe LocalDateTime.of(2022, 7, 6, 0, 0, 0)
             }
         }
@@ -24,7 +24,7 @@ class DateTimeOptionTest : FunSpec() {
         context("instance") {
             test("1688352277664") {
                 val date = "1688352277664"
-                val actual = DateTimeOption.EPOCH_MILLI.convert(date)
+                val actual = DateTimeOptions.EPOCH_MILLI.convert(date)
                 println(actual)
             }
         }

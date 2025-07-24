@@ -1,5 +1,5 @@
 package com.github.keunwon.techblogscrap
 
 interface ApiTemplate {
-    fun fetch(json: String): Result<String>
+    fun fetch(data: String, headers: Map<String, String> = emptyMap()): Result<String>
 }
