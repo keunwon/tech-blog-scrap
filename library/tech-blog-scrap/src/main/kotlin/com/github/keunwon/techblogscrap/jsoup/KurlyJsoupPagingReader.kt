@@ -26,7 +26,7 @@ class KurlyJsoupPagingReader : JsoupPagingReader<BlogPost>() {
     }
 
     override fun doNext(document: Document) {
-        throw UnsupportedOperationException()
+        throw UnsupportedOperationException("doNext")
     }
 
     override fun doHasNetPage(document: Document): Boolean = false
