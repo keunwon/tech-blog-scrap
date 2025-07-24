@@ -7,5 +7,6 @@ data class BlogPost(
     val comment: String,
     val url: String,
     val authors: List<String>,
+    val categories: List<String> = emptyList(),
     val publishedDateTime: LocalDateTime?,
 )
