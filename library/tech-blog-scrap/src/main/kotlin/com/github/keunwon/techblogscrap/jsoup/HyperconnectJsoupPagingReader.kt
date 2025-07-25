@@ -28,7 +28,7 @@ class HyperconnectJsoupPagingReader : JsoupPagingReader<BlogPost>() {
     }
 
     override fun doNext(document: Document) {
-        throw UnsupportedOperationException("doNext")
+        throw UnsupportedOperationException()
     }
 
     override fun doHasNetPage(document: Document): Boolean = false

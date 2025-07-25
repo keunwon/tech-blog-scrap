@@ -19,14 +19,15 @@ class KurlyJsoupPagingReader : JsoupPagingReader<BlogPost>() {
                     url = selectFirst(Evaluator.Class("post-link"))!!.attr("href"),
                     authors = selectFirst(Evaluator.Class("post-autor"))!!.text().split(" "),
                     categories = emptyList(),
-                    publishedDateTime = DateTimeOptions.YYYY_YY_DD_ALL_COMMA.convert(selectFirst(Evaluator.Class("post-date"))!!.text()),
+                    publishedDateTime = DateTimeOptions.YYYY_MM_DD_COMMA
+                        .convert(selectFirst(Evaluator.Class("post-date"))!!.text().dropLast(1)),
                 )
             }
         }
     }
 
     override fun doNext(document: Document) {
-        throw UnsupportedOperationException("doNext")
+        throw UnsupportedOperationException()
     }
 
     override fun doHasNetPage(document: Document): Boolean = false

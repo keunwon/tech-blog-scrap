@@ -45,20 +45,6 @@ enum class DateTimeOptions {
         }
     },
 
-    // ex) 2025.07.01.
-    YYYY_YY_DD_ALL_COMMA {
-        private val shortedFormatter = DateTimeFormatter.ofPattern("yyyy.M.dd.")
-        private val formatter = DateTimeFormatter.ofPattern("yyyy.MM.dd.")
-
-        override fun convert(date: String): LocalDateTime {
-            return if (date.length == 10) {
-                LocalDate.parse(date, shortedFormatter).atStartOfDay()
-            } else {
-                LocalDate.parse(date, formatter).atStartOfDay()
-            }
-        }
-    },
-
     // ex) 2025-07-01
     YYYY_MM_DD_DASH {
         override fun convert(date: String): LocalDateTime {
@@ -66,12 +52,21 @@ enum class DateTimeOptions {
         }
     },
 
-    // ex) 2024.11.13
+    // ex) 2024.11.13 2024.1.1 2024.1.10 2024.10.1
     YYYY_MM_DD_COMMA {
+        private val shortedFormatter = DateTimeFormatter.ofPattern("yyyy.M.d")
+        private val shortedMonthFormatter = DateTimeFormatter.ofPattern("yyyy.M.dd")
+        private val shortedDayFormatter = DateTimeFormatter.ofPattern("yyyy.MM.d")
         private val formatter = DateTimeFormatter.ofPattern("yyyy.MM.dd")
 
         override fun convert(date: String): LocalDateTime {
-            return LocalDate.parse(date, formatter).atStartOfDay()
+            val (_, monthLength, dayLength) = date.split(".").map { it.length }
+            return when {
+                monthLength == 1 && dayLength == 1 -> LocalDate.parse(date, shortedFormatter)
+                monthLength == 1 -> LocalDate.parse(date, shortedMonthFormatter)
+                dayLength == 1 -> LocalDate.parse(date, shortedDayFormatter)
+                else -> LocalDate.parse(date, formatter)
+            }.atStartOfDay()
         }
     },
 

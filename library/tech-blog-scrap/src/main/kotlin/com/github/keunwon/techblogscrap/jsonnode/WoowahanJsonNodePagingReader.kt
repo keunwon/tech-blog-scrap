@@ -51,8 +51,8 @@ class WoowahanJsonNodePagingReader(
                     url = get("permalink").textValue(),
                     authors = get("author").get("name").textValue().split(", "),
                     categories = emptyList(),
-                    publishedDateTime = DateTimeOptions.YYYY_YY_DD_ALL_COMMA
-                        .convert(get("date").textValue().replace(" ", "")),
+                    publishedDateTime = DateTimeOptions.YYYY_MM_DD_COMMA
+                        .convert(get("date").textValue().replace(" ", "").dropLast(1)),
                 )
             }
         }

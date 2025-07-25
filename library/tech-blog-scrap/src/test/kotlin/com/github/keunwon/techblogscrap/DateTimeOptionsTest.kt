@@ -44,25 +44,29 @@ class DateTimeOptionsTest : FunSpec() {
             }
         }
 
-        context("YYYY_YY_DD_ALL_COMMA") {
-            test("2025.07.01.") {
-                val date = "2025.07.01."
-                val actual = DateTimeOptions.YYYY_YY_DD_ALL_COMMA.convert(date)
-                actual shouldBe LocalDateTime.of(2025, 7, 1, 0, 0, 0)
-            }
-
-            test("2025.7.01.") {
-                val date = "2025.7.01."
-                val actual = DateTimeOptions.YYYY_YY_DD_ALL_COMMA.convert(date)
-                actual shouldBe LocalDateTime.of(2025, 7, 1, 0, 0, 0)
-            }
-        }
-
         context("YYYY_MM_DD_COMMA") {
             test("2025.07.01") {
                 val date = "2025.07.01"
                 val actual = DateTimeOptions.YYYY_MM_DD_COMMA.convert(date)
                 actual shouldBe LocalDateTime.of(2025, 7, 1, 0, 0, 0)
+            }
+
+            test("2025.7.1") {
+                val date = "2025.7.1"
+                val actual = DateTimeOptions.YYYY_MM_DD_COMMA.convert(date)
+                actual shouldBe LocalDateTime.of(2025, 7, 1, 0, 0, 0)
+            }
+
+            test("2025.7.20") {
+                val date = "2025.7.20"
+                val actual = DateTimeOptions.YYYY_MM_DD_COMMA.convert(date)
+                actual shouldBe LocalDateTime.of(2025, 7, 20, 0, 0, 0)
+            }
+
+            test("2025.11.2") {
+                val date = "2025.11.2"
+                val actual = DateTimeOptions.YYYY_MM_DD_COMMA.convert(date)
+                actual shouldBe LocalDateTime.of(2025, 11, 2, 0, 0, 0)
             }
         }
 
