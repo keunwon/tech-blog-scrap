@@ -14,7 +14,22 @@ enum class DateTimeOptions {
         private val dateTimeFormatter = DateTimeFormatter.ofPattern("MMM dd, yyyy", Locale.ENGLISH)
 
         override fun convert(date: String): LocalDateTime {
-            return if (date.length == 11) {
+            val dayLength = date.replace(",", "").split(" ")[1].length
+            return if (dayLength == 1) {
+                LocalDate.parse(date, shortDateTimeFormatter).atStartOfDay()
+            } else {
+                LocalDate.parse(date, dateTimeFormatter).atStartOfDay()
+            }
+        }
+    },
+
+    MMMM_ENG_DAY_COMMA_YYYY {
+        private val shortDateTimeFormatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH)
+        private val dateTimeFormatter = DateTimeFormatter.ofPattern("MMMM dd, yyyy", Locale.ENGLISH)
+
+        override fun convert(date: String): LocalDateTime {
+            val dayLength = date.replace(",", "").split(" ")[1].length
+            return if (dayLength == 1) {
                 LocalDate.parse(date, shortDateTimeFormatter).atStartOfDay()
             } else {
                 LocalDate.parse(date, dateTimeFormatter).atStartOfDay()

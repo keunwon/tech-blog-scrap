@@ -14,18 +14,20 @@ class MediumJsonNodePagingReaderTest : FunSpec() {
     init {
         test("무신사 블로그 글 읽기") {
             val reader = generateMediumJsonNodePagingReader("musinsa-tech")
-
             val posts = generateSequence { reader.read() }.toList()
-
             shouldAll(posts, 34)
         }
 
         test("왓챠 블로그 글 읽기") {
             val reader = generateMediumJsonNodePagingReader("watcha")
-
             val posts = generateSequence { reader.read() }.toList()
-
             shouldAll(posts, 29)
+        }
+
+        test("코인원 블로그 글 읽기") {
+            val reader = generateMediumJsonNodePagingReader("coinone")
+            val posts = generateSequence { reader.read() }.toList()
+            shouldAll(posts, 10)
         }
     }
 

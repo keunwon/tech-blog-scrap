@@ -19,6 +19,15 @@ class DateTimeOptionsTest : FunSpec() {
                 val actual = DateTimeOptions.MMM_ENG_DAY_COMMA_YYYY.convert(date)
                 actual shouldBe LocalDateTime.of(2022, 7, 6, 0, 0, 0)
             }
+
+        }
+
+        context("MMMM_ENG_DAY_COMMA_YYYY") {
+            test("July 9, 2025") {
+                val date = "July 9, 2025"
+                val actual = DateTimeOptions.MMMM_ENG_DAY_COMMA_YYYY.convert(date)
+                actual shouldBe LocalDateTime.of(2025, 7, 9, 0, 0, 0)
+            }
         }
 
         context("DAY_MMM_ENG_YYYY") {
