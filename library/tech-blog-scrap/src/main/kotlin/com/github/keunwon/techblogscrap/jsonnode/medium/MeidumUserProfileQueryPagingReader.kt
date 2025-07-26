@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.jsonnode.medium
+﻿package com.github.keunwon.techblogscrap.jsonnode.medium
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -7,49 +7,22 @@ import com.fasterxml.jackson.databind.node.LongNode
 import com.github.keunwon.techblogscrap.ApiTemplate
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.JsonNodePagingReader
-import java.io.BufferedReader
-import java.io.File
-import java.io.InputStreamReader
 
-class MediumJsonNodePagingReader(
-    username: String,
-    queryPath: String,
-    private val apiTemplate: ApiTemplate,
+class MeidumUserProfileQueryPagingReader(
+    override val queryPath: String,
+    override var variables: UserProfileQuery,
+    override val apiTemplate: ApiTemplate,
     override val objectMapper: ObjectMapper,
-) : JsonNodePagingReader<BlogPost>() {
-    private val query by lazy { BufferedReader(InputStreamReader(File(queryPath).inputStream())).use { it.readText() } }
+) : MediumReader<UserProfileQuery>() {
 
     init {
-        pageSize = 20
-    }
-
-    private val variables: MutableMap<String, Any?> =
-        mutableMapOf(
-            "homepagePostsFrom" to null,
-            "homepagePostsLimit" to pageSize,
-            "id" to null,
-            "includeDistributedResponses" to true,
-            "includeShouldFollowPostForExternalSearch" to true,
-            "username" to username,
-        )
-
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(
-            data = objectMapper.writeValueAsString(
-                mapOf(
-                    "query" to query,
-                    "variables" to variables,
-                )
-            ),
-            headers = mapOf("Content-type" to "application/json"),
-        )
+        pageSize = variables.homepagePostsLimit
     }
 
     override fun doNext(node: JsonNode) {
         val homepagePostsFrom = node.getPagingInfo().get("next").get("from")
         require(homepagePostsFrom != null) { "homepagePostsFrom is null" }
-        variables["homepagePostsFrom"] = homepagePostsFrom
+        variables = variables.copy(homepagePostsFrom = homepagePostsFrom.textValue())
     }
 
     override fun doHasNextPage(node: JsonNode): Boolean {
@@ -63,7 +36,7 @@ class MediumJsonNodePagingReader(
                 title = post.get("title").textValue(),
                 comment = post.get("extendedPreviewContent").get("subtitle").textValue(),
                 url = post.get("mediumUrl").textValue(),
-                authors = post.get("creator").get("name").textValue().split(" "),
+                authors = post.get("creator").get("username").textValue().split(" "),
                 publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert((post.get("firstPublishedAt") as LongNode).longValue()),
             )
         }
@@ -71,5 +44,25 @@ class MediumJsonNodePagingReader(
 
     private fun JsonNode.getPagingInfo(): JsonNode {
         return get("data").get("userResult").get("homepagePostsConnection").get("pagingInfo")
+    }
+}
+
+data class UserProfileQuery(
+    val homepagePostsFrom: String?,
+    val includeDistributedResponses: Boolean,
+    val includeShouldFollowPostForExternalSearch: Boolean,
+    val id: String?,
+    val username: String?,
+    val homepagePostsLimit: Int,
+) {
+    companion object {
+        fun ofUserName(username: String) = UserProfileQuery(
+            homepagePostsFrom = null,
+            includeDistributedResponses = true,
+            includeShouldFollowPostForExternalSearch = true,
+            id = null,
+            username = username,
+            homepagePostsLimit = 20,
+        )
     }
 }
