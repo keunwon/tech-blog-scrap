@@ -292,5 +292,171 @@ class MediumPublicationContentDataQueryReaderTest : FunSpec() {
                 publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1433494216784L),
             )
         }
+
+        test("CJ 온스타일 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofSlug("cj-onstyle"),
+                apiTemplate = RestApiTemplate(
+                    url = "https://medium.com/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 33
+            posts.forAll {
+                it.title.shouldNotBeBlank()
+                it.url.shouldNotBeBlank()
+                it.authors.shouldNotBeEmpty()
+                it.publishedDateTime.shouldNotBeNull()
+            }.forSome {
+                it.comment.shouldNotBeBlank()
+            }
+            posts.last() shouldBe BlogPost(
+                title = "CJ온스타일 MLC에 AWS IVS 적용기(Interactive Video Service)",
+                comment = "; 22.11.03 AWS Industry-week 발표 후기",
+                url = "https://medium.com/cj-onstyle/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94-992bc067e459",
+                authors = listOf("RockBottom"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1669963595930L),
+            )
+        }
+
+        test("핀다 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofSlug("finda-tech"),
+                apiTemplate = RestApiTemplate(
+                    url = "https://medium.com/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 24
+            posts.forAll {
+                it.title.shouldNotBeBlank()
+                it.comment.shouldNotBeBlank()
+                it.url.shouldNotBeBlank()
+                it.authors.shouldNotBeEmpty()
+                it.publishedDateTime.shouldNotBeNull()
+            }
+            posts.last() shouldBe BlogPost(
+                title = "AWS EKS에서 Service 타입 별 / Ingress 테스트",
+                comment = "Kubernetes Network Test",
+                url = "https://medium.com/finda-tech/aws-eks%EC%97%90%EC%84%9C-service-%ED%83%80%EC%9E%85-%EB%B3%84-ingress-%ED%85%8C%EC%8A%A4%ED%8A%B8-b911f129c8d5",
+                authors = listOf("ShinChul Bang"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1578455794791L),
+            )
+        }
+
+        test("코인플러스 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofSlug("cplabs-tech"),
+                apiTemplate = RestApiTemplate(
+                    url = "https://medium.com/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 12
+            posts.forAll {
+                it.title.shouldNotBeBlank()
+                it.comment.shouldNotBeBlank()
+                it.url.shouldNotBeBlank()
+                it.authors.shouldNotBeEmpty()
+                it.publishedDateTime.shouldNotBeNull()
+            }
+            posts.last() shouldBe BlogPost(
+                title = "코인플러그 테크블로그를 소개합니다.",
+                comment = "새롭게 시작하는 코인플러그의 테크 블로그에 오신 것을 환영합니다. 이곳에서는 코인플러그 개발팀이 연구・도입 중인 기술과 서비스를 소개하고, 개발과정에서 겪었던 시행착오와 경험에 대해 이야기 하고자 합니다.",
+                url = "https://medium.com/cplabs-tech/%EC%BD%94%EC%9D%B8%ED%94%8C%EB%9F%AC%EA%B7%B8-%ED%85%8C%ED%81%AC%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4-2103a7fc53b1",
+                authors = listOf("CPLABS"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1611712399387),
+            )
+        }
+
+        test("로플렛 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofSlug("loplat", mapOf("tags" to "tech")),
+                apiTemplate = RestApiTemplate(
+                    url = "https://medium.com/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 6
+            posts.last() shouldBe BlogPost(
+                title = "Nation-wide WPS (WiFi Positioning System) 구축 기술에 관하여",
+                comment = "얼마전 유아 교육용 태블릿 대여 사업을 하는 분으로부터 연락을 받았다. 교육용 태블릿을 3개월 동안 무료 체험할 수 있게 제공 하는데, 체험 완료 즈음에 태블릿을 잃어버렸다면서 돌려주지 않는 사람이 점점 늘어나고 있어서 고민이라고. 근데, 정말…",
+                url = "https://medium.com/loplat/nation-wide-wps-wifi-positioning-system-%EA%B5%AC%EC%B6%95-%EA%B8%B0%EC%88%A0%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC-f3c3f264dc0f",
+                authors = listOf("loplat"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1612160897832L),
+            )
+        }
+
+        test("29cm 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofSlug("29cm"),
+                apiTemplate = RestApiTemplate(
+                    url = "https://medium.com/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 90
+            posts.last() shouldBe BlogPost(
+                title = "CacheOps — ORM에 Redis Cache 쉽게 적용하기",
+                comment = "29CM 백엔드 서버는 Django으로 구성되어있습니다. 이 글에서는 Django ORM Cache으로 Cacheops를 도입하면서 분석한 자료를 공유드리고자 합니다.",
+                url = "https://medium.com/29cm/cacheops-orm%EC%97%90-redis-cache-%EC%89%BD%EA%B2%8C-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-966249a1c615",
+                authors = listOf("Jimin Lee"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1589101936862L),
+            )
+        }
+
+        test("더핑크퐁컴퍼니 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofSlug("pinkfong"),
+                apiTemplate = RestApiTemplate(
+                    url = "https://medium.com/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 24
+            posts.last() shouldBe BlogPost(
+                title = "도커빌드 시간을 1/3로 줄여보았다 Part (1/2)",
+                comment = "더핑크퐁컴퍼니는 도커 이미지를 빌드해서 AWS ECS에 배포하는 방식을 사용하고 있습니다. 20분에 가까운 빌드 시간을 어떻게 6분으로 줄일 수 있었는지 얘기해보려고 합니다.",
+                url = "https://medium.com/pinkfong/%EB%8F%84%EC%BB%A4%EB%B9%8C%EB%93%9C-%EC%8B%9C%EA%B0%84%EC%9D%84-1-3%EB%A1%9C-%EC%A4%84%EC%97%AC%EB%B3%B4%EC%95%98%EB%8B%A4-part-1-411840808f20",
+                authors = listOf("Harim kim"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1617005335764L),
+            )
+        }
     }
 }

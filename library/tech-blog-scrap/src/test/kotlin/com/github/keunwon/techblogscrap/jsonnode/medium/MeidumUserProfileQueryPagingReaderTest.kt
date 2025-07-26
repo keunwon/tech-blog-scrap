@@ -15,7 +15,7 @@ import io.kotest.matchers.string.shouldNotBeBlank
 class MeidumUserProfileQueryPagingReaderTest : FunSpec() {
     init {
         test("무신사 블로그 글 읽기") {
-            val reader = generateMediumJsonNodePagingReader("musinsa-tech")
+            val reader = generateMediumJsonNodePagingReaderByUsername("musinsa-tech")
             val posts = generateSequence { reader.read() }.toList()
 
             posts.shouldAll(
@@ -32,7 +32,7 @@ class MeidumUserProfileQueryPagingReaderTest : FunSpec() {
         }
 
         test("왓챠 블로그 글 읽기") {
-            val reader = generateMediumJsonNodePagingReader("watcha")
+            val reader = generateMediumJsonNodePagingReaderByUsername("watcha")
             val posts = generateSequence { reader.read() }.toList()
 
             posts.shouldAll(
@@ -49,7 +49,7 @@ class MeidumUserProfileQueryPagingReaderTest : FunSpec() {
         }
 
         test("코인원 블로그 글 읽기") {
-            val reader = generateMediumJsonNodePagingReader("coinone")
+            val reader = generateMediumJsonNodePagingReaderByUsername("coinone")
             val posts = generateSequence { reader.read() }.toList()
 
             posts.shouldAll(
@@ -64,17 +64,42 @@ class MeidumUserProfileQueryPagingReaderTest : FunSpec() {
                 ),
             )
         }
+
+        test("레몬에이드 블로그 글 읽기") {
+            val reader = generateMediumJsonNodePagingReaderById("ce146a86b5e9")
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.shouldAll(
+                minSize = 15,
+                last = BlogPost(
+                    title = "Github action 사용해서 슬랙에 멘션 노티 보내기",
+                    comment = "by Siwoo",
+                    url = "https://medium.com/lemonade-engineering/github-action-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9E%99%EC%97%90-%EB%A9%98%EC%85%98-%EB%85%B8%ED%8B%B0-%EB%B3%B4%EB%82%B4%EA%B8%B0-55e1ed64d",
+                    authors = listOf("lemonade-engineering"),
+                    categories = emptyList(),
+                    publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1612492469001L)
+                ),
+            )
+        }
     }
 
     private val apiTemplate =
         RestApiTemplate("https://medium.com/_/graphql", HttpMethod.POST)
     private val queryPath =
-        MeidumUserProfileQueryPagingReaderTest::class.java.classLoader.getResource("query/medium.txt")!!.file
+        MeidumUserProfileQueryPagingReaderTest::class.java.classLoader.getResource("query/UserProfileQuery.txt")!!.file
 
-    private fun generateMediumJsonNodePagingReader(username: String) =
+    private fun generateMediumJsonNodePagingReaderByUsername(username: String) =
         MeidumUserProfileQueryPagingReader(
             queryPath = queryPath,
             variables = UserProfileQuery.ofUserName(username),
+            apiTemplate = apiTemplate,
+            objectMapper = testObjectMapper,
+        )
+
+    private fun generateMediumJsonNodePagingReaderById(id: String) =
+        MeidumUserProfileQueryPagingReader(
+            queryPath = queryPath,
+            variables = UserProfileQuery.ofId(id),
             apiTemplate = apiTemplate,
             objectMapper = testObjectMapper,
         )

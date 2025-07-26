@@ -33,6 +33,5 @@ abstract class JsoupPagingReader<T> : AbstractPagingReader<T>() {
 
     abstract fun convert(document: Document): List<T>
 
-
     abstract fun doHasNetPage(document: Document): Boolean
 }

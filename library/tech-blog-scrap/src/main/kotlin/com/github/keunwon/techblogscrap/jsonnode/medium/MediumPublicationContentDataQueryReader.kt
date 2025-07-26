@@ -48,29 +48,33 @@ data class PublicationContentDataQuery(
     val first: Int,
     val after: String,
     val orderBy: OrderBy,
-    val filter: Filter,
+    val filter: Map<String, Any>,
 ) {
     data class Ref(val slug: String?, val domain: String?)
 
     data class OrderBy(val publishedAt: String = "DESC")
 
-    data class Filter(val published: Boolean = true)
-
     companion object {
-        fun ofSlug(slug: String) = PublicationContentDataQuery(
+        fun ofSlug(
+            slug: String,
+            filter: Map<String, Any> = mapOf("published" to true),
+        ) = PublicationContentDataQuery(
             ref = Ref(slug, null),
             first = 10,
             after = "",
             orderBy = OrderBy("DESC"),
-            filter = Filter(true),
+            filter = filter,
         )
 
-        fun ofDomain(domain: String) = PublicationContentDataQuery(
+        fun ofDomain(
+            domain: String,
+            filter: Map<String, Any> = mapOf("published" to true),
+        ) = PublicationContentDataQuery(
             ref = Ref(null, domain),
             first = 10,
             after = "",
             orderBy = OrderBy("DESC"),
-            filter = Filter(true),
+            filter = mapOf("published" to true),
         )
     }
 }

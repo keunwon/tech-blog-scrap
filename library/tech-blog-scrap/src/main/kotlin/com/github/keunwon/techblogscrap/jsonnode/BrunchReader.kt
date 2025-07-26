@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.jsonnode
+﻿package com.github.keunwon.techblogscrap.jsonnode
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -7,19 +7,20 @@ import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
-class TMapMobilityJsonNodePagingReader(
+class BrunchReader(
+    private val name: String,
     private val apiTemplate: ApiTemplate,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
-    private var query = "?thumbnail=Y&membershipContent=false"
+    private var path = "/v2/article/@$name?thumbnail=Y&membershipContent=false"
 
     override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(query)
+        return apiTemplate.fetch(path)
     }
 
     override fun doNext(node: JsonNode) {
-        val (_, query) = node.get("data").get("nextUrl").textValue().split("?")
-        this.query = "?$query"
+        val nextUrl = node.get("data").get("nextUrl").textValue()
+        path = nextUrl.substring(nextUrl.indexOf("/v2/article"))
     }
 
     override fun doHasNextPage(node: JsonNode): Boolean {
@@ -27,15 +28,15 @@ class TMapMobilityJsonNodePagingReader(
     }
 
     override fun convert(node: JsonNode): List<BlogPost> {
-        return node.get("data").get("list").map { jn ->
-            jn.run {
+        return node.get("data").get("list").map { element ->
+            element.run {
                 BlogPost(
                     title = get("title").textValue(),
-                    comment = get("subTitle").textValue(),
-                    url = "https://brunch.co.kr/@tmapmobility/${get("no").intValue()}",
-                    authors = listOf(),
-                    categories = listOf(),
-                    publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(get("publishTimestamp").longValue()),
+                    comment = get("contentSummary").textValue(),
+                    url = "https://brunch.co.kr/@$name/${get("no").intValue()}",
+                    authors = emptyList(),
+                    categories = emptyList(),
+                    publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(get("publishTimestamp").longValue())
                 )
             }
         }

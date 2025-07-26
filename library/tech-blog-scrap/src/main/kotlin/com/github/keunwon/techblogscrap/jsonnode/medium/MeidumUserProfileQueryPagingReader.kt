@@ -64,5 +64,14 @@ data class UserProfileQuery(
             username = username,
             homepagePostsLimit = 20,
         )
+
+        fun ofId(id: String) = UserProfileQuery(
+            homepagePostsFrom = null,
+            includeDistributedResponses = true,
+            includeShouldFollowPostForExternalSearch = true,
+            id = id,
+            username = null,
+            homepagePostsLimit = 20,
+        )
     }
 }
