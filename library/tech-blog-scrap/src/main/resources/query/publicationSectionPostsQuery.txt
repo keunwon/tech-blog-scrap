@@ -1,0 +1,228 @@
+﻿query PublicationSectionPostsQuery($postIds: [ID!]!) {
+  postResults(postIds: $postIds) {
+    ... on Post {
+      ...PublicationSectionPost_post
+      __typename
+    }
+    __typename
+  }
+}
+
+fragment GridPostPreviewImage_imageMetadata on ImageMetadata {
+  id
+  focusPercentX
+  focusPercentY
+  alt
+  __typename
+}
+
+fragment getGridPostPreviewImage_post on Post {
+  id
+  previewImage {
+    id
+    __typename
+  }
+  __typename
+}
+
+fragment GridPostPreviewImage_post on Post {
+  title
+  previewImage {
+    ...GridPostPreviewImage_imageMetadata
+    __typename
+    id
+  }
+  ...getGridPostPreviewImage_post
+  __typename
+  id
+}
+
+fragment StreamPostPreviewImage_imageMetadata on ImageMetadata {
+  id
+  focusPercentX
+  focusPercentY
+  alt
+  __typename
+}
+
+fragment StreamPostPreviewImage_post on Post {
+  title
+  previewImage {
+    ...StreamPostPreviewImage_imageMetadata
+    __typename
+    id
+  }
+  __typename
+  id
+}
+
+fragment PostScrollTracker_post on Post {
+  id
+  collection {
+    id
+    __typename
+  }
+  sequence {
+    sequenceId
+    __typename
+  }
+  __typename
+}
+
+fragment userUrl_user on User {
+  __typename
+  id
+  customDomainState {
+    live {
+      domain
+      __typename
+    }
+    __typename
+  }
+  hasSubdomain
+  username
+}
+
+fragment usePostUrl_post on Post {
+  id
+  creator {
+    ...userUrl_user
+    __typename
+    id
+  }
+  collection {
+    id
+    domain
+    slug
+    __typename
+  }
+  isSeries
+  mediumUrl
+  sequence {
+    slug
+    __typename
+  }
+  uniqueSlug
+  __typename
+}
+
+fragment PostPreviewContainer_post on Post {
+  id
+  extendedPreviewContent {
+    isFullContent
+    __typename
+  }
+  visibility
+  pinnedAt
+  ...PostScrollTracker_post
+  ...usePostUrl_post
+  __typename
+}
+
+fragment UserAvatar_user on User {
+  __typename
+  id
+  imageId
+  membership {
+    tier
+    __typename
+    id
+  }
+  name
+  username
+  ...userUrl_user
+}
+
+fragment PostPreviewBylineAuthorAvatar_user on User {
+  ...UserAvatar_user
+  __typename
+  id
+}
+
+fragment isUserVerifiedBookAuthor_user on User {
+  verifications {
+    isBookAuthor
+    __typename
+  }
+  __typename
+  id
+}
+
+fragment UserLink_user on User {
+  ...userUrl_user
+  __typename
+  id
+}
+
+fragment UserName_user on User {
+  id
+  name
+  ...isUserVerifiedBookAuthor_user
+  ...UserLink_user
+  __typename
+}
+
+fragment PostPreviewByLineAuthor_user on User {
+  ...PostPreviewBylineAuthorAvatar_user
+  ...UserName_user
+  __typename
+  id
+}
+
+fragment Star_post on Post {
+  id
+  creator {
+    id
+    __typename
+  }
+  isLocked
+  __typename
+}
+
+fragment usePostPublishedAt_post on Post {
+  firstPublishedAt
+  latestPublishedAt
+  pinnedAt
+  __typename
+  id
+}
+
+fragment PublicationPostPreviewInformation_post on Post {
+  id
+  title
+  extendedPreviewContent {
+    subtitle
+    __typename
+  }
+  creator {
+    ...PostPreviewByLineAuthor_user
+    __typename
+    id
+  }
+  readingTime
+  isLocked
+  ...Star_post
+  ...usePostPublishedAt_post
+  __typename
+}
+
+fragment PublicationSectionPostPreview_post on Post {
+  previewImage {
+    id
+    alt
+    __typename
+  }
+  ...GridPostPreviewImage_post
+  ...StreamPostPreviewImage_post
+  ...PostPreviewContainer_post
+  ...PublicationPostPreviewInformation_post
+  ...getGridPostPreviewImage_post
+  __typename
+  id
+}
+
+fragment PublicationSectionPost_post on Post {
+  id
+  ...PublicationSectionPostPreview_post
+  __typename
+}

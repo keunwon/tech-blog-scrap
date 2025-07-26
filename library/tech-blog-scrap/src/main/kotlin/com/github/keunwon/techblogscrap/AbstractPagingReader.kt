@@ -35,4 +35,6 @@ abstract class AbstractPagingReader<T> : PostReader<T>, Pageable {
     }
 
     abstract fun doReadPage()
+
+    fun initialized() = initialized
 }

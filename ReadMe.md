@@ -16,16 +16,26 @@ tech-blog-scrap
 | 이름        |    호스팅    | 주소                           |
 |:----------|:---------:|:-----------------------------|
 | 티맵 모빌리티   |  brunch   | @tmapmobility                |
-| 루닛        |  Medium   | medium.com/lunit             |
-| 무신사       |  Medium   | @musinsa-tech                |
-| 여기어때      |  Medium   | techblog.gccompany.co.kr     |
-| 왓챠        |  Medium   | @watcha                      |
-| 요기요       |  Medium   | medium.com/deliverytechkorea |
-| 직방        |  Medium   | medium.com/zigbang           |
-| 코인원       |  Medium   | @coinone                     |
+| 당근        |  medium   | medium.com/daangn            |
+| 루닛        |  medium   | medium.com/lunit             |
+| 모두싸인      |  medium   | team.modusign.co.kr          |
+| 무신사       |  medium   | @musinsa-tech                |
+| 여기어때      |  medium   | techblog.gccompany.co.kr     |
+| 왓챠        |  medium   | @watcha                      |
+| 요기요       |  medium   | medium.com/deliverytechkorea |
+| 직방        |  medium   | medium.com/zigbang           |
+| 코인원       |  medium   | @coinone                     |
+| 테이블링      |  medium   | tabling                      |
+| 펫프렌즈      |  medium   | techblog.pet-friends.co.kr   |
+| 헤이딜러      |  medium   | medium.com/prnd              |
 | 11번가      | github.io | 11st-tech                    |
+| 다나와       | github.io | danawalab                    |
+| 드라마앤컴퍼니   | github.io | dramancompany                |
+| 무사마       | github.io | musma                        |
+| 사람인       | github.io | saramin                      |
 | 스포카       | github.io | spoqa                        |
-| 하이퍼커넥트    | github.io | hyperconnect.github.io       |
+| 원티드       | github.io | wanteddev                    |
+| 하이퍼커넥트    | github.io | hyperconnect                 |
 | (구) 라인    |     -     | engineering.linecorp.com     |
 | NHN Cloud |     -     | meetup.nhncloud.com          |
 | 네이버       |     -     | d2.naver.com                 |
@@ -35,6 +45,7 @@ tech-blog-scrap
 | 리디        |     -     | ridicorp.com                 |
 | 마켓컬리      |     -     | helloworld.kurly.com         |                                                             |
 | 삼성        |     -     | techblog.samsung.com         |
+| 스퀘어랩      |     -     | squarelab.co                 |
 | 쏘카        |     -     | tech.socarcorp.kr            |
 | 올리브영      |     -     | oliveyoung.tech              |
 | 우아한기술블로그  |     -     | techblog.woowahan.com        |
@@ -44,4 +55,5 @@ tech-blog-scrap
 | 카카오뱅크     |     -     | tech.kakaobank.com           |
 | 카카오스타일    |     -     | devblog.kakaostyle.com       |
 | 카카오페이     |     -     | tech.kakaopay.com            |
+| 컴투스       |     -     | on.com2us.com                |
 | 한컴        |     -     | tech.hancom.com              |
