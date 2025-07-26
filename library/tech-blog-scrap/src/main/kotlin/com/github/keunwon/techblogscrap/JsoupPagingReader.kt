@@ -27,11 +27,12 @@ abstract class JsoupPagingReader<T> : AbstractPagingReader<T>() {
         return doHasNetPage(document)
     }
 
+    open fun doNext(document: Document) {}
+
     abstract fun getRequestUrl(): String
 
     abstract fun convert(document: Document): List<T>
 
-    abstract fun doNext(document: Document)
 
     abstract fun doHasNetPage(document: Document): Boolean
 }

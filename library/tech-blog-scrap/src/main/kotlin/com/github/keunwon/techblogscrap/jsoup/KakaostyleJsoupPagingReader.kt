@@ -8,9 +8,13 @@ import org.jsoup.select.Elements
 import org.jsoup.select.Evaluator
 
 class KakaostyleJsoupPagingReader : JsoupPagingReader<BlogPost>() {
-    private var path = "/ko"
-
-    override fun getRequestUrl(): String = "https://devblog.kakaostyle.com${path}"
+    override fun getRequestUrl(): String {
+        return if (!initialized) {
+            "https://devblog.kakaostyle.com/ko"
+        } else {
+            "https://devblog.kakaostyle.com/ko/page/${page + 1}/"
+        }
+    }
 
     override fun convert(document: Document): List<BlogPost> {
         val elements = document.selectXpath("/html/body/div[3]/div/div[1]/div").drop(1)
@@ -27,11 +31,6 @@ class KakaostyleJsoupPagingReader : JsoupPagingReader<BlogPost>() {
                 )
             }
         }
-    }
-
-    override fun doNext(document: Document) {
-        val page = document.getPaginate().find { it.childrenSize() == 0 }!!.text().toInt()
-        path = "/ko/page/${page + 1}/"
     }
 
     override fun doHasNetPage(document: Document): Boolean {

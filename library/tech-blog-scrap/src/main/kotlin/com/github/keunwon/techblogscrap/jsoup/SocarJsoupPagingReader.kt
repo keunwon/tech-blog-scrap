@@ -8,9 +8,7 @@ import org.jsoup.select.Evaluator.Class
 import org.jsoup.select.Evaluator.Tag
 
 class SocarJsoupPagingReader : JsoupPagingReader<BlogPost>() {
-    private var path = ""
-
-    override fun getRequestUrl(): String = "https://tech.socarcorp.kr$path"
+    override fun getRequestUrl(): String = "https://tech.socarcorp.kr/posts/page${page + 1}/"
 
     override fun convert(document: Document): List<BlogPost> {
         return document.selectXpath("/html/body/div/div/div/article").map { content ->
@@ -25,10 +23,6 @@ class SocarJsoupPagingReader : JsoupPagingReader<BlogPost>() {
                 )
             }
         }
-    }
-
-    override fun doNext(document: Document) {
-        path = "/posts/page${page + 1}/"
     }
 
     override fun doHasNetPage(document: Document): Boolean {

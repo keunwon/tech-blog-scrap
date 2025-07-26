@@ -28,10 +28,6 @@ class GMarketJsoupPagingReader : JsoupPagingReader<BlogPost>() {
         }
     }
 
-    override fun doNext(document: Document) {
-        return
-    }
-
     override fun doHasNetPage(document: Document): Boolean {
         val last = document.selectFirst(Class("inner_paging"))!!.select(Tag("a")).last()!!
         return last.attr("href").isNotBlank()

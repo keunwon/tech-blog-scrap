@@ -31,10 +31,6 @@ class RidiJsoupPagingReader : JsoupPagingReader<BlogPost>() {
         }
     }
 
-    override fun doNext(document: Document) {
-        return
-    }
-
     override fun doHasNetPage(document: Document): Boolean {
         return document.selectFirst(Class("next page-numbers")) != null
     }

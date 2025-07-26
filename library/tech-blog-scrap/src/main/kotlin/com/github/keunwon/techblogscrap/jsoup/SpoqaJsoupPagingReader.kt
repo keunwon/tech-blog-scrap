@@ -34,10 +34,6 @@ class SpoqaJsoupPagingReader : JsoupPagingReader<BlogPost>() {
         }
     }
 
-    override fun doNext(document: Document) {
-        return
-    }
-
     override fun doHasNetPage(document: Document): Boolean {
         return document.selectFirst(Evaluator.Id("post-pagination"))!!
             .select(Tag("p"))

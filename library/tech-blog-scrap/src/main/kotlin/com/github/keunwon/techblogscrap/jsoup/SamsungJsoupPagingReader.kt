@@ -28,10 +28,6 @@ class SamsungJsoupPagingReader : JsoupPagingReader<BlogPost>() {
         }
     }
 
-    override fun doNext(document: Document) {
-        return
-    }
-
     override fun doHasNetPage(document: Document): Boolean {
         return document.selectFirst(Class("pagination"))!!
             .select(Tag("a"))

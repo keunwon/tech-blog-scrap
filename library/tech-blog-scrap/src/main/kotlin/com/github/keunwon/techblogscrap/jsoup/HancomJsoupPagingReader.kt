@@ -36,10 +36,6 @@ class HancomJsoupPagingReader : JsoupPagingReader<BlogPost>() {
             }
     }
 
-    override fun doNext(document: Document) {
-        return
-    }
-
     override fun doHasNetPage(document: Document): Boolean {
         val pagination = document.getPagination().children()
         return pagination.last()!!.tagName() != "span"
