@@ -23,6 +23,30 @@ enum class DateTimeOptions {
         }
     },
 
+    // ex) November 24 2022
+    MMMM_ENG_DAY_YYYY {
+        private val shortDateTimeFormatter = DateTimeFormatter.ofPattern("MMMM d yyyy", Locale.ENGLISH)
+        private val dateTimeFormatter = DateTimeFormatter.ofPattern("MMMM dd yyyy", Locale.ENGLISH)
+
+        override fun convert(date: String): LocalDateTime {
+            val dayLength = date.split(" ")[1].length
+            return if (dayLength == 1) {
+                LocalDate.parse(date, shortDateTimeFormatter).atStartOfDay()
+            } else {
+                LocalDate.parse(date, dateTimeFormatter).atStartOfDay()
+            }
+        }
+    },
+
+    // ex) 08 Feb, 2023
+    DD_MMM_ENG_COMMA_YYYY {
+        private val dateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM, yyyy", Locale.ENGLISH)
+
+        override fun convert(date: String): LocalDateTime {
+            return LocalDate.parse(date, dateTimeFormatter).atStartOfDay()
+        }
+    },
+
     // February 27, 2019
     MMMM_ENG_DAY_COMMA_YYYY {
         private val shortDateTimeFormatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH)
@@ -65,6 +89,16 @@ enum class DateTimeOptions {
     YYYY_MM_DD_DASH {
         override fun convert(date: String): LocalDateTime {
             return LocalDate.parse(date, DateTimeFormatter.ISO_DATE).atStartOfDay()
+        }
+    },
+
+
+    // ex) 2025/05/14
+    YYYY_MM_DD_SLASH {
+        private val formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd")
+
+        override fun convert(date: String): LocalDateTime {
+            return LocalDate.parse(date, formatter).atStartOfDay()
         }
     },
 

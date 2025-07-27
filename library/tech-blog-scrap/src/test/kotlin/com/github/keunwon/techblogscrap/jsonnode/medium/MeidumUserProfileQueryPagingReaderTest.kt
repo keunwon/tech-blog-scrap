@@ -81,6 +81,21 @@ class MeidumUserProfileQueryPagingReaderTest : FunSpec() {
                 ),
             )
         }
+
+        test("핏펫 블로그 글 읽기") {
+            val reader = generateMediumJsonNodePagingReaderById("edf127e0aeab")
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 16
+            posts.last() shouldBe BlogPost(
+                title = "React Query 를 통하여 서버 데이터 관리하기",
+                comment = "",
+                url = "https://fitpet.medium.com/react-query-%EB%A5%BC-%ED%86%B5%ED%95%98%EC%97%AC-%EC%84%9C%EB%B2%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-d1be7f36aad8",
+                authors = listOf("fitpet"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1626350384783L),
+            )
+        }
     }
 
     private val apiTemplate =

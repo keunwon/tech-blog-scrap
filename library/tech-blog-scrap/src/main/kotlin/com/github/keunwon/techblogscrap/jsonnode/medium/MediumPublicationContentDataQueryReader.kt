@@ -66,10 +66,7 @@ data class PublicationContentDataQuery(
             filter = filter,
         )
 
-        fun ofDomain(
-            domain: String,
-            filter: Map<String, Any> = mapOf("published" to true),
-        ) = PublicationContentDataQuery(
+        fun ofDomain(domain: String) = PublicationContentDataQuery(
             ref = Ref(null, domain),
             first = 10,
             after = "",

@@ -458,5 +458,53 @@ class MediumPublicationContentDataQueryReaderTest : FunSpec() {
                 publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1617005335764L),
             )
         }
+
+        test("엘라시아 블로그 글 읽기") {
+            val reader = MediumPublicationContentDataQueryReader(
+                queryPath = resource,
+                variables = PublicationContentDataQuery.ofDomain("tech.elysia.land"),
+                apiTemplate = RestApiTemplate(
+                    url = "https://tech.elysia.land/_/graphql",
+                    httpMethod = HttpMethod.POST,
+                ),
+                objectMapper = testObjectMapper,
+            )
+
+            val posts = generateSequence { reader.read() }.toList()
+
+            posts.size shouldBeGreaterThanOrEqual 14
+            posts.last() shouldBe BlogPost(
+                title = "엘리시아 기술 블로그를 오픈합니다.",
+                comment = "안녕하세요?",
+                url = "https://tech.elysia.land/%EC%97%98%EB%A6%AC%EC%8B%9C%EC%95%84-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%98%A4%ED%94%88%ED%95%A9%EB%8B%88%EB%8B%A4-6f372fb5257b",
+                authors = listOf("Donguk Seo"),
+                categories = emptyList(),
+                publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1610424636147L),
+            )
+
+            test("펫프렌즈 블로그 글 읽기") {
+                val reader = MediumPublicationContentDataQueryReader(
+                    queryPath = resource,
+                    variables = PublicationContentDataQuery.ofDomain("techblog.pet-friends.co.kr"),
+                    apiTemplate = RestApiTemplate(
+                        url = "https://techblog.pet-friends.co.kr/_/graphql",
+                        httpMethod = HttpMethod.POST,
+                    ),
+                    objectMapper = testObjectMapper,
+                )
+
+                val posts = generateSequence { reader.read() }.toList()
+
+                posts.size shouldBeGreaterThanOrEqual 36
+                posts.last() shouldBe BlogPost(
+                    title = "최선의 해결책을 같이 찾는 CTO 남경식(제스)입니다",
+                    comment = "안녕하세요. 최선의 해결책을 같이 찾아가는 펫프렌즈 CTO 남경식(제스) 입니다. 펫프렌즈 기술팀에 대해 자세히 소개드립니다",
+                    url = "https://techblog.pet-friends.co.kr/%EC%B5%9C%EC%84%A0%EC%9D%98-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%84-%EA%B0%99%EC%9D%B4-%EC%B0%BE%EB%8A%94-cto-%EB%82%A8%EA%B2%BD%EC%8B%9D-%EC%A0%9C%EC%8A%A4-%EC%9E%85%EB%8B%88%EB%8B%A4-5b3982f36d7c",
+                    authors = listOf("제스(Jess/남경식)"),
+                    categories = emptyList(),
+                    publishedDateTime = DateTimeOptions.EPOCH_MILLI.convert(1681891900307L),
+                )
+            }
+        }
     }
 }
