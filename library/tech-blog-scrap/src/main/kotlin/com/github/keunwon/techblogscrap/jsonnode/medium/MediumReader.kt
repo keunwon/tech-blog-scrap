@@ -1,30 +1,23 @@
 ﻿package com.github.keunwon.techblogscrap.jsonnode.medium
 
+import com.fasterxml.jackson.databind.JsonNode
 import com.github.keunwon.techblogscrap.ApiTemplate
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
-import java.io.BufferedReader
-import java.io.File
-import java.io.InputStreamReader
 
 abstract class MediumReader<T> : JsonNodePagingReader<BlogPost>() {
-    abstract val queryPath: String
+    abstract val url: String
+    abstract val query: String
     abstract var variables: T
-    abstract val apiTemplate: ApiTemplate
+    abstract val apiTemplate: ApiTemplate<JsonNode>
 
-    protected val query: String by lazy {
-        BufferedReader(InputStreamReader(File(queryPath).inputStream())).use { it.readText() }
-    }
-
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(
-            data = objectMapper.writeValueAsString(
-                mapOf(
-                    "query" to query,
-                    "variables" to variables,
-                )
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.post(
+            url = url,
+            data = mapOf(
+                "query" to query,
+                "variables" to variables,
             ),
-            headers = mapOf("Content-type" to "application/json"),
         )
     }
 }

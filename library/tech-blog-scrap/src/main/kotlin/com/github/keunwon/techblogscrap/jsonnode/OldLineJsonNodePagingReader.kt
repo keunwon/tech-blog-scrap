@@ -3,19 +3,19 @@ package com.github.keunwon.techblogscrap.jsonnode
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ArrayNode
+import com.github.keunwon.techblogscrap.ApiTemplate
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.GetApiTemplate
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class OldLineJsonNodePagingReader(
-    private val apiTemplate: GetApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var path = "/page-data/ko/blog/page-data.json"
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(path)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://engineering.linecorp.com$path")
     }
 
     override fun doNext(node: JsonNode) {

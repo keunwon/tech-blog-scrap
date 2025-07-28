@@ -8,7 +8,13 @@ import org.jsoup.select.Evaluator.Class
 import org.jsoup.select.Evaluator.Tag
 
 class SocarJsoupPagingReader : JsoupPagingReader<BlogPost>() {
-    override fun getRequestUrl(): String = "https://tech.socarcorp.kr/posts/page${page + 1}/"
+    override fun getRequestUrl(): String {
+        return if (!initialized) {
+            "https://tech.socarcorp.kr/posts/"
+        } else {
+            "https://tech.socarcorp.kr/posts/page${page + 1}/"
+        }
+    }
 
     override fun convert(document: Document): List<BlogPost> {
         return document.selectXpath("/html/body/div/div/div/article").map { content ->
@@ -16,7 +22,7 @@ class SocarJsoupPagingReader : JsoupPagingReader<BlogPost>() {
                 BlogPost(
                     title = selectFirst(Class("post-title"))!!.text(),
                     comment = selectFirst(Class("post-subtitle"))!!.text(),
-                    url = selectFirst(Tag("a"))!!.attr("href"),
+                    url = "https://tech.socarcorp.kr${selectFirst(Tag("a"))!!.attr("href")}",
                     authors = select(Class("author")).map { it.text() },
                     categories = select(Class("tag")).map { it.text() },
                     publishedDateTime = DateTimeOptions.YYYY_MM_DD_DASH.convert(selectFirst(Class("date"))!!.text())

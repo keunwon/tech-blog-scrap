@@ -1,7 +1,7 @@
 ﻿package com.github.keunwon.techblogscrap.jsonnode
 
 import com.github.keunwon.techblogscrap.BlogPost
-import com.github.keunwon.techblogscrap.GetApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.ints.shouldBeGreaterThanOrEqual
@@ -12,7 +12,7 @@ class TadaJsonNodePagingReaderTest : FunSpec() {
     init {
         test("타다 블로그 글 읽기") {
             val reader = TadaJsonNodePagingReader(
-                apiTemplate = GetApiTemplate("https://blog-tech.tadatada.com"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()

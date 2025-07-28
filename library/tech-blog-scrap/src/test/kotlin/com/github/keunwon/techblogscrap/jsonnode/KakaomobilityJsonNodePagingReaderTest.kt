@@ -1,6 +1,6 @@
 package com.github.keunwon.techblogscrap.jsonnode
 
-import com.github.keunwon.techblogscrap.GetApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -13,7 +13,7 @@ class KakaomobilityJsonNodePagingReaderTest : FunSpec() {
     init {
         test("카카오모빌리티 블로그 글 읽기") {
             val reader = KakaomobilityJsonNodePagingReader(
-                apiTemplate = GetApiTemplate("https://developers.kakaomobility.com/api/techblogs"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()

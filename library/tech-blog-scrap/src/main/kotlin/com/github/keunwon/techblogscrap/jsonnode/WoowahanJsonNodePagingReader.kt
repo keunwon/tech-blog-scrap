@@ -7,31 +7,29 @@ import com.github.keunwon.techblogscrap.ApiTemplate
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
-import java.net.URLEncoder
-import java.nio.charset.StandardCharsets
 
 class WoowahanJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
-    private val request = mutableMapOf(
+    private val formRequest = mutableMapOf(
         "action" to "get_posts_data",
         "data[post][post_type]" to "post",
         "data[post][paged]" to "1",
         "data[meta]" to "main",
     )
 
-    override fun fetchResponse(): Result<String> {
-        val data = request.map { "${it.key}=${URLEncoder.encode(it.value, StandardCharsets.UTF_8)}" }.joinToString("&")
-        return apiTemplate.fetch(
-            data = data,
-            headers = mapOf("Content-Type" to "application/x-www-form-urlencoded; charset=UTF-8"),
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.postForm(
+            url = "https://techblog.woowahan.com/wp-admin/admin-ajax.php",
+            form = formRequest,
+            headers = mapOf("Content-Type" to "application/x-www-form-urlencoded; charset=UTF-8")
         )
     }
 
     override fun doNext(node: JsonNode) {
         val current = node.get("data").get("pagination").get("current").textValue().toInt()
-        request["data[post][paged]"] = "${current + 1}"
+        formRequest["data[post][paged]"] = "${current + 1}"
     }
 
     override fun doHasNextPage(node: JsonNode): Boolean {

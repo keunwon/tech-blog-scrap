@@ -8,13 +8,13 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class HwahaeJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private val path get() = "/_next/data/CNxbC0Mi1pZvj_9m4JUTB/category/all/tech.json?page=${page + 1}"
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(path)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://blog.hwahae.co.kr$path")
     }
 
     override fun doNext(node: JsonNode) {

@@ -8,13 +8,13 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class KakaomobilityJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var query = "?itemCount=10&pageIndex=1"
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(query)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://developers.kakaomobility.com/api/techblogs$query")
     }
 
     override fun doNext(node: JsonNode) {

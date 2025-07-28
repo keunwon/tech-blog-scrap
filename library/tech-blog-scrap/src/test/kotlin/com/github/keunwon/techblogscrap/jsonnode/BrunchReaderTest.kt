@@ -2,7 +2,7 @@
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.GetApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -15,8 +15,9 @@ class BrunchReaderTest : FunSpec() {
     init {
         test("티맵 블로그 글 읽기") {
             val reader = BrunchReader(
+                domain = "https://api.brunch.co.kr",
                 name = "tmapmobility",
-                apiTemplate = GetApiTemplate("https://api.brunch.co.kr"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()
@@ -32,8 +33,9 @@ class BrunchReaderTest : FunSpec() {
 
         test("부스터스 블로그 글 읽기") {
             val reader = BrunchReader(
+                domain = "https://api.brunch.co.kr",
                 name = "boosters",
-                apiTemplate = GetApiTemplate("https://api.brunch.co.kr"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()

@@ -7,17 +7,12 @@ import com.github.keunwon.techblogscrap.ApiTemplate
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
-import java.io.BufferedReader
-import java.io.File
-import java.io.InputStreamReader
 
 // 여기어때 기술블로그
 class GcCompanyJsonNodePagingReader(
-    private val queryPath: String,
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
-    private val query by lazy { BufferedReader(InputStreamReader(File(queryPath).inputStream())).use { it.readText() } }
     private val variables: MutableMap<String, Any?> = mutableMapOf(
         "postsLimit" to 10,
         "domainOrSlug" to "techblog.gccompany.co.kr",
@@ -25,16 +20,14 @@ class GcCompanyJsonNodePagingReader(
         "postsFrom" to null,
     )
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(
-            data = objectMapper.writeValueAsString(
-                mapOf(
-                    "operationName" to "PublicationTaggedQuery",
-                    "query" to query,
-                    "variables" to variables,
-                )
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.post(
+            url = "https://techblog.gccompany.co.kr/_/graphql",
+            data = mapOf(
+                "operationName" to "PublicationTaggedQuery",
+                "query" to MediumQuery.PUBLICATION_TAGGED_QUERY,
+                "variables" to variables,
             ),
-            headers = mapOf("Content-type" to "application/json"),
         )
     }
 

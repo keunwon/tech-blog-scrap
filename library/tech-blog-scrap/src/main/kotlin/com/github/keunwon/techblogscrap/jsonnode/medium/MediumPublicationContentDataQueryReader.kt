@@ -7,11 +7,12 @@ import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
 
 class MediumPublicationContentDataQueryReader(
-    override val queryPath: String,
+    override val url: String,
     override var variables: PublicationContentDataQuery,
-    override val apiTemplate: ApiTemplate,
+    override val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : MediumReader<PublicationContentDataQuery>() {
+    override val query: String = MediumQuery.PUBLICATION_CONTENT_DATA_QUERY
 
     override fun doNext(node: JsonNode) {
         val endCursor = node.getPagingInfo().get("endCursor").textValue()

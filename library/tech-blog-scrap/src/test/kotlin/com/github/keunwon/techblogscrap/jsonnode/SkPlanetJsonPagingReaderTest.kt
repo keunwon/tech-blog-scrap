@@ -12,16 +12,16 @@ import io.kotest.matchers.shouldBe
 import io.kotest.matchers.string.shouldNotBeBlank
 import java.time.LocalDateTime
 
-class DevsistersJsonNodePagingReaderTest : FunSpec() {
+class SkPlanetJsonPagingReaderTest : FunSpec() {
     init {
-        test("데브시스터즈 블로그 글 읽기") {
-            val reader = DevsistersJsonNodePagingReader(
+        test("sk plane 블로그 글 읽기") {
+            val reader = SkPlanetJsonPagingReader(
                 apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()
 
-            posts.size shouldBeGreaterThanOrEqual 64
+            posts.size shouldBeGreaterThanOrEqual 35
             posts.forAll {
                 it.title.shouldNotBeBlank()
                 it.comment.shouldNotBeBlank()
@@ -30,12 +30,12 @@ class DevsistersJsonNodePagingReaderTest : FunSpec() {
                 it.publishedDateTime.shouldNotBeNull()
             }
             posts.last() shouldBe BlogPost(
-                title = "쪼그라드는 웹페이지",
-                comment = "모바일 반응형 웹페이지를 쉽고 빠르게 구현하기 위해\n저희가 고안한 방법을 소개합니다.",
-                url = "https://tech.devsisters.com/posts/shrinking-webpage",
-                authors = listOf("최종찬"),
-                categories = emptyList(),
-                publishedDateTime = LocalDateTime.of(2019, 2, 26, 0, 0, 0),
+                title = "SK플래닛 Tech Topic 기술 블로그를 소개합니다!",
+                comment = "안녕하세요, 테크편집부입니다! \n2023년 1월, SK플래닛의 기술 블로그를 새롭게 오픈하였습니다. 이름: TECH TOPIC 링크: https://techtopic.skplanet.com/ 한줄설명: \"SK플래닛 구성원의 '기술 활동'을 공유합니다.\"   여기서 '기술 활동' 은 중의적인 의미를 가지는데요. (1) SK…",
+                url = "https://techtopic.skplanet.com/skp-techblog-intro/",
+                authors = listOf("techeditorial"),
+                categories = listOf("DevRel", "개발문화", "TechBlog", "기술블로그"),
+                publishedDateTime = LocalDateTime.of(2023, 1, 2, 0, 0),
             )
         }
     }

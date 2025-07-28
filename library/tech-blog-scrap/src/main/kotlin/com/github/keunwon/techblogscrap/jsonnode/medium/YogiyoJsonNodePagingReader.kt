@@ -9,25 +9,23 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class YogiyoJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private val limit get() = pageSize
     private var to: String? = null
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(
-            objectMapper.writeValueAsString(
-                mapOf(
-                    "limit" to limit,
-                    "to" to to,
-                )
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.post(
+            url = "https://medium.com/deliverytechkorea/load-more?sortBy=latest",
+            data = mapOf(
+                "limit" to limit,
+                "to" to to,
             ),
-            mapOf(
+            headers = mapOf(
                 "x-xsrf-token" to "1",
-                "Content-Type" to "application/json",
                 "Accept" to "application/json",
-            ),
+            )
         )
     }
 

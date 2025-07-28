@@ -1,6 +1,6 @@
 package com.github.keunwon.techblogscrap.jsonnode
 
-import com.github.keunwon.techblogscrap.GetApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -12,7 +12,7 @@ class LineJsonNodePagingReaderTest : FunSpec() {
     init {
         test("라인 블로그 글 읽기") {
             val reader = LineJsonNodePagingReader(
-                apiTemplate = GetApiTemplate("https://techblog.lycorp.co.jp"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
 

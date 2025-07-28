@@ -8,13 +8,13 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class NHNCloudJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var pageNo = 1
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch("?pageNo=${pageNo}&rowPerPage=12")
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://meetup.nhncloud.com/tcblog/v1.0/posts?pageNo=${pageNo}&rowPerPage=12")
     }
 
     override fun doNext(node: JsonNode) {

@@ -2,8 +2,7 @@ package com.github.keunwon.techblogscrap.jsonnode.medium
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.HttpMethod
-import com.github.keunwon.techblogscrap.RestApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -98,24 +97,19 @@ class MeidumUserProfileQueryPagingReaderTest : FunSpec() {
         }
     }
 
-    private val apiTemplate =
-        RestApiTemplate("https://medium.com/_/graphql", HttpMethod.POST)
-    private val queryPath =
-        MeidumUserProfileQueryPagingReaderTest::class.java.classLoader.getResource("query/UserProfileQuery.txt")!!.file
-
     private fun generateMediumJsonNodePagingReaderByUsername(username: String) =
         MeidumUserProfileQueryPagingReader(
-            queryPath = queryPath,
+            query = MediumQuery.USER_PROFILE_QUERY,
             variables = UserProfileQuery.ofUserName(username),
-            apiTemplate = apiTemplate,
+            apiTemplate = testApiJsonNodeTemplate,
             objectMapper = testObjectMapper,
         )
 
     private fun generateMediumJsonNodePagingReaderById(id: String) =
         MeidumUserProfileQueryPagingReader(
-            queryPath = queryPath,
+            query = MediumQuery.USER_PROFILE_QUERY,
             variables = UserProfileQuery.ofId(id),
-            apiTemplate = apiTemplate,
+            apiTemplate = testApiJsonNodeTemplate,
             objectMapper = testObjectMapper,
         )
 

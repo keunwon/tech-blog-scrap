@@ -8,15 +8,14 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class BrunchReader(
+    private val domain: String,
     private val name: String,
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var path = "/v2/article/@$name?thumbnail=Y&membershipContent=false"
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(path)
-    }
+    override fun fetchResponse(): Result<JsonNode> = apiTemplate.get("$domain$path")
 
     override fun doNext(node: JsonNode) {
         val nextUrl = node.get("data").get("nextUrl").textValue()

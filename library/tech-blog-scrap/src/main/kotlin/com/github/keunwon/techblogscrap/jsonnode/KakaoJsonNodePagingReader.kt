@@ -10,7 +10,7 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class KakaoJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private val params: MutableMap<String, Any?> = mutableMapOf(
@@ -21,9 +21,9 @@ class KakaoJsonNodePagingReader(
         "firstPageNumber" to 0,
     )
 
-    override fun fetchResponse(): Result<String> {
+    override fun fetchResponse(): Result<JsonNode> {
         val urlParams = params.mapNotNull { if (it.value != null) "${it.key}=${it.value}" else null }.joinToString("&")
-        return apiTemplate.fetch("?$urlParams")
+        return apiTemplate.get("https://tech.kakao.com/api/v1/posts/no-offset?$urlParams")
     }
 
     override fun doNext(node: JsonNode) {

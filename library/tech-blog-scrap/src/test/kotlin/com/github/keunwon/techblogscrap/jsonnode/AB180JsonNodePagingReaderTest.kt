@@ -2,8 +2,7 @@
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.HttpMethod
-import com.github.keunwon.techblogscrap.RestApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.ints.shouldBeGreaterThanOrEqual
@@ -13,10 +12,7 @@ class AB180JsonNodePagingReaderTest : FunSpec() {
     init {
         test("AB180 블로그 글 읽기") {
             val reader = AB180JsonNodePagingReader(
-                apiTemplate = RestApiTemplate(
-                    url = "https://oopy.lazyrockets.com/api/v2/notion/queryCollection?src=reset",
-                    httpMethod = HttpMethod.POST,
-                ),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()

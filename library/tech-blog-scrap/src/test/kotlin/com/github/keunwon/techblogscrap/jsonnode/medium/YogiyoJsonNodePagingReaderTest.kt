@@ -1,7 +1,6 @@
 package com.github.keunwon.techblogscrap.jsonnode.medium
 
-import com.github.keunwon.techblogscrap.HttpMethod
-import com.github.keunwon.techblogscrap.RestApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -13,10 +12,7 @@ class YogiyoJsonNodePagingReaderTest : FunSpec() {
     init {
         test("요기요 블로그글 읽기") {
             val reader = YogiyoJsonNodePagingReader(
-                apiTemplate = RestApiTemplate(
-                    url = "https://medium.com/deliverytechkorea/load-more?sortBy=latest",
-                    httpMethod = HttpMethod.POST
-                ),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
 

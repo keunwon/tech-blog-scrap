@@ -8,7 +8,7 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class TossJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var path = "/api-public/v3/ipd-thor/api/v1/workspaces/15/posts?size=20&page=1"
@@ -17,8 +17,8 @@ class TossJsonNodePagingReader(
         pageSize = 20
     }
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(path)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://api-public.toss.im$path")
     }
 
     override fun doNext(node: JsonNode) {

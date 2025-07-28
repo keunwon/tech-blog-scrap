@@ -11,9 +11,10 @@ import org.jsoup.select.Evaluator
 
 class MediumPublicationSectionPostsQueryReader(
     private val mainUrl: String,
-    override val queryPath: String,
+    override val url: String,
+    override val query: String,
     override var variables: PublicationSectionPostsQuery,
-    override val apiTemplate: ApiTemplate,
+    override val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : MediumReader<PublicationSectionPostsQuery>() {
     private lateinit var postIds: List<String>

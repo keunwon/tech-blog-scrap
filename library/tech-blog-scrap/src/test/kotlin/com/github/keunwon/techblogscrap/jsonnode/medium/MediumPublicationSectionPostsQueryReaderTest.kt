@@ -2,8 +2,7 @@
 
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.HttpMethod
-import com.github.keunwon.techblogscrap.RestApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.ints.shouldBeGreaterThanOrEqual
@@ -11,18 +10,13 @@ import io.kotest.matchers.shouldBe
 
 class MediumPublicationSectionPostsQueryReaderTest : FunSpec() {
     init {
-        val resource = MediumPublicationSectionPostsQueryReaderTest::class.java.classLoader
-            .getResource("query/publicationSectionPostsQuery.txt")!!.file
-
         test("크몽 블로그 글 읽기") {
             val reader = MediumPublicationSectionPostsQueryReader(
                 mainUrl = "https://blog.kmong.com/subpage/f2333d195b2a",
-                queryPath = resource,
+                url = "https://blog.kmong.com/_/graphql",
+                query = MediumQuery.PUBLICATION_SECTION_POSTS_QUERY,
                 variables = PublicationSectionPostsQuery(),
-                apiTemplate = RestApiTemplate(
-                    url = "https://blog.kmong.com/_/graphql",
-                    httpMethod = HttpMethod.POST,
-                ),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
 
@@ -42,12 +36,10 @@ class MediumPublicationSectionPostsQueryReaderTest : FunSpec() {
         test("쿠팡 블로그 글 읽기") {
             val reader = MediumPublicationSectionPostsQueryReader(
                 mainUrl = "https://medium.com/coupang-engineering/subpage/cafd0402c284",
-                queryPath = resource,
+                url = "https://medium.com/_/graphql",
+                query = MediumQuery.PUBLICATION_SECTION_POSTS_QUERY,
                 variables = PublicationSectionPostsQuery(),
-                apiTemplate = RestApiTemplate(
-                    url = "https://medium.com/_/graphql",
-                    httpMethod = HttpMethod.POST,
-                ),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
 

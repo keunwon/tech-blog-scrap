@@ -3,13 +3,13 @@ package com.github.keunwon.techblogscrap.jsonnode
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ArrayNode
+import com.github.keunwon.techblogscrap.ApiTemplate
 import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
-import com.github.keunwon.techblogscrap.GetApiTemplate
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class NaverJsonNodePagingReader(
-    private val apiTemplate: GetApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var queryParams = "/api/v1/contents?categoryId=2&page=1&size=20"
@@ -18,8 +18,8 @@ class NaverJsonNodePagingReader(
         pageSize = 20
     }
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(queryParams)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://d2.naver.com$queryParams")
     }
 
     override fun doNext(node: JsonNode) {

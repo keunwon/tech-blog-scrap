@@ -1,4 +1,4 @@
-package com.github.keunwon.techblogscrap.jsonnode
+﻿package com.github.keunwon.techblogscrap.jsonnode
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -7,36 +7,32 @@ import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
-class OliveyoungJsonNodePagingReader(
+class SkPlanetJsonPagingReader(
     private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
-    private var path = "/page-data/index/page-data.json"
-
     override fun fetchResponse(): Result<JsonNode> {
-        return apiTemplate.get("https://oliveyoung.tech$path")
+        return apiTemplate.get("https://techtopic.skplanet.com/page-data/index/page-data.json")
     }
 
     override fun doNext(node: JsonNode) {
-        val nextPage = node.get("result").get("pageContext").get("nextPagePath").textValue()
-        path = "/page-data${nextPage}/page-data.json"
+        return
     }
 
     override fun doHasNextPage(node: JsonNode): Boolean {
-        return node.get("result").get("pageContext").get("nextPagePath").textValue().isNotBlank()
+        return false
     }
 
     override fun convert(node: JsonNode): List<BlogPost> {
-        val contents = node.get("result").get("data").get("allMarkdownRemark").get("nodes")
-        return contents.map { content ->
-            content.run {
+        return node.get("result").get("data").get("allMarkdownRemark").get("nodes").map { element ->
+            element.run {
                 BlogPost(
                     title = get("frontmatter").get("title").textValue(),
-                    comment = get("frontmatter").get("subtitle").textValue(),
-                    url = "https://oliveyoung.tech${get("fields").get("slug").textValue()}",
-                    authors = emptyList(),
+                    comment = get("excerpt").textValue(),
+                    url = "https://techtopic.skplanet.com/skp-techblog-intro/",
+                    authors = listOf(get("frontmatter").get("author").textValue()),
                     categories = get("frontmatter").get("tags").map { it.textValue() },
-                    publishedDateTime = DateTimeOptions.YYYY_MM_DD_DASH
+                    publishedDateTime = DateTimeOptions.MMMM_ENG_DAY_COMMA_YYYY
                         .convert(get("frontmatter").get("date").textValue()),
                 )
             }

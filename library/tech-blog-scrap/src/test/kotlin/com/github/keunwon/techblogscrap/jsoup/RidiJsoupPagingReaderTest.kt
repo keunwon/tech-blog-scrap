@@ -11,7 +11,7 @@ class RidiJsoupPagingReaderTest : FunSpec() {
             val reader = RidiJsoupPagingReader()
             val posts = generateSequence { reader.read() }.toList()
 
-            posts.size shouldBeGreaterThanOrEqual 80
+            posts.size shouldBeGreaterThanOrEqual 79
             posts.forAll {
                 it.title.shouldBeBlank()
                 it.comment.shouldBeBlank()

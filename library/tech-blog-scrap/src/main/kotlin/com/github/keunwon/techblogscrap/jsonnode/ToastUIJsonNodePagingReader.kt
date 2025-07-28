@@ -8,13 +8,13 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class ToastUIJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var path = "/page-data/posts/ko/page-data.json"
 
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch(path)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://ui.toast.com$path")
     }
 
     override fun doNext(node: JsonNode) {

@@ -8,12 +8,14 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class TadaJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
     private var path = "/page-data/index/page-data.json"
 
-    override fun fetchResponse(): Result<String> = apiTemplate.fetch(path)
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://blog-tech.tadatada.com/$path")
+    }
 
     override fun doNext(node: JsonNode) {
         path = "/page-data/page/${page + 1}/page-data.json"

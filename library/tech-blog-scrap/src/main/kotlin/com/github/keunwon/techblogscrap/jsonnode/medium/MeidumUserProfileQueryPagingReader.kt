@@ -9,11 +9,12 @@ import com.github.keunwon.techblogscrap.BlogPost
 import com.github.keunwon.techblogscrap.DateTimeOptions
 
 class MeidumUserProfileQueryPagingReader(
-    override val queryPath: String,
+    override val query: String,
     override var variables: UserProfileQuery,
-    override val apiTemplate: ApiTemplate,
+    override val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : MediumReader<UserProfileQuery>() {
+    override val url: String = "https://medium.com/_/graphql"
 
     init {
         pageSize = variables.homepagePostsLimit

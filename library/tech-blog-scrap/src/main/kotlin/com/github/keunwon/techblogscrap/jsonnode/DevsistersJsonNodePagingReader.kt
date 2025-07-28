@@ -8,11 +8,11 @@ import com.github.keunwon.techblogscrap.DateTimeOptions
 import com.github.keunwon.techblogscrap.JsonNodePagingReader
 
 class DevsistersJsonNodePagingReader(
-    private val apiTemplate: ApiTemplate,
+    private val apiTemplate: ApiTemplate<JsonNode>,
     override val objectMapper: ObjectMapper,
 ) : JsonNodePagingReader<BlogPost>() {
-    override fun fetchResponse(): Result<String> {
-        return apiTemplate.fetch("")
+    override fun fetchResponse(): Result<JsonNode> {
+        return apiTemplate.get("https://tech.devsisters.com/page-data/index/page-data.json?page=1")
     }
 
     override fun doNext(node: JsonNode) {

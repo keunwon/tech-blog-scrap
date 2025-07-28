@@ -1,7 +1,7 @@
 package com.github.keunwon.techblogscrap.jsonnode
 
 import com.github.keunwon.techblogscrap.BlogPost
-import com.github.keunwon.techblogscrap.GetApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -15,7 +15,7 @@ class OliveyoungJsonNodePagingReaderTest : FunSpec() {
     init {
         test("올리브영 블로그글 읽기") {
             val reader = OliveyoungJsonNodePagingReader(
-                apiTemplate = GetApiTemplate("https://oliveyoung.tech"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
             val posts = generateSequence { reader.read() }.toList()

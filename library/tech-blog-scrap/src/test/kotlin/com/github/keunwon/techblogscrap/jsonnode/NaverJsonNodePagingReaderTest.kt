@@ -1,6 +1,6 @@
 package com.github.keunwon.techblogscrap.jsonnode
 
-import com.github.keunwon.techblogscrap.GetApiTemplate
+import com.github.keunwon.techblogscrap.testApiJsonNodeTemplate
 import com.github.keunwon.techblogscrap.testObjectMapper
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.inspectors.forAll
@@ -12,7 +12,7 @@ class NaverJsonNodePagingReaderTest : FunSpec() {
     init {
         test("네이버 블로그 글 읽기") {
             val reader = NaverJsonNodePagingReader(
-                apiTemplate = GetApiTemplate("https://d2.naver.com"),
+                apiTemplate = testApiJsonNodeTemplate,
                 objectMapper = testObjectMapper,
             )
 
